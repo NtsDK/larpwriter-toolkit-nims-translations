@@ -1,0 +1,8 @@
+односторонн€€ печать
+
+// исправил в конфиге
+\documentclass[letterpaper,10pt,russian,oneside]{sphinxmanual}
+
+закомментировать строчку в sphinxmanual.cls
+
+%\pagebreak\hspace{0pt}%
