@@ -245,7 +245,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'nims.tex', u'Набор инструментов мастера-сюжетника НИМС. Документация',
-   u'Тимофей NtsDK Речкалов, Мария Матильда Сидехменова', 'manual'),
+   u'Тимофей NtsDK Речкалов\and Мария Матильда Сидехменова', 'manual'),
 ]
 
 #latex_documents = [

@@ -20,7 +20,7 @@
 Технические подробности в двух словах
 
 	НИМС написан на языке JavaScript с использованием библиотек jQuery (календарь для ввода дат) и Vis (таймлайн и социальные сети). База данных хранится в формате json.
-	Исходный код НИМСа по своей природе открыт. Последняя версия НИМСа и документация находятся в репозитории https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims/downloads. Так же скачать НИМС можно на сайте http://trechkalov.com/.
+	Исходный код НИМСа по своей природе открыт. Последняя версия НИМСа и документация находятся в репозитории https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims/downloads. Так же скачать НИМС можно на сайте http://trechkalov.com/ и в группе http://vk.com/larp_nims.
 		
 Что означает нумерация версий НИМС?
 
@@ -36,6 +36,6 @@
 	
 Контакты по вопросам эксплуатации и предложения:
 
-	Почта: ntsdk@yandex.ru
+	Почта: ntsdk@yandex.ru, matilda_@list.ru
 
-	Вконтакт: http://vk.com/trechkalov
+	Вконтакт: http://vk.com/larp_nims
