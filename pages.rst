@@ -251,4 +251,3 @@
 
 	Вкладка Фильтр
 	
-This is ``interpreted text``.
