@@ -20,7 +20,8 @@
 Технические подробности в двух словах
 
 	НИМС написан на языке JavaScript с использованием библиотек jQuery (календарь для ввода дат) и Vis (таймлайн и социальные сети). База данных хранится в формате json.
-	Исходный код НИМСа по своей природе открыт. Последняя версия НИМСа и документация находятся в репозитории https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims/downloads. Так же скачать НИМС можно на сайте http://trechkalov.com/ и в группе http://vk.com/larp_nims.
+	Авторы используемых иконок с сайта www.flaticon.com: Picol, Daniel Bruce и Freepik. Автор иконки сортировки FatCow.
+	Исходный код НИМСа по своей природе открыт. Используется открытая лицензия Apache 2.0. Последняя версия НИМСа и документация находятся в репозитории https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims/downloads. Так же скачать НИМС можно на сайте http://trechkalov.com/ и в группе http://vk.com/larp_nims.
 		
 Что означает нумерация версий НИМС?
 
@@ -36,6 +37,6 @@
 	
 Контакты по вопросам эксплуатации и предложения:
 
-	Почта: ntsdk@yandex.ru, matilda_@list.ru
+	Почта: ntsdk(dog)yandex(dot)ru, matilda_(dog)list(dot)ru
 
 	Вконтакт: http://vk.com/larp_nims

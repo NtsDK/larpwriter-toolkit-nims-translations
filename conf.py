@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'nims'
 
 # General information about the project.
-project = u'nims'
+project = u'НИМС набор инструментов мастера-сюжетника'
 copyright = u'2015, Тимофей NtsDK Речкалов, Мария Матильда Сидехменова'
 author = u'Тимофей Речкалов'
 
