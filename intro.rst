@@ -19,11 +19,11 @@
 
 Технические подробности в двух словах
 
-	НИМС написан на языке JavaScript с использованием библиотек jQuery (календарь для ввода дат), Vis (таймлайн и социальные сети) и Chart.js (круговые диаграммы), Docxtemplater (выгрузка в docx), Mustache (текстовая выгрузка), Bootstrap 3 (элементы дизайна). База данных хранится в формате json.
+	НИМС написан на языке JavaScript с использованием библиотек jQuery (календарь для ввода дат), Vis (таймлайн и социальные сети) и Chart.js (круговые диаграммы), Docxtemplater (выгрузка в docx), Mustache (текстовая выгрузка), Bootstrap 3 (элементы дизайна), Jasmine (тесты), Ramda (элементы функционального программирования), Select2 (списки с поиском). База данных хранится в формате json.
 	
 	Авторы используемых иконок с сайта www.flaticon.com: Anton Saputro, Pavel Kozlov, Budi Tanrim, Catalin Fertu, Picol и Freepik. Автор иконки сортировки FatCow.
 	
-	Исходный код НИМСа по своей природе открыт. Используется открытая лицензия Apache 2.0. Последняя версия НИМСа и документация находятся в репозитории https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims/downloads. Так же скачать НИМС можно на сайте http://trechkalov.com/ и в группе http://vk.com/larp_nims.
+	Исходный код НИМСа по своей природе открыт. Используется открытая лицензия Apache 2.0. Последняя версия НИМСа находится в репозитории https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims/downloads. Исходники документации доступны по ссылке https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims-documentation. Так же скачать НИМС можно на сайте http://trechkalov.com/ и в группе http://vk.com/larp_nims.
 		
 Специальные обозначения
 
