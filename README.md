@@ -1,6 +1,6 @@
-# Story Master Toolkit NIMS (SMTK NIMS)
+# Story Master Toolkit NIMS (SMTK NIMS) - Translations
 
-This is a repo for SMTK NIMS translations. Here you can find sources for translation into your preferred language.
+This is a repo for SMTK NIMS translations. Here you can find sources for translation into your preferred language. Project core hosted [here](https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims).
 
 Currently available:
 
