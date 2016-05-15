@@ -1,0 +1,3 @@
+# smtk-nims-translations
+
+...
