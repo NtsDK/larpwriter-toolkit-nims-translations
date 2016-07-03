@@ -45,7 +45,7 @@
       g - slide selector<br>
       m - slide thumbnails<br>
       arrow left/right - slide moving<br>
-      Version 1.0 (31 May 2016)
+      Version 1.1 (3 July 2016)
       </span>
     </section>
     
@@ -377,49 +377,12 @@
         <li>
 <!--           <p>Есть ещё ряд вторичных задач и инструментов для их -->
 <!--             решения.</p> -->
-          <p>Moreover there are several secondary LARP tasks and NIMS has tools for them.</p>
+          <p>Moreover there are several secondary LARP tasks and NIMS has tools for them. 
+            You can get more information in presentation second part.</p>
         </li>
       </ul>
     </section>
     
-    <section class="slide" id="extras" label="Extra tasks">
-      <h2>Extra tasks</h2>
-      <ul>
-        <li>
-<!--           <p>Списки инвентаря – список вещей, которые должны быть у -->
-<!--             игрока на начало игры.</p> -->
-          <p>Inventory lists - character item list which character must have on LARP start.</p>
-        </li>
-        <li>
-<!--           <p>Планирование игровых событий – инструкция для -->
-<!--             игротехников что и когда они должны делать.</p> -->
-          <p>LARP events planning - making instructions for master 
-            helpers to make some actions during the game.</p>
-        </li>
-        <li>
-<!--           <p>Таймлайн доигровых событий.</p> -->
-          <p>Pregame events timeline.</p>
-        </li>
-        <li>
-<!--           <p>Анализ загруженности и активности персонажа.</p> -->
-          <p>Character workload and activity analysis.</p>
-        </li>
-        <li>
-<!--           <p>Отслеживание социальных связей между персонажами.</p> -->
-          <p>Tracking social relations between characters.</p>
-        </li>
-        <li>
-          <p>Searching characters by profile.</p>
-        </li>
-        <li>
-          <p>Making auto statistics and diagrams.</p>
-        </li>
-        <li>
-          <p>Server NIMS version for multiple users.</p>
-        </li>
-      </ul>
-    </section>
-
     <section class="slide" id="links" label="Links">
       <h2>Links</h2>
       <p>
@@ -453,6 +416,203 @@
       </p>
     </section>
 
+    <section class="slide" id="extrax" label="Extra tools">
+      <h1 style="font-size:4em;">Extra tools</h1>
+    </section>
+
+    <section class="slide" id="inventory-lists" label="Inventory Lists">
+      <h2>Inventory Lists</h2>
+      <ul>
+        <li>
+          Inventory List - list of items which character should have on game start. First of all these items 
+          are prepared by masters.
+        </li>
+        <li>
+          Inventory is related to story. In this case we know where item come from and it is useful in switching 
+          character case.
+        </li>
+        <li>
+          Example
+          <ul>
+            <li>
+              In story "Starting journey" Frodo gets Sting and mail shirt from Bilbo.
+            </li>
+            <li>
+              In story "Fellowship of the Ring" Frodo gets Galadriel's phial.
+            </li>
+          </ul>
+        </li>
+        <li>
+          If some inventory is not related to story you can enumerate it in profile.
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide" id="event-planning" label="Game event planning">
+      <h2>Game event planning</h2>
+      <ul>
+        <li>
+          Game event planning - information for master helpers about what and where they need to do something.
+        </li>
+        <li>
+          For example in some story helper must bring letter on second game night. Or it is necessary to be a monster 
+          each midnight.
+        </li>
+        <li>
+          You print helpers handouts before game as usual handouts. You can prepare several types of handouts for several
+          helpers.
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide" id="timeline" label="Event Timeline">
+      <h2>Event Timeline</h2>
+      <ul>
+        <li>
+          You can set event time for each event. This is not necessary but it is recommended. If you set event
+          time then you can print events in chronological order in handouts.
+        </li>
+        <li>
+          If event time is not specified then by default event happens on the game start time.
+        </li>
+        <li>
+          You can see event correlation between different stories in timeline.
+        </li>
+      </ul>
+      <img src="images\timeline.jpg" alt="Timeline">
+    </section>
+
+    <section class="slide" id="activity" label="Character activity workload">
+      <h2>Character activity workload</h2>
+      <ul>
+        <li>
+          Each character has different activity type in each story. 
+        </li>
+        <li>
+          We selected 4 activity types:
+          <ul>
+            <li>
+              Active - character is active in story. Examples: Frodo, Don Quixote.
+            </li>
+            <li>
+              Follower - character follows somebody but the main target is not important for him. Examples: Sam, Sancho Panza.
+            </li>
+            <li>
+              Defensive - character is running from chasers. Examples: spy in raid, murderer running from police.
+            </li>
+            <li>
+              Passive - character with some information or artifact but without any goals.
+            </li>
+          </ul>
+        </li>
+        
+        <li>
+          Character can have several activities simultaneously in one story. 
+        </li>
+        <li>
+          Graphical and statistical activity view will help to analyze character workload for the LARP game.
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide" id="social-links" label="Social bonds">
+      <h2>Social bonds</h2>
+      <ul>
+        <li>
+          We use simple logic based approach. If two characters participate in one event we assume this characters 
+          have social interaction which formed social bond.
+        </li>
+        <li>
+          It doesn't matter either characters have each other's back or one character accidently bemired other.
+        </li>
+        <li>
+          The first and the second made a social bond.
+        </li>
+        <li>
+          By collected social bonds SMTK NIMS can draw several social network types:
+          <ul>
+            <li>
+              Social bonds - character social bond network.
+            </li>
+            <li>
+              Character-presence-story - network of character-story relations.
+            </li>
+            <li>
+              Character-activity-story - network of character-story relations based on activity type.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <img src="images\social-network.jpg" alt="Social Network">
+    </section>
+
+    <section class="slide" id="charcater-filter" label="Profile filter">
+      <h2>Profile filter</h2>
+      <ul>
+        <li>
+          If you have many characters you need to search appropriate characters for events by some criteria.
+        </li>
+        <li>
+          For example you need to add young single noble to love story.
+        </li>
+        <li>
+          You can filter characters by profile:
+          <ul>
+            <li>
+              Age - greater 18
+            </li>
+            <li>
+              Social category - noble
+            </li>
+            <li>
+              Condition - single
+            </li>
+          </ul>
+        </li>
+        <li>
+          And sort character list in ascending order 
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide" id="statistics" label="Statistics and Diagrams">
+      <h2>Statistics and Diagrams</h2>
+      <ul>
+        <li>
+          SMTK NIMS calculates next statistics automatically: quantity of stories/characters/events/symbols and 
+          general story completeness.
+        </li>
+        <li>
+          NIMS builds histograms of story event number, story character number and detailed event completeness.
+        </li>
+        <li>
+          NIMS builds automatically histograms for profile number items and donut diagrams for single selection 
+          and checkbox items.
+        </li>
+      </ul>
+      <img src="images\diagrams.jpg" alt="Diagrams">
+    </section>
+
+    <section class="slide" id="server-mode" label="Server mode">
+      <h2>Server mode</h2>
+      <ul>
+        <li>
+          Initially SMTK NIMS was made for offline. But for making big games we need several story masters 
+          coordination.
+        </li>
+        <li>
+          For this case we added server mode. There is a common base in the server and several users can work on one
+          game simultaneously (server provide an Internet site in some case).
+        </li>
+        <li>
+          There is a strict rights distinction between server users.
+        </li>
+        <li>
+          Server mode is in beta testing now. We have more then 10 servers right now. If you need server for your game
+          tell us and we make one for you.
+        </li>
+      </ul>
+    </section>
 
 
     <!--     <section class="slide" id="" label=""> -->
