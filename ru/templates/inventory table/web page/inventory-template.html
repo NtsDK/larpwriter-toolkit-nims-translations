@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{gameName}}. Инвентарь</title>
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type='text/javascript' src='libs/unitegallery/js/unitegallery.min.js'></script> 
+
+<link rel='stylesheet' href='libs/unitegallery/css/unite-gallery.css' type='text/css' /> 
+<script type='text/javascript' src='libs/unitegallery/themes/default/ug-theme-default.js'></script> 
+<link rel='stylesheet' href='libs/unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+
+
+<link rel="stylesheet" href="libs/photoswipe.css"> 
+<link rel="stylesheet" href="libs/default-skin/default-skin.css"> 
+<script src="libs/photoswipe.min.js"></script> 
+<script src="libs/photoswipe-ui-default.min.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="style/style.css"  media="screen" />
+
+</head>
+<body>
+
+<div id="root">
+
+  <div id="content">
+	
+		
+    <div class="panel panel-default">
+      <div class="panel-body">
+				<table class="table table-striped">
+					<tbody>
+					{{#briefings}}
+						<tr>
+						<td><b>{{name}}</b></td>
+						<td>{{profileInfo-Снаряжение}}; {{inventory}}</td>
+						</tr>
+					{{/briefings}}	
+					</tbody>
+				</table>
+      </div>
+    </div>
+		
+    
+		
+	</div>
+</div>
+</body>
+</html>

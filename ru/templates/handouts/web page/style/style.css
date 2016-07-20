@@ -1,0 +1,31 @@
+body{
+  background-color: grey; 
+}
+
+#root{
+  margin: 5vh 10vw 0px;
+}
+
+.programContent{
+ /* display: flex;*/
+}
+
+.programContent div{
+  /*margin: 0 10px;*/
+}
+
+.programContent img{
+  margin: 0 10px 0 0;
+}
+
+.programContent a.link{
+  margin: 0 15px 0 0;
+}
+
+.programContent p a.link{
+  margin: 0;
+}
+
+.displayNone{
+	display: none;
+}

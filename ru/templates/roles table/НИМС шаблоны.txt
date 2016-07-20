@@ -1,0 +1,26 @@
+﻿Общий шаблон
+{{#briefings}}
+{{name}}
+{{profileInfo-Игрок}}
+{{profileInfo-Статус}}
+{{profileInfo-Биография}}
+
+{{/briefings}}
+
+
+вконтакт простой
+{{#briefings}}
+* '''{{name}}''' ({{profileInfo-Статус}}, {{profileInfo-Игрок}})
+{{profileInfo-Биография}}
+
+{{/briefings}}
+
+
+вконтакт с картинками
+{{#briefings}}
+'''{{name}}''' ({{profileInfo-Статус}}, {{profileInfo-Игрок}})
+{|noborder
+|-
+|[[{{profileInfo-Картинка ВК}}|100px;left| ]] {{profileInfo-Биография}}
+|}
+{{/briefings}}
