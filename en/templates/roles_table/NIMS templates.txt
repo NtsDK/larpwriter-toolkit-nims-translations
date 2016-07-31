@@ -1,0 +1,26 @@
+﻿General template
+{{#briefings}}
+{{name}}
+{{profileInfo-Player}}
+{{profileInfo-Status}}
+{{profileInfo-Biography}}
+
+{{/briefings}}
+
+
+vkontakte simple
+{{#briefings}}
+* '''{{name}}''' ({{profileInfo-Status}}, {{profileInfo-Player}})
+{{profileInfo-Biography}}
+
+{{/briefings}}
+
+
+vkontakte with pictures
+{{#briefings}}
+'''{{name}}''' ({{profileInfo-Status}}, {{profileInfo-Player}})
+{|noborder
+|-
+|[[{{profileInfo-Картинка ВК}}|100px;left| ]] {{profileInfo-Biography}}
+|}
+{{/briefings}}

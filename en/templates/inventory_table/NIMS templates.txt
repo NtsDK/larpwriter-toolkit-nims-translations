@@ -1,0 +1,26 @@
+﻿General template
+{{#briefings}}
+{{name}}
+{{inventory}}
+{{profileInfo-Outfit}}
+{{/briefings}}
+
+vkontakte inventory
+{|
+|-
+{{#briefings}}
+|{{name}}
+|{{inventory}}
+|-
+{{/briefings}}
+|}
+
+vkontakte inventory + outfit
+{|
+|-
+{{#briefings}}
+|{{name}}
+|{{profileInfo-Outfit}}; {{inventory}}
+|-
+{{/briefings}}
+|}
