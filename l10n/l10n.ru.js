@@ -101,6 +101,8 @@
         "general-completeness-value": '{0}% ({1} из {2} адаптаций)',
         'consistency-problem-detected': "Проверка данных выявила нарушение целостности базы, пожалуйста свяжитесь с разработчиками для устранения проблемы.",
         'last-save-time': 'Время последнего сохранения базы',
+        'character-stories-diagram': 'Количество историй у персонажей',
+        'character-symbols-diagram': 'Количество знаков у персонажей',
     },
     "characters": {
         "character-managing":"Управление персонажами",

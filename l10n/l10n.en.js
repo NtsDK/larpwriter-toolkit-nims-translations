@@ -102,6 +102,8 @@ Dictionaries['en'] = {
         "general-completeness-value": '{0}% ({1} from {2} adaptations)',
         'consistency-problem-detected': "Detected base corruption during consistency check. Please contact developer to fix problems.",
         'last-save-time': 'Last save time',
+        'character-stories-diagram': 'Story count per character',
+        'character-symbols-diagram': 'Symbol count per character',
     },
     "characters": {
         "character-managing":"Character managing",
