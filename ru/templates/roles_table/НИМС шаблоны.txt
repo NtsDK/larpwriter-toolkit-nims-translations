@@ -1,6 +1,6 @@
 ﻿Общий шаблон
 {{#briefings}}
-{{name}}
+{{charName}}
 {{profileInfo-Игрок}}
 {{profileInfo-Статус}}
 {{profileInfo-Биография}}
@@ -10,7 +10,7 @@
 
 вконтакт простой
 {{#briefings}}
-* '''{{name}}''' ({{profileInfo-Статус}}, {{profileInfo-Игрок}})
+* '''{{charName}}''' ({{profileInfo-Статус}}, {{profileInfo-Игрок}})
 {{profileInfo-Биография}}
 
 {{/briefings}}
@@ -18,7 +18,7 @@
 
 вконтакт с картинками
 {{#briefings}}
-'''{{name}}''' ({{profileInfo-Статус}}, {{profileInfo-Игрок}})
+'''{{charName}}''' ({{profileInfo-Статус}}, {{profileInfo-Игрок}})
 {|noborder
 |-
 |[[{{profileInfo-Картинка ВК}}|100px;left| ]] {{profileInfo-Биография}}
