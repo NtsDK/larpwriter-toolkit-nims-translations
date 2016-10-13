@@ -1,7 +1,7 @@
 ﻿Общий шаблон для выгрузки по хронологии
 {{gameName}}
 {{#briefings}}
-{{name}}
+{{charName}}
 
 {{inventory}}
 {{profileInfo-Оружие}}
@@ -23,7 +23,7 @@
 Общий шаблон для выгрузки по историям
 {{gameName}}
 {{#briefings}}
-{{name}}
+{{charName}}
 
 {{inventory}}
 {{profileInfo-Оружие}}
@@ -33,7 +33,7 @@
 {{/profileInfo-splitted-Биография}}
 
 {{#storiesInfo}}
-{{name}}
+{{storyName}}
 
 {{#eventsInfo}}
 
