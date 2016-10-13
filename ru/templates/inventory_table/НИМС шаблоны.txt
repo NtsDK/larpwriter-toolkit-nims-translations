@@ -1,6 +1,6 @@
 ﻿Общий шаблон
 {{#briefings}}
-{{name}}
+{{charName}}
 {{inventory}}
 {{profileInfo-Снаряжение}}
 {{/briefings}}
@@ -9,7 +9,7 @@
 {|
 |-
 {{#briefings}}
-|{{name}}
+|{{charName}}
 |{{inventory}}
 |-
 {{/briefings}}
@@ -19,7 +19,7 @@
 {|
 |-
 {{#briefings}}
-|{{name}}
+|{{charName}}
 |{{profileInfo-Снаряжение}}; {{inventory}}
 |-
 {{/briefings}}
