@@ -1,4 +1,5 @@
-﻿Dictionaries['ru'] = {
+﻿
+Dictionaries['ru'] = {
     "header": {
         "page-title": "НИМС набор инструментов мастера сюжетника",
         "overview":"Обзор",
@@ -24,16 +25,23 @@
         "briefing-preview" : "Предварительный просмотр",
         "briefing-export" : "Экспорт",
         "character-profile" : "Досье",
-        "character-profile-configurer" : "Редактор досье",
+        "character-profile-constructor" : "Конструктор досье",
         "master-story" : "Мастерская история",
         "story-events" : "События",
         "story-characters" : "Персонажи",
         "event-presence" : "Присутствие",
+        "groups" : "Группы",
+        "group-profile" : "Досье групп",
+        "group-schema" : "Иерархия",
+        "investigation-board" : "Карта сюжета",
+        "relations" : "Отношение к другим персонажам",
+        "about" : "О программе",
     },
     "common": {
         "rename-from":"Переименовать из",
         "to":"в",
         "ok":"ОК",
+        "cancel":"Отмена",
         "add":"Добавить",
         "remove":"Удалить",
         "on": "на",
@@ -95,8 +103,6 @@
         "character-count-diagram":"Количество персонажей в историях",
         "story-completeness-diagram":"Детальная завершенность историй",
         "object-belonging-diagrams":"Принадлежность объектов",
-        "characters-diagram":"Персонажи",
-        "stories-diagram":"Истории",
         "story-completeness-value":'{0}% ({1} из {2} историй)',
         "general-completeness-value": '{0}% ({1} из {2} адаптаций)',
         'consistency-problem-detected': "Проверка данных выявила нарушение целостности базы, пожалуйста свяжитесь с разработчиками для устранения проблемы.",
@@ -146,6 +152,8 @@
         "character":"Персонаж",
         "completeness": "Завершённость адаптаций, %",
         "totalStories": "Количество историй",
+        "character-owner" : "Владелец",
+        "download-filter-table" : "Скачать таблицу"
     },
     "stories":{
         "stories":"Истории",
@@ -215,11 +223,10 @@
         "rights": "Права",
         "characters": "Персонажи",
         "stories": "Истории",
+        "groups": "Группы",
         "users": "Пользователи",
         "assign-rights": "Назначить права",
         "take-away-rights": "Забрать права",
-        "characters-header" : "Персонажи",
-        'stories-header' : "Истории",
         'have-not-owner' : "Не привязаны",
         'user-name-is-not-specified' : "Имя пользователя не указано",
         'password-is-not-specified' : "Пароль не указан",
@@ -262,7 +269,10 @@
         "generate-by-docx-template":"Сгенерировать в docx по текущему шаблону",
         "exact-multiselect": "Точный мультивыбор",
         "export-settings": "Настройки экспорта",
-        // breifings preview
+        'adaptations-mode':'Режим адаптации',
+        'proofreading-mode':'Режим вычитки',
+        'template-error': 'Ошибка в шаблоне: {0}',
+        // briefings preview
         "inventory":'Инвентарь',
         "unlock-event-source":"Разблокировать редактирование оригинала события",
         "hide-all-panels" : "Свернуть все панели",
@@ -272,6 +282,18 @@
         'story-header':'История {0}',
         'event-header':'Событие {0}',
         'subjective-time':"Субъективное время: ",
+        'origin': 'Оригинал',
+        'adaptation': 'Адаптация',
+        'where-meets': 'Где встречались',
+        'profile-item': 'Поле досье',
+        'known-characters': 'Известные по историям персонажи',
+        'unknown-characters': 'Неизвестные по историям персонажи',
+        
+        // relation editor
+        'character-name': 'Имя персонажа',
+        'direct-relation': 'Отношение',
+        'reverse-relation': 'Обратное отношение',
+        'extra-info': 'Дополнительно',
         // export status
         "save-preparing" : "Подготовка к выгрузке.",
         "start-saving": "Данные подготовлены. Начинаю выгрузку.",
@@ -313,6 +335,75 @@
         "user" : "Пользователь",
         "action" : "Действие",
         "params" : "Параметры",
+    },
+    "groups" : {
+        "groups" : "Группы",
+        "filterModel" : "Фильтр",
+        "characterList" : "Состав группы",
+        "masterDescription" : "Мастерское описание",
+        "doExport" : "Печатать во вводных",
+        "characterDescription" : "Текст для персонажа",
+        "group-name" : "Имя группы",
+        "new-group-name" : "Новое имя группы",
+        "show-groups" : "Просмотр",
+        "show-group-filter" : "Показать фильтр группы",
+        "save-group-filter" : "Сохранить фильтр в группу",
+        "manage-groups" : "Управление",
+        "text-contains" : "cодержит '{0}'",
+        "total" : 'Всего: ',
+        
+        // group management errors
+        "group-name-is-not-specified" : "Имя группы не указано",
+        "new-group-name-is-not-specified" : "Новое имя не указано.",
+        "names-are-the-same" : "Имена совпадают.",
+        "group-name-already-used" : "Имя {0} уже используется.",
+        "are-you-sure-about-group-removing" : "Вы уверены, что хотите удалить {0}? Все данные связанные с группой будут удалены безвозвратно.",
+        "group-editing-forbidden" : "У вас недостаточно прав для редактирования группы {0}",
+        "page-filter-is-incompatible-with-base-profiles" : "Сохраняемый фильтр не соместим с настройками досье по полям: {0}. Переоткройте страницу с фильтром персонажей для подгрузки новых настроек.",
+        "base-filter-is-incompatible-with-page-profiles" : "Отображаемый фильтр не соместим с настройками досье на странице: {0}. Переоткройте страницу с фильтром персонажей для подгрузки новых настроек."
+
+    },
+    "investigation-board" : {
+        'confirm-group-node-removing' : 'Вы уверены, что хотите удалить группу {0} со схемы? Заметки и связи с другими узлами будут удалены безвозвратно.',
+        'confirm-resource-node-removing' : 'Вы уверены, что хотите удалить ресурс {0} со схемы? Связи с другими узлами будут удалены безвозвратно.',
+        'enter-edge-label' :"Введите подпись",
+        
+        'add-group' : 'Добавить группу',
+        'create-resource' : 'Создать ресурс',
+        'replace-group' : 'Заменить группу',
+        'group-notes' : 'Заметки',
+        'rename-resource' : 'Переименовать ресурс',
+        'resource-name' : 'Имя ресурса',
+        'new-resource-name' : 'Новое имя ресурса',
+        
+        // errors
+        'group-name-is-not-specified': 'Имя группы не может быть пустым.',
+        'group-already-used-on-board' : 'Группа уже добавлена на схему.',
+        'group-is-not-used-on-board' : 'Группа не используется в схеме.',
+        
+        "new-name-is-not-specified" : 'Имя не указано.',
+        "name-already-used" : 'Имя "{0}" уже занято.',
+        "rename-name-is-not-specified" : 'Имя не указано.',
+        "names-are-the-same" : 'Имена совпадают.',
+        
+        "resource-node-cant-be-first" : 'Ресурс не может быть началом ребра.',
+        "such-relation-already-exists" : 'Cвязь уже существует.',
+        "relation-is-not-exist" : 'Cвязь не существует.',
+    },
+    'about' : {
+        "about-authors" : "Программа 'Набор инструментов мастера-сюжетника' (НИМС) разработана Речкаловым Тимофеем (NtsDK) и Марией Сидехменовой (Матильда).",
+        "site-mention" : "Сайт автора: ",
+        "site-description" : "На сайте приведены ссылки на документацию, презентацию, плейлист YouTube со скринкастами по системе и ссылки на сообщества в социальных сетях.",
+        "program-is-free-in-rep" : "Программа бесплатна. Исходный код доступен под лицензией Apache 2",
+        "by-link" : "по ссылке",
+        "icons-authors" : "Авторы используемых иконок с сайта www.flaticon.com: Anton Saputro, Pavel Kozlov, Budi Tanrim, Catalin Fertu, Picol и Freepik. Автор иконки сортировки FatCow.",
+        "versions" : "История версий",
+        "var044u3" : "Версия 0.4.4u3 (21 Jul 2016) - новая база пример и раздел в документации, посвященный экспорту.",
+        "var044u2" : "Версия 0.4.4u2 (14 Jun 2016) - добавлена строгая валидация базы с помощью JSON schema.",
+        "var044" : "Версия 0.4.4 (21 Apr 2016) - защитные инструменты и инструменты тестирования.",
+        "var043" : "Версия 0.4.3 (29 Feb 2016) - добавлена статистика и улучшена выгрузка.",
+        "var042" : "Версия 0.4.2 (18 Jan 2016) - добавлен серверный режим.",
+        "var041" : "Версия 0.4.1 (27 Nov 2015) - первый публичный релиз.",
     }
 };
 
