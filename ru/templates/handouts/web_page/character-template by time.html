@@ -40,10 +40,9 @@
           <img align="left" src="images2/{{profileInfo-Картинка сайт}}.jpg" style="height: 100px;">
           <div class="text">
 					
-					Оружие: {{profileInfo-Оружие}}<br>
-					Инвентарь: {{profileInfo-Снаряжение}}, {{inventory}}<br><br>
-					{{#profileInfo-splitted-Биография}}<p>{{string}}</p>
-					{{/profileInfo-splitted-Биография}}
+					{{#profileInfoArray}}{{itemName}}: {{value}}<br>
+					{{/profileInfoArray}}
+					Инвентарь: {{inventory}}<br>
 
           <br>
 					
