@@ -396,7 +396,7 @@ Dictionaries['en'] = {
         "site-description" : "You can find documentation, presentation, YouTube screencast playlist and social network links on author's site.",
         "program-is-free-in-rep" : "SMTK NIMS is a freeware. Source code is open under Apache 2 license",
         "by-link" : "by link",
-        "icons-authors" : "Authors of used icons from www.flaticon.com: Anton Saputro, Pavel Kozlov, Budi Tanrim, Catalin Fertu, Picol и Freepik. Sort icon author FatCow.",
+        "icons-authors" : "Authors of used icons from www.flaticon.com: Anton Saputro, Pavel Kozlov, Budi Tanrim, Catalin Fertu, Picol and Freepik. Sort icon author FatCow.",
         "versions" : "Version story",
         "var044u3" : "Version 0.4.4u3 (21 Jul 2016) - new example base and new section in documentation about export.",
         "var044u2" : "Version 0.4.4u2 (14 Jun 2016) - added strict validation with JSON schema.",
