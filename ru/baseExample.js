@@ -22,7 +22,7 @@ See the License for the specific language governing permissions and
                 "date": "3019/02/27 00:00",
                 "preGameDate": "3018/01/01 00:00",
                 "description": "События фильма, как основа для ролевой игры. В этой базе изложен первый фильм из трилогии Властелин колец. Хронология событий взята из книги.",
-                "saveTime": "Thu Oct 13 2016 19:37:14 GMT+0500 (Pakistan Standard Time)"
+                "saveTime": "Thu Oct 27 2016 19:27:47 GMT+0500 (Pakistan Standard Time)"
               },
               "Characters": {
                 "Фродо": {
@@ -1881,7 +1881,19 @@ See the License for the specific language governing permissions and
                   }
                 }
               },
-              "Relations": {}
+              "Relations": {
+                "Арагорн": {
+                  "Арвен": "Зайка моя.",
+                  "Гендальф": "Уважаю старика."
+                },
+                "Арвен": {
+                  "Арагорн": "Мой лапушок."
+                },
+                "Гендальф": {},
+                "Саурон": {
+                  "Арагорн": "Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём."
+                }
+              }
             };
 
 })(typeof exports === 'undefined'? this['BaseExample']={}: exports);
