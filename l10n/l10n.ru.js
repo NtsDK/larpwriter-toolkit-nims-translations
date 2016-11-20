@@ -398,7 +398,7 @@ Dictionaries['ru'] = {
         "site-description" : "На сайте приведены ссылки на документацию, презентацию, плейлист YouTube со скринкастами по системе и ссылки на сообщества в социальных сетях.",
         "program-is-free-in-rep" : "Программа бесплатна. Исходный код доступен под лицензией Apache 2",
         "by-link" : "по ссылке",
-        "icons-authors" : "Авторы используемых иконок с сайта www.flaticon.com: Anton Saputro, Pavel Kozlov, Budi Tanrim, Catalin Fertu, Picol и Freepik. Автор иконки сортировки FatCow.",
+        "icons-authors" : "Авторы используемых иконок с сайта www.flaticon.com: Anton Saputro, Pavel Kozlov, Budi Tanrim, Catalin Fertu, Picol, Dave Gandy и Freepik. Автор иконки сортировки FatCow.",
         "versions" : "История версий",
         "var044u3" : "Версия 0.4.4u3 (21 Jul 2016) - новая база пример и раздел в документации, посвященный экспорту.",
         "var044u2" : "Версия 0.4.4u2 (14 Jun 2016) - добавлена строгая валидация базы с помощью JSON schema.",
