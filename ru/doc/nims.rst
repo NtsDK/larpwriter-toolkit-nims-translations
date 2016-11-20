@@ -15,6 +15,7 @@
 	:maxdepth: 2
 
 	intro
+	micros
 	theory
 	tasks
 	toolsEnum
