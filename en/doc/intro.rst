@@ -15,7 +15,7 @@ SMTK NIMS - what is it?
 
 NIMS seems very big and complex
 
-	NIMS has many new features from the initial release and it solves much more tasks now. It is not necessary to use absolutely all features from the first day. You need to understand basic handout creation cycle to make your first game: story-event-adaptation-handout. After this step you can proceed with more complex features. You can see full list of features and topics on page :ref:`micros-page`. The minimal features list for game creation is a section ``Minimal kit``.
+	NIMS has many new features from the initial release and it solves much more tasks now. It is not necessary to use absolutely all features from the first day. You need to understand basic handout creation cycle to make your first game: story-event-adaptation-export. After this step you can proceed with more complex features. You can see full list of features and topics on page :ref:`micros-page`. The minimal features list for game creation is a section ``Minimal kit``.
 
 .. intro-work-sequence
 

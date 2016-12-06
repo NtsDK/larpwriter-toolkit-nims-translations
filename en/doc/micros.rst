@@ -1,9 +1,9 @@
 ﻿.. _micros-page:
 
-Микротемы
-=========
+Microthemes
+===========
 
-На очередном этапе развития мы решили, что только описания страниц не достаточно. Тем более есть вещи, которые выходят за рамки функционала страниц. Так родилась концепция микротем. Микротема это небольшая задача с которой сталкивается пользователь НИМС. Станицы НИМС усложняются, но для решения конечной задачи нет необходимости знать вообще всё на каждой странице. Различный функционал НИМС можно изучать по частям. Микротемы излагаются в порядке от "простого и основного" к "сложному и вторичному".
+Some time ago we decided that page description in docs is not enough. Moreover there are many things out of the page functionality. By these reasons we introduce microthemes. Microtheme is a small task which NIMS user meets. NIMS pages become more complex but there are no reasons to know everything on each page. NIMS functions can be studied piece by piece. Microthemes list is formed from "simple and basic" to "complex and secondary".
 
 	#. :ref:`concepts-page`
 		#. :ref:`concepts-core-concepts`
@@ -22,100 +22,100 @@
 		#. :ref:`concepts-dumping`
 		#. :ref:`concepts-server-mode`
 	
-	#. Минимальный набор
-		#. Работа с базой, база пример и документация
-		#. Начало работы - название и даты
-		#. Управление персонажами и просмотр
-		#. Управление историями и просмотр
-		#. Мастерская история
-		#. Управление событиями
-		#. Добавление персонажа в историю
-		#. Включение персонажа в событие
-		#. Редактирование адаптаций - 2 режима
-		#. Завершенность адаптаций
-		#. Вычитка вводных
-		#. Простая выгрузка
-		#. Настройка выгрузки историй (Продвинутая выгрузка)
+	#. Minimal kit
+		#. Base work, base example and docs
+		#. Starting work - game name and dates
+		#. Character management and examination
+		#. Story management and examination
+		#. Master story
+		#. Event management
+		#. Add character to story
+		#. Add character to event
+		#. Adaptations editing - 2 modes
+		#. Adaptation completness
+		#. Handout proofreading
+		#. Simple export
+		#. Story export settings (Advanced export)
 		
-	#. Многопользовательский режим
-		#. Управление пользователями
-		#. Режим редактора
-		#. Права на владение
-		#. Режимы наследования на вычитку
-		#. Лог
+	#. Multiuser mode
+		#. User management
+		#. Editor mode
+		#. Owner rights
+		#. Proofreading modes
+		#. Log
 		
-	#. Статистика и диаграммы
-		#. Диаграммы историй и персонажей, статистики (?)
-		#. Диаграмма количества знаков, статистики (?)
-		#. Диаграмма завершенности, статистики (Завершенность адаптаций)
-		#. Диаграмма принадлежности (Многопользовательский режим)
-		#. Поля досье для диаграмм (Досье персонажей)
+	#. Statistics and diagrams
+		#. Diagrams of stories and characters, statistics (?)
+		#. Symbol number diagram, statistics (?)
+		#. Completeness diagram, statistics (Adaptation completness)
+		#. Owners diagram, (Multiuser mode)
+		#. Profile field diagrams (Character profiles)
 	
-	#. Отношения между персонажами
-		#. Добавление/удаление отношения
-		#. Просмотр данных о персонаже (Досье персонажей)
-		#. Настройка выгрузки (Продвинутая выгрузка)
+	#. Character relations
+		#. Add/remove relation
+		#. Character profile link (Character profiles)
+		#. Export settings (Advanced export)
 	
-	#. Инвентарь
-		#. Редактирование инвентаря
-		#. Вычитка инвентаря
-		#. Настройка выгрузки (Продвинутая выгрузка)
+	#. Inventory
+		#. Inventory editing
+		#. Inventory proofreading
+		#. Export settings (Advanced export)
 		
-	#. Досье персонажей
-		#. Конструирование досье
-		#. Использование досье
-		#. Настройка выгрузки (Продвинутая выгрузка)
+	#. Character profile
+		#. Edit profile structure
+		#. Profile usage
+		#. Export settings (Advanced export)
 	
-	#. Таймлайн (Управление событиями)
-		#. Просмотр хронологии событий нескольких историй
+	#. Timeline (Event management)
+		#. View timeline of several stories
 		
-	#. Фильтр персонажей (Досье персонажей)
-		#. Поля для вывода из досье
-		#. Статистические поля для вывода
-		#. Выбор полей для вывода
-		#. Настройка фильтра
-		#. Результат фильтрации + сортировка
-		#. Управление группами (см. Группы)
-		#. Сохранение фильтра в группу (см. Группы)
+	#. Character filter (Character profiles)
+		#. Filter items from character profile
+		#. Filter items from character statistics
+		#. Filter items selection
+		#. Filter settings
+		#. Result and sorting
+		#. Group management (see Groups)
+		#. Save filter to group (see Groups)
 		
-	#. Социальная сеть
-		#. Раскраска узла (Досье персонажа)
-		#. Выборка объектов
-		#. Социальная сеть связей
-		#. Социальная сеть историй
-		#. Социальная сеть активности (Анализ загруженности игроков)
+	#. Social network
+		#. Nodes coloring (Character profile)
+		#. Object select
+		#. Social relation network
+		#. Stories social network
+		#. Activity social network (Player workload analysis)
 		
-	#. Группы персонажей
-		#. Управление группами
-		#. Фильтр в/из группу/ы
-		#. Досье группы
-		#. Иерархия групп
-		#. Настройка выгрузки (Продвинутая выгрузка)
+	#. Character groups
+		#. Group management
+		#. Filter to/from group
+		#. Group profile
+		#. Group hierarchy
+		#. Export settings (Advanced export)
 		
-	#. Карта сюжета
-		#. Управление группами
-		#. Управление ресурсами
-		#. Управление связями
+	#. Story map
+		#. Group management
+		#. Resource management
+		#. Relation management
 	
-	#. Анализ загруженности игроков
-		#. Заполнение данных об активности
-		#. Использование данных об активности - фильтр и соц. сеть
+	#. Player workload analysis
+		#. Filling activity information
+		#. Using activity information - filter and social network
 		
-	#. Продвинутая выгрузка
-		#. Основы выгрузки - шаблон и выдача
-		#. Данные для выгрузки
-		#. Язык шаблона Mustache
-		#. Язык шаблона docxtemplater
-		#. Выгрузка многострочных текстов
-		#. Спецсимволы в Mustache
+	#. Advanced export
+		#. Export basics - template and handouts
+		#. Data for export
+		#. Mustache template language
+		#. docxtemplater template language
+		#. Export of multilined texts
+		#. Special characters in Mustache
 		
-	#. Приложение 1. Интерфейс
-		#. Принцип отображения информации (?)
-		#. Селекторы: одиночные, множественные, фильтруемые
-		#. Сворачивание панелей
-		#. Растягивание текстовых полей
-		#. Блокированные поля (Многопользовательский режим)
-		#. Диаграммы (?)
-		#. Социальные сети (исключение из правил) (?)
-		#. Сохраняемые настройки страниц
+	#. Appendix 1. Interface
+		#. Information view concept (?)
+		#. Selectors: single, multi, filtered
+		#. Panel collapsing
+		#. Text areas stretching
+		#. Disabled inputs (Multiuser mode)
+		#. Diagrams (?)
+		#. Social network (exception of the rules) (?)
+		#. Saved page settings
 
