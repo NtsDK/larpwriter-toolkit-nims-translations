@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 .. Story Master Toolkit NIMS. Documentation
-.. =======================================================
+.. ========================================
 
 .. This document describes all SMTK NIMS features and usage examples.
 
@@ -15,11 +15,13 @@
 	:maxdepth: 2
 
 	intro
+	micros
 	theory
 	tasks
 	toolsEnum
 	quickStart
 	pages
+	export
 
 
 .. Indices and tables
