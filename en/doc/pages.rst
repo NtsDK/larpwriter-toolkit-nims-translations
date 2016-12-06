@@ -1,150 +1,150 @@
-﻿Страницы
-========
+﻿Pages
+=====
 
 .. _header-desc:
 
-Заголовок
----------
+Header
+------
 
-Вверху страницы находятся основная навигация и кнопки для работы с базой. 
+There is main navigation and base action buttons in the page header.
 
-Основные вкладки 
+Main tabs
 
-	:ref:`overview-desc` - общая информация об игре и статистика.
+	:ref:`overview-desc` - common information about game and statistics.
 
-	:ref:`characters-desc` - управление персонажами и досье. 
+	:ref:`characters-desc` - character management and profiles. 
 
-	:ref:`story-desc` - заполнение историй: создание событий, перечень персонажей с указанием инвентаря и активности, ассоциация персонажей и событий. 
+	:ref:`story-desc` - filling stories: event creation, character lists with inventory and activities, adding characters to events. 
 
-	:ref:`events-desc` - детализация видения событий для каждого персонажа. 
+	:ref:`events-desc` - event adaptations editing for each character. 
 	
-	:ref:`breifings-desc` - предварительный просмотр и экспорт вводных. 
+	:ref:`breifings-desc` - preview, proofreading and handout export. 
 	
-Вкладки просмотра данных
+View tabs
 
-	:ref:`timeline-desc` - просмотр хронологии событий, уточнение времени событий. 
+	:ref:`timeline-desc` - events timeline. 
 
-	:ref:`social-network-desc` - просмотр графа социальных взаимодействий. 
+	:ref:`social-network-desc` - social network view. 
 	
-	:ref:`characters-filter` - поиск персонажей по досье и сохранение фильтра как условие попадания персонажа в группу. 
+	:ref:`characters-filter` - character search by profile and saving character filter to group. 
 	
-	:ref:`groups-desc` - работа с группами, иерархия групп, карта сюжета. 
+	:ref:`groups-desc` - group management, groups hierarchy and story map. 
 	
-Управление базой
+Base management
 
-	**Загрузить** - загрузка базы из файла.
+	**Load database from file** - load database from file.
 
-	**Сохранить** - сохранение базы в файл.
+	**Save database to file** - save database to file.
 	
-	**Новая база** - создание новой базы.
+	**Create new database** - create new database.
 	
-	**Помощь** - открывает справку в новой вкладке.
+	**Documentation** - open documentation in new browser tab.
 	
-	:ref:`administrative-tools` (только в серверной версии) - управление правами на персонажей, истории, группы и адаптации, включение режима редактора. 
+	:ref:`administrative-tools` (multi user version only) - entity and adaptation rights management, editor mode. 
 	
-	:ref:`logs` - информация об авторах программы и история действий пользователей НИМС: создание/переименование/удаление персонажей и историй и т.д. 
+	:ref:`logs` - about NIMS authors and users action log: create/rename/remove character/story/group, etc. 
 	
 .. figure:: images/0_header.jpg
 
-	Заголовок
+	Header
 
 .. _overview-desc:
 	
-Обзор
------
+Overview
+--------
 
-Это первая страница, открывающаяся при старте НИМС. 
+This is the first page which is open on NIMS start.
 
-Содержание страницы
+Page content
 
-	``Название`` - здесь указывается название игры.
+	``Name`` - name of the game.
 	
-	``Дата начала доигровых событий`` - дата начала доигровых событий. 
+	``Pre game events start date`` - pre game events start date in game universe. 
 	
-	``Дата окончания доигровых событий`` - дата начала игры в мире игры. Между этими двумя датами будут происходить доигровые *события*. Эти даты необходимы для выставления границ хронологии. Можно выставлять даты событий и вне указанного временного промежутка. Введённые значения играют вспомогательную роль. Если у события не указано время, то оно по умолчанию заменяется датой начала игры.
+	``Pre game events end date`` - pre game events end date in game universe (time of game start usually). In this time interval happens most of pregame *events*. These dates are necessary for timeline boundaries. You can make dates outside of this time interval. If event time is not specified then it is equal to pre game events end date.
 	
-	``Время последнего сохранения базы`` - это время последнего сохранения базы в файл.
+	``Last save time`` - time of last base saving.
 		
-	``Описание`` - текст с описанием игры. Ни на что не влияет, но мы решили, что он тут должен быть) При желании мастера могут вести тут какие-то общие заметки для себя.
+	``Description`` - text with game description. It is not used anywhere but we decided to add it. Master can do some notes here.
 	
-	``Статистика`` - общие данные об открытой базе: 
+	``Statistics`` - common information about current base: 
   
-		``количество историй/персонажей/событий`` 
+		``Count of stories/characters/events`` 
     
-		``количество пользователей`` - нужно для серверной версии)
+		``Count of users`` - used in multi user mode
     
-		``первое и последнее события в базе`` по хронологии 
+		``first and last event in time`` by timeline
     
-		``количество знаков в текстах`` - считаются мастерские истории, тексты групп, событий и адаптаций
+		``Symbol count in texts`` - it includes master stories, group texts, events and adaptations texts
     
-		``количество завершенных историй`` - число историй, у которых все адаптации отмечены, как завершенные
+		``Story completeness`` - number of stories which have all adaptations marked as completed
 		
-		``общая завершенность`` - число адаптаций, отмеченных как завершенные
+		``General completeness`` - number of adaptations marked as completed
 
 .. figure:: images/1_1_overview.jpg
 	
-	Вкладка Обзор. Описание
+	Tab Overview. Description
 	
-На подвкладке **Диаграммы** приводятся стандартные гистограммы и круговые диаграммы. Число на столбце гистограммы означает высоту столбца. При наведении мышью на столбец приводится детализация: значение и дополнительная информация. Например, на рисунке сообщение "4: Ряба, Маша и медведь", означает, что в историях Ряба и "Маша и медведь" задействовано по 4 персонажа. Над круговыми диаграммами показывается название доли и её размер.
+Subtab **Diagrams** shows standard histograms and donut charts. Number on histogram column is a column height. On mouse cursor hover you will see tooltip with details. For example, on screenshot tooltip "2600-2699: Merry (2636), Pippin (2635)" means that Merry has 2636 symbols in handout and Pippin has 2635 symbols in handout. On donut charts hover you will see slice name and its size.
 
-Стандартные диаграммы
+Standard diagrams
 
-	``Количество событий в историях`` - гистограмма, показывающая сводку по количеству событий в историях.
+	``Event count in stories`` - histogram, shows summary event count in stories.
 	
-	``Количество персонажей в историях`` - гистограмма, показывающая сводку по количеству персонажей в историях.
+	``Character count in stories`` - histogram, shows character count in stories.
 	
-	``Количество историй у персонажей`` - гистограмма, показывающая сводку по количеству историй у каждого персонажа.
+	``Story count per character`` - histogram, shows story count per character.
 	
-	``Детальная завершенность историй`` - гистограмма, показывающая сводку по завершенности историй. Крайне левое значение - ни одна адаптация не завершена. Крайне правое - все адаптации в истории завершены.
+	``Detailed story completeness`` - histogram, shows detailed story completeness. Most left value - no complete adaptations at all. Most right value - all adaptations in story completed.
 	
-	``Количество знаков у персонажей`` - гистограмма, показывающая сводку по количеству знаков во вводной каждого персонажа. Учитываются только события/адаптации в историях и тексты для групп. Тексты в досье и отношения персонажей не учитываются.
+	``Symbol count per character`` - histogram, shows symbol count per character. Counted only events/adaptations texts and group texts. Profile texts are not considered.
 	
-	``Принадлежность объектов`` - доли персонажей, историй и групп принадлежащих пользователям в серверном режиме.
-	
-Диаграммы досье строятся автоматически для полей вида число (гистограмма), единственный выбор и галочка (круговая диаграмма). Ширина столбца гистограммы для числовых полей автоматически подстраивается под значимый интервал (первый столбец не обязан начинаться с нуля).
+	``Object belonging`` - parts of entities which belongs to different owners in multi user mode.
+
+Profile diagrams are build automatically for numbers (histogram), single choices and checkboxes (donut chart). Histogram column width is calculated by input data (it is not necessary to have smallest number zero).
   
 .. figure:: images/1_2_diagrams.jpg
 	
-	Вкладка Обзор. Диаграммы
+	Tab Overview. Diagrams
 	
 .. _characters-desc:
 
-Персонажи
----------
+Characters
+----------
 
-На странице **Персонажи** есть общая часть и две дополнительных вкладки: **Досье** и **Конструктор досье**.
+**Characters** page has common part and two subtabs: **Profile** and **Profile constructor**.
 
-Общая часть включает в себя элементы для создания/переименования/удаления персонажей в верхней части вкладки.
+Common part includes character management elements: create/rename/remove character.
 
 .. figure:: images/2_1_characterProfile.jpg
 
-	Вкладка Персонажи
+	Tab Characters
 
 .. _characters-profile:
 	
-Персонажи. Досье
-----------------
+Characters. Profile
+-------------------
 
-На вкладке **Досье** происходит заполнение досье персонажа. В левой части экрана выбирается персонаж. По центру показано досье. Внесенные в досье изменения сохраняются автоматически. Подробнее про типы данных в досье можно прочитать в описании **Конструктора досье**.
+**Profile** subtab is used to fill character profile. You select character in the left list. You see profile on the center. Changes are saved automatically. More details about data types see in concepts section.
 
 .. figure:: images/2_1_characterProfile.jpg
 
-	Вкладка Персонажи. Досье
+	Tab Characters. Profile
 
 .. _characters-profile-editor:
 	
-Персонажи. Конструктор досье
-----------------------------
+Characters. Profile constructor
+-------------------------------
 
-На вкладке **Конструктор досье** выполняется редактирование досье персонажей: добавление/изменение/удаление полей в досье. В верхней части вкладки находятся элементы управления для создания, перемещения и удаления полей. Имена полей должны быть уникальны. Все текущие поля показаны в таблице: ``Название``, ``Тип``, ``Значения`` и ``Печатать во вводных``. То, что указано в поле ``Значения`` является значением по умолчанию для всех полей, кроме единственного выбора. В единственном выборе значением по умолчанию является первый элемент. Поля с установленной галочкой ``Печатать во вводных`` будут выводиться во вводные.
+**Profile constructor** is used to change structure of character profile: create/rename/change/remove profile items. In the top there are controls to create, move and remove profile items. Profile item names must be unique. All current profile items are shown in table: ``Profile item name``, ``Type``, ``Value(s)`` and ``Do export``. Value in ``Value(s)`` is a default value for item except single choice. In single choice the first value in list is a default value. Profile items with checked ``Do export`` value will be printed in handout.
 
 .. figure:: images/2_3_characterProfileConfigurer.jpg
 
-	Вкладка Персонажи. Конструктор досье
+	Tab Characters. Profile constructor
 	
 .. _story-desc:
 
-Истории
+Stories
 -------
 
 На странице **Истории** осуществляется заполнение информации об историях. В правой верхней части экрана находится панель управления историями: создание/переименование/удаление историй. В левой верхней части экрана расположена панель выбора текущей истории для просмотра. Заполнение мастерской информации выполняется на соответствующих подвкладках
