@@ -84,6 +84,7 @@ Dictionaries['ru'] = {
         "enum":"Единственный выбор", // single choice
         "number":"Число",
         "checkbox":"Галочка",
+        "multiEnum":"Множественный выбор",
     },
     "overview": {
         "descr":"Описание",
