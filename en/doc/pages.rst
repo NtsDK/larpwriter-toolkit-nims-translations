@@ -371,198 +371,193 @@ Story selector width can be changed with right bottom corner.
 Social Network
 --------------
 
-На этой вкладке отрисовываются социальные сети на основе имеющихся данных. Поддерживаются несколько типов отрисовываемых сетей с разными видами узлов и связей между ними (см. далее типы графов). Для отрисовки необходимо указать общие и частные параметры социальной сети и нажать кнопку ``Нарисовать``.
+On this tab you can draw several types of social networks based on game data (see :ref:`concepts-social-network`). You need to specify common and private settings of social network and press button ``Draw``.
 
-.. warning::  Отрисовка социальной сети требует большого количества ресурсов, поэтому перед ее использованием рекомендуется сохранить текущее состояние базы. 
+.. warning::  Social network rendering requires many computer resources. It is recommended to save database before rendering. 
 
-После того как социальная сеть будет нарисована, список ``Показать узел``, расположенный над общими параметрами будет заполнен. В этом списке находятся все узлы текущей социальной сети. Выберите узел из списка, чтобы сеть на нём отцентрировалась.
+``Focus node`` selector will be filled when social network will be drawn. You need to select any node from selector to center social network on this node.
 
-Общие параметры
+Common settings
 ^^^^^^^^^^^^^^^
 
-Раскраска узлов выполняется на основе полей досье с типом **единственный выбор** и **галочка**. Вы можете выбрать любое из этих полей, а ниже будет приведена цветовая расшифровка.
-Так же возможно три вида выборки.
+You can color character network nodes by profile items of **single choice** and **checkbox** types. You can select any profile item of these types. There will be color legend under profile item selector.
 
-1. Все данные. Будут отрисованы все данные.
+Social networks has three types of selection:
 
-2. Избранные персонажи. В этом случае появится список персонажей. Можно выбрать нескольких персонажей с помощью ctrl/shift. В этом случае будут отрисованы выбранные персонажи, все истории, в которых задействованы эти персонажи и все остальные персонажи, пересекающиеся в событиях с избранными. Примечание: при отрисовке графа человек-история не все связи отображают реальные связи персонажей по событиям.
+1. Everything.
 
-3. Избранные истории. В этом случае появится список историй. Можно выбрать несколько историй с помощью ctrl/shift. В этом случае будут отрисованы все истории и все персонажи, входящие в истории.
+2. Selected characters. In this mode you will see characters multi selector. Only selected characters will be drawn on network, stories of these characters and event counter characters. Note: for character-participation-story network not all edges show real meetings with other characters.
 
-Частные параметры
-^^^^^^^^^^^^^^^^^
+3. Selected stories. In this mode you will see stories multi selector. In this case you will see all selected stories and all characters from these stories.
 
-Частной настройкой является тип отрисовываемого графа. Поддерживаются следующие типы.
+Private settings
+^^^^^^^^^^^^^^^^
 
-1. Социальные связи - сеть связей между персонажами. Узлы: персонажи. Связь между узлами: совместное участие персонажей в некотором событии. Чем толще связь, тем в больших историях эти персонажи пересекаются. При наведении на связь выводится список историй, в которых пересекаются эти персонажи.
-
-2. Персонаж-участие-история - сеть связей персонажей и историй. Узлы: персонажи и истории. Связь между узлами: участие персонажа в истории. Размер истории пропорционален числу участников истории.
-
-3. Персонаж-активность-история - сеть связей персонажей и историй на основе данных об активности. Узлы: персонажи и истории. Связь между узлами: активность персонажа в истории (см. :ref:`concepts-character-activity`). Можно выбирать несколько требуемых активностей через ctrl.
+You can select necessary social network type. See :ref:`concepts-social-network` for details.
 
 .. figure:: images/7_socialNetwork.jpg
 
-	Вкладка Социальная сеть
+	Tab Social Network
 	
 .. _characters-filter:
 	
-Фильтр
-------
+Character filter
+----------------
 
-В новой версии НИМС страница вкладка была существенно доработана. На вкладке находятся 4 панели:
+There are 4 panels on this tab:
 
-	#. ``Группы`` - управление группами и сохранение фильтра в группу.
+	#. ``Groups`` - group management and saving filter to group.
 	
-	#. ``Отобразить поле`` - список столбцов для отображения.
+	#. ``Show profile item`` - profile item list to show.
 	
-	#. ``Фильтр`` - настройки фильтрации.
+	#. ``Filter`` - filter settings.
 	
-	#. ``Таблица данных`` (центральная часть экрана) - результаты фильтрации.
+	#. ``Data table`` (center of screen) - filtering result.
 	
 .. figure:: images/2_2_1_characterFilter.jpg
 
-	Вкладка Фильтр
+	Tab Character filter
 
-Панель ``Группы`` описана в разделе :ref:`groups-desc`, так как она относится в первую очередь к работе с группами.
+``Groups`` panel described in :ref:`groups-desc` because this is a group specific panel.
 
-На панели ``Отобразить поле`` перечислены все столбцы данных, выводящихся в результате фильтрации, кроме имени персонажа (множественный выбор через ctrl/shift). Имя персонажа всегда выводится в результате фильтрации. Данные о персонажах бывают двух типов: данные из досье и статистические данные.  
+``Show profile item`` panel enumerates all data columns in filter results. You can exclude any column from filter results except character name. There are two types of columns: profile data and statistic data. Profile data is taken from character profiles.
 
-В версии НИМС 0.4.4u3 были добавлены статистические данные в фильтр:
+There are next statistics data supported:
 
-	``Актив``, ``Спутник``, ``Защита``, ``Пассив`` - количество историй, в которых персонаж имеет указанный тип активности.
+	``Active``, ``Follower``, ``Defensive``, ``Passive`` - number of stories in which character has specific type of activity.
 	
-	``Завершённость адаптаций, %`` - процент завершённых адаптаций для данного персонажа.
+	``Adaptation completeness, %`` - percent of completed adaptations for this character.
 	
-	``Количество историй`` - количество историй, в которых принимает участие данный персонаж.
+	``Story number`` - number of character stories.
 
 .. figure:: images/2_2_2_selectedColumns.jpg
 
-	Панель ``Отобразить поле``
+	Panel ``Show profile item``
 	
-Панель ``Фильтр`` используется для построения фильтра данных. В первой строке выводится количество персонажей, удовлетворяющих построенному фильтру. С помощью кнопки ``Скачать таблицу`` вы можете скачать текущий результат фильтрации в формате CSV. Этот формат поддерживается и Excel и LibreOffice. 
-	
-Далее находится инструмент построения фильтра. Последовательность действий для фильтрации:
+``Filter`` panel is used to make filter condition. In the first string you will number of characters which passes filter condition. You can download filter result in CSV by pressing button ``Download table``. CSV is supported by Excel and LibreOffice.
 
-	Шаг 1. Отметьте галочкой те столбцы данных, по которым вы хотите фильтровать персонажей. Эти столбцы автоматически переместятся на вершину списка столбцов и у них появятся поля для ввода ограничений.
+Next is a condition builder. Condition is builded with next steps:
+
+	Step 1. Check all filter items which you want to filter. All these items will be moved up and you will see restriction controls.
 	
-	Шаг 2. Задайте необходимые ограничения для выбранных столбцов. Подробнее про типы данных столбцов можно прочитать в разделе :ref:`characters-profile-editor`. Фильтрация строк и текстов происходит по наличию искомой строки в строке или тексте. Фильтрация по полям с единственным выбором происходит по выбору из предложенного списка значений. Чтобы сделать множественный выбор зажмите ctrl и выбирайте элементы в списке. Фильтрация для значений вида ``да/нет`` аналогична фильтрации по полям с единственным выбором. Фильтрация по числовым значениям требует указания числа и вида проверки: не важно, больше, равно, меньше. 
+	Step 2. Make restrictions for filter items. See details about data types in :ref:`characters-profile-editor`. Strings and texts are filtered by substring. Single choices are filtered by selected values. Checkboxes are filtered like single choices with yes/no values. Number filter requires number and condition: ignore, greater, equal, lesser.
 	
-	Шаг 3. Если вы хотите отключить фильтр для некоторых столбцов - выключите галочку рядом с названием столбца. Этот столбце вернётся в список не фильтруемых столбцов. 
+	Step 3. If you want to disable some filter items just uncheck these filter items. Such filter items will go back to ignored items list. 
 	
-	Шаг 4. Повторная активация галочки для столбца вернёт столбец в фильтр с ранее выставленным условием.
+	Step 4. If check filter item again it will be back in filtered items list with old condition.
 	
-Все шаги проиллюстрированы на рисунке.
+All steps are drawn in picture.
 
 .. figure:: images/2_2_3_filterExample.jpg
 
-	Панель ``Фильтр``
+	Panel ``Filter``
 
-Обновление результата фильтрации происходит сразу после изменения параметров фильтра. Размер левого столбца с настройками фильтра персонажей можно регулировать с помощью таскаемого уголка внизу панели ``Фильтр``.
+Filtering result update happens immediately after filter change. You can resize filter panel with right bottom corner triangle.
 
-Панель ``Таблица данных`` выводит результаты фильтрации. Клик по заголовку таблицы выполняет сортировку по соответствующему полю + иконка. 
+``Data table`` panel shows filtering result. You can sort result by any column with clicking on column header.
 
 .. figure:: images/2_2_4_filterResult.jpg
 
-	Панель ``Таблица данных``
+	Panel ``Data table``
 	
 .. _groups-desc:
   
-Группы
+Groups
 ------
 
-Во многих ролевых сервисах есть поддержка групп персонажей. Обычно они реализованы следующим образом: создаётся группа и каждый персонаж по очереди вносится в группу. Мы пошли другим путем – зачем что-то вносить вручную, если у нас есть досье персонажа? Мы формируем фильтр по досье, который определяет состав группы. Так что теперь, если у персонажа в досье проставлена галочка «тамплиер», то он автоматически попадет в группу «тамплиеры».
+Many LARP games services have support of character groups. In most cases you need to create group and then manually add all necessary characters to this group. We choose other way. Why we need to do anything manually if we have character profile? We make filter by profile and save this filter as group condition. So now if you set checkbox Templar in character profile this character will be in Templar's group automatically.
 
-Теперь в деталях. Информация о группе состоит из двух частей: фильтр группы и досье группы. 
+More group details. Group consists of two part: group filter and group profile.
 
-Фильтр группы
-^^^^^^^^^^^^^
+Group filter
+^^^^^^^^^^^^
 
-Фильтр группы определяет какие персонажи попадут в группу. Фильтр группы это сохранённый фильтр персонажей.
+Group filter is a condition for characters. Only those characters will be in group which satisfy condition. Group filter is a saved character filter.
 
-На картинке представлена панель ``Группы`` с вкладки ``Фильтр``. В правой части стандартный набор действий создание/переименование/удаление группы. При создании фильтр группы пуст, что значит, что ничего не фильтруется и все персонажи попадают в новосозданную группу. В левой части действия для фильтра группы. Выберите группу из выпадающего списка. При нажатии на кнопку ``Показать фильтр группы`` текущие настройки фильтрации будут заменены настройками из выбранной группы. При нажатии на кнопку ``Сохранить фильтр в группу`` текущие настройки фильтрации будут сохранены в фильтр выбранной группы.
+You can see ``Group`` panel from ``Character filter`` tab. On the right side there are standard group management actions: create/rename/remove. Group filter is empty on group creation. This means that there are no filter at all and all characters satisfy filter condition. On the left side you can select one of existing group and make two actions. By pressing ``Show group filter`` you will get group filter and show it as character filter. By pressing ``Save filter to group`` you will save current character filter as group member condition.
 
-Если вы создаете нового персонажа и проставляете ему параметры досье, подходящие под этот фильтр, он автоматически войдет в группу. Если вы измените параметры досье уже имеющегося персонажа, так что они станут/перестанут соответствовать фильтру, то он так же автоматически войдет в/выйдет из группы.
+If you create new character and his profile satisfies some group he will be included in this group automatically. If you change his profile so he doesn't satisfy group condition he will be automatically excluded from group.
 
 .. figure:: images/2_2_1_characterFilter.jpg
 
-	Вкладка Фильтра с панелью Группы
+	Tab Character Filter with group panel
 
-Досье группы
-^^^^^^^^^^^^
+Group profile
+^^^^^^^^^^^^^
 
-На подвкладке **Досье группы** представлена информация о досье групп. Принцип работы с досье групп такой же как и с досье персонажей: слева выбираем группу для редактирования, по центру заполняем данные. В отличие от персонажей досье групп фиксировано и состоит из следующих частей: 
+This subtab contains information about group profile. Group profile works the same way character profile. You select group in the left list and group profile in the screen center. Group profile data is fixed and consist of:
 
-	``Фильтр`` - отображает структуру текущего фильтра группы.
+	``Filter`` - shows filter condition of this group.
 	
-	``Состав группы`` - список персонажей, участвующих в группе.
+	``Character list`` - shows group members list.
 	
-	``Мастерское описание`` - заметки о группе, доступные только мастерам.
+	``Master description`` - master notes about group.
 	
-	``Печатать во вводных`` - переключатель, нужно ли выводить текст группы во вводные персонажам.
+	``Print in handouts`` - switch if it is necessary to print this group in handout. You may have inner non printable groups of characters.
 	
-	``Текст для персонажа`` - информация о группе, которая попадёт персонажу во вводную.
+	``Text for character`` - group text for handout.
 
 .. figure:: images/10_1_groupProfile.jpg
 
-	Подвкладка Досье группы
+	Subtab Group profile
 	
-Иерархия
-^^^^^^^^
+Hierarchy
+^^^^^^^^^
 
-Группы могут соотноситься между собой. В группах могут быть подгруппы. Этот факт можно проиллюстрировать схемой, представленной на данной вкладке. Иерархия групп строится автоматически на основе анализа фильтров групп. Например, группа "3ий курс Гриффиндора" это подгруппа "Гриффиндора" и подгруппа "3го курса", которые в свою очередь являются подгруппами "Хогвартса". В иерархии групп они бы сформировали ромб.
+Groups may be subgroups and supergroups to each other. These relation are shown on this schema. Group hierarchy is built automatically. For example: "Griffindor 3rd year course" is a subgroup of "Griffindor" and a subgroup of "3rd year course". And "Hogwarts" group is a super group for "Griffindor" and "3rd year course". 
 
 .. figure:: images/10_2_groupHeirarchy.jpg
 
-	Подвкладка Иерархия
+	Subtab Hierarchy
 	
 .. _investigation-board:
 	
-Карта сюжета
-^^^^^^^^^^^^
+Story map
+^^^^^^^^^
 
-Карта сюжета это инструмент для отображения конфликтов и интересов групп в виде схемы. **Карту сюжета вы формируете в ручную. Этот процесс не автоматизируем.** Концепция карты сюжета изложена в разделе :ref:`concepts-investigation-board`. Процесс работы с картой сюжета:
+Story map is a tool for drawing conflicts and interests of active game groups. **You build story map manually. This process can't be automated.** See story map concept in :ref:`concepts-investigation-board`. Story map workflow:
 
-	1. Создаёте группы. Можно пустые.
+	1. Create group. Groups may be empty.
 	
-	2. Добавляете группы на карту сюжета.
+	2. Add groups to story map.
 	
-	3. Добавляете ресурсы на карту сюжета.
+	3. Add resource to story map.
 	
-	4. Прописываете отношения между группами и позиции групп по отношению к ресурсам.
+	4. Add relations between groups and resources.
 	
-К группе можно записать заметки, с перечислением сильных/слабых сторон или что ещё вам покажется важным.
+You can add notes to group with strengths/weaknesses or anything significant.
 
 .. figure:: images/10_3_storyMap.jpg
 
-	Подвкладка Карта сюжета
+	Subtab Story map
   
 .. _administrative-tools:
   
-Администрирование
------------------
+Administrative tools
+--------------------
 
-На этой вкладке выполняются действия по управлению работой нескольких мастеров. Описание теории процесса смотрите в разделе :ref:`concepts-server-mode`. На панели ``Управление пользователями`` вы можете создавать/удалять пользователей и менять им пароли. На панели ``Специальные действия`` вы можете передать права администратора, назначить/удалить редактора и переключим режим прав на адаптации. На панели ``Права на редактирование`` слева вы видите полный список что кому принадлежит. По центру показываются ваши объекты и список пользователей. Чтобы передать свои объекты, выберите нужные, выберите пользователя и нажмите кнопку ``Назначить права``. Ваши объекты перейдут другому пользователю. Администратор может передавать любые объекты и в том числе не свои личные.
+You make multi user management on this tab. See details in :ref:`concepts-server-mode`. ``Users management`` is used for create/change password/remove user actions. On ``Special actions`` panel you can pass administrator role to other user, assign/retire editor and switch adaptation right inheritance mode. On ``Editing rights`` panel you can see all entities and their owners. There is full entities list on the left side. In center there are available entities list and user list. If you select some entities and user and press button ``Assign rights`` you will assign right for these entities to user. Administrator can assign any entities to any user.
 
 .. figure:: images/8_adminTools.jpg
 
-	Вкладка Администрирование
+	Tab Administrative tools
 	
 .. _logs:
   
-Логи
+Logs
 ----
-  
-НИМС включает в себя несколько защитных механизмов и один из них это логи. В логах мы можем посмотреть историю последних действий пользователей. Текущее ограничение - последняя 1000 операций. Возможно, мы изменим эту цифру в будущем. Логируются следующие виды деятельности: сохранение/загрузка базы, обновление метаинформации кроме описания игры, управление персонажами/досье/историями, изменения в историях - управление событиями, изменение вида активности и инвентаря, отметки о готовности адаптаций и выгрузка вводных. В серверном режиме к этому списку добавляется всё, что касается администрирования: управление пользователями, передача/назначение прав, изменение настроек. Основной принцип - мы не отслеживаем изменения текстов, но отслеживаем изменения в структуре базы.
 
-Запись о событии содержит следующие поля:
+There are several defensive tools in NIMS and one of them is Logs. In logs you can story of the last user actions. Currently it is the last thousand of operations. This number may changes in future. Logged actions list: save/load base, game meta info updates (excluding description), entities management, profile management, events management, inventory and activity changes, completness marks and export. In multi user mode there are added actions for user management, assigning/take away entity rights, settings change. The basic principle - we don't log text changes but we log base structure changes.
 
-	1. ``№`` - номер события в списке событий.
-	2. ``Дата`` - время совершения события. На сервере будет использовано время сервера.
-	3. ``Пользователь`` - пользователь от имени которого совершено событие. Может отсутствовать. Например, при автоматическом сохранении базы на сервере в логе указывается факт сохранения без пользователя.
-	4. ``Действия`` - тип действия.
-	5. ``Параметры`` - переданные параметры. С их помощью можно воспроизвести последовательность действий пользователя.
+Log entry consist of next fields:
+
+	1. ``№`` - entry number in log list.
+	2. ``Date`` - action time. In server there will be server time.
+	3. ``User`` - user which make action. User can be absent. For example base autosave action has no user.
+	4. ``Action`` - action type.
+	5. ``Parameters`` - action arguments. Action can be reproduced with arguments so it is possible to see user actions sequence.
 	
 .. figure:: images/9_1_log.jpg
 
-	Вкладка Логи
+	Tab Logs
   

@@ -1,111 +1,111 @@
 ﻿.. _breifings-templates:
 
-Экспорт вводных
+Handouts export
 ===============
 
-Организация процесса
+Process organization
 --------------------
 
-Рано или поздно все необходимые данные будут внесены в НИМС и будет нужно преобразовать набранные тексты во вводные. Для этой цели используется подсистема выгрузки данных. В текущий момент поддерживаются два формата выгрузки: текстовые файлы и docx файлы. Чтобы произвести выгрузку, НИМСу требуются указать список персонажей для выгрузки и шаблон, по которому будет осуществляться выгрузка. Выбрать персонажей можно тремя способами:  указать диапазон персонажей, выбрать всех и выбрать точечно нескольких персонажей. Думаю это не вызовет трудностей. Далее речь пойдет о работе с шаблонами.
+Soon or later you will add all LARG game info into NIMS so you will need to export info in handouts. There is an export subsystem to solve this problem. There are two possible export formats now: docx files and text files. You need to specify characters list and template to export handouts. You can select characters in three ways: all characters, characters range and manually selected characters. I think it is not difficult. Lets proceed with templates.
 
-**Шаблон** это инструкция для НИМСа, как преобразовать вспомогательное представление базы в конечный текст/docx файл. **Вспомогательное представление базы** это представление базы, содержащее данные для экспорта. Например, при работе над вводными инвентарь отслеживается для каждой истории отдельно, но в выгрузке указываться один список предметов для каждого персонажа. Часть досье может не выгружаться во вводные. Для пустых адаптаций подставляется текст оригинала события и так далее. Некоторые ограничения накладывает сам процесс использования шаблонов. В итоге вспомогательное представление сильно отличается от внутреннего.
+**Template** is a NIMS instruction how to transform temporary data view to text/docx handout. **Temporary data view** is a data collection with export data. For example, when you work with NIMS you see characters inventory in separated lists but in handout inventory is a plain item list for each character. Character profile may be exported partially. Empty apadtations texts are replaced with origin event text and etc. Some restrictions are added by template engine. By these reasons temporary data view has many differences with base structure as is. 
 
-Структура вспомогательного представления определяет какие данные и каким образом мы можем выгрузить с помощью шаблона. Ниже приведена полная схема данных для выгрузки:
+Temporary data view structure specifies which information may be exported and how it is possible. This is a full schema of Temporary data view:
 
-- ``gameName``, строка - название игры.
+- ``gameName``, string - game name.
 
-- ``briefings``, массив данных - данные по каждому выбранному персонажу.
+- ``briefings``, data array - data for each selected character.
 
-	- ``gameName``, строка - название игры, чтобы мы при желании могли добавить его в каждую вводную.
+	- ``gameName``, string - game name. It can be added to each handout header for example.
 	
-	- ``charName``, строка - имя персонажа.
+	- ``charName``, string - character name.
 	
-	- ``inventory``, строка - инвентарь персонажа.
+	- ``inventory``, string - character inventory.
 	
-	- ``profileInfo-"название поля досье"``, строка или текст - данные поля досье персонажа.
+	- ``profileInfo-"profile item name"``, string or text - character profile item.
 	
-	- ``profileInfo-splitted-"название поля досье"``, строка или текст - данные поля досье персонажа, разбитые по строкам.
+	- ``profileInfo-splitted-"profile item name"``, string or text - character profile item splitted by strings.
 	
-		- ``string``, строка.
+		- ``string``, string.
 	
-	- ``profileInfoArray``, массив данных - массив полей персонажа.
+	- ``profileInfoArray``, data array - profile info array.
 	
-		- ``itemName``, строка - название поля досье.
+		- ``itemName``, string - profile item name.
 		
-		- ``value``, строка или текст - данные поля досье персонажа.
+		- ``value``, string or text - profile item text.
 		
-		- ``splittedText``, массив строк - данные поля досье персонажа, разбитые построчно. 
+		- ``splittedText``, string array - profile item splitted by strings. 
 		
-			- ``string``, строка.
+			- ``string``, string.
 			
-	- ``groupTexts``, массив данных - массив текстов групп.
+	- ``groupTexts``, data array - groups data.
 	
-		- ``groupName``, строка - название группы.
+		- ``groupName``, string - group name.
 		
-		- ``text``, текст - текст группы.
+		- ``text``, text - group text.
 		
-	- ``relations``, массив данных - отношения персонажа.
+	- ``relations``, data array - character relations.
 	
-		- ``toCharacter``, строка - имя персонажа к которому описано отношение.
+		- ``toCharacter``, string - counter character name.
 		
-		- ``text``, текст - текстовое описание отношения.
+		- ``text``, text - relation text.
 		
-		- ``splittedText``, текст - построчно разбитый текст отношения.
+		- ``splittedText``, text - relation text splitted by string.
 		
-		- ``stories``, строка - список историй, в которых персонажи пересекались.
+		- ``stories``, string - story list in which characters meets.
 		
-		- ``profile``, объект - досье персонажа, к которому прописано отношение. Данные досье извлекаются с помощью названия поля досье.
+		- ``profile``, object - counter character profile. Data is extracted by profile item name.
 			
-	- ``eventsInfo``, массив данных - массив событий персонажа, отсортированный по хронологии.
+	- ``eventsInfo``, data array - character events array sorted by timeline.
 	
-		- ``eventName``, строка - название события.
+		- ``eventName``, string - event name.
 		
-		- ``storyName``, строка - название истории.
+		- ``storyName``, string - event story name.
 		
-		- ``time``, строка - время события.
+		- ``time``, string - event time.
 		
-		- ``displayTime``, строка - субъективное время события.
+		- ``displayTime``, string - event subjective time.
 		
-		- ``text``, текст - текст события.
+		- ``text``, text - event text.
 		
-		- ``splittedText``, массив строк - текст события, разбитый построчно. 
+		- ``splittedText``, string array - event text splitted by strings. 
 		
-			- ``string``, строка.
+			- ``string``, string.
 			
-	- ``storiesInfo``, массив данных - массив историй персонажа, отсортированный по алфавиту.
+	- ``storiesInfo``, data array - character stories array sorted alphabetically.
 	
-		- ``storyName``, строка - название истории.
+		- ``storyName``, string - story name.
 		
-		- ``eventsInfo``, массив данных - массив событий персонажа. События имеют ту же структуру, что и в 	массиве eventsInfo.
+		- ``eventsInfo``, data array - character events array. Events have the same structure like in eventsInfo.
 
 
-Шаблон описывает какие данные и в каком порядке мы хотим разместить в сформированной вводной. Данные бывают двух типов - массив и не массив. Не массивы это строки и тексты, они вставляются как есть. Массивы используются для перечисления объектов, содержащих фактические данные - строки и тексты. Особый случай это построчные разбиения текстов, но об этом я расскажу позже.
+Template describes which data and in which sequence we want to print in handout. There two main data types: array and non-array. Non-array is a string or text and they printed as is. Arrays are objects lists for real data - strings and texts. Special case are texts splitted by strings but I will talk about them later.
 
-Примеры создания шаблонов
--------------------------
+Template creation examples
+--------------------------
 
-Рассмотрим создание шаблонов на нескольких примерах. Далее приводятся шаблоны для работы с текстами. Эти шаблоны можно проверять на вкладке ``Вводные->Экспорт->Продвинутая текстовая выгрузка``. При вставке в ворд вместо двойных и тройных фигурных скобок необходимо использовать одинарные. Для начала создадим шаблон для получения списка инвентаря. Данные которые нам понадобятся - имя персонажа и его инвентарь, полученные из массива всех вводных. Минимальный шаблон, получающий эти данные выглядит так::
+Lets consider template creation in examples. All examples are made for text template engine. You can easily check them in practice on ``Hangouts->Export->Advanced text export`` tab. You need to use single brackets in word templates instead double and triple brackets in Mustache. Lets begin with inventory list. We need character name and his inventory to do it. Minimal template which receives this data is::
 
 	{{#briefings}}
 	{{charName}}
 	{{inventory}}
 	{{/briefings}}
 
-Теперь нам нужно красиво это напечатать. Например, давайте напечатаем список инвентаря в текстовом формате:: 
+Now we need to add some formatting. Lets make a text format:: 
 
 	{{#briefings}}{{charName}}: {{inventory}}
 	{{/briefings}}
 
-Обратите внимание, если {{/briefings}} так же поставить в первую строчку, то все значения склеятся. Перевод строки является частью шаблона, поэтому он должен здесь быть.
+Pay attention if {{/briefings}} will be in the same string all output will be in one string. String break is a part of template so we need to save it.
 
-Если мы хотим добавить личное снаряжение персонажа из досье, то мы можем сделать например такой шаблон::
+If we want to add character outfit from profile we may use next template::
 
-	{{#briefings}}{{charName}}: {{profileInfo-Снаряжение}}; {{inventory}}
+	{{#briefings}}{{charName}}: {{profileInfo-Outfit}}; {{inventory}}
 	{{/briefings}}
 
-Здесь личное снаряжения отделено от инвентаря историй точкой с запятой.
+You can see that inventory is separated from outfit with semicolon.
 
-Чтобы вывести только досье персонажа необходим минимальный шаблон::
+Minimal template to print character profile::
 
 	{{#briefings}}
 	{{charName}}
@@ -117,18 +117,18 @@
 
 	{{/briefings}}
 
-Можно выводить досье, указывая каждый элемент отдельно::
+You can print specific profile items::
 
 	{{#briefings}}
 	{{charName}}
 
-	{{profileInfo-Игрок}}
-	{{profileInfo-Раса}}
-	{{profileInfo-Пол}}
+	{{profileInfo-Player}}
+	{{profileInfo-Race}}
+	{{profileInfo-Civility}}
 
 	{{/briefings}}
 
-Минимальный шаблон вывода событий по хронологии::
+Minimal template for printing events sorted by time::
 
 	{{#briefings}}
 	{{charName}}
@@ -140,7 +140,7 @@
 
 	{{/briefings}}
 
-Минимальный шаблон вывода событий по историям::
+Minimal template for printing events grouped by story::
 
 	{{#briefings}}
 	{{charName}}
@@ -157,40 +157,39 @@
 
 	{{/briefings}}
 
-Соответственно все это можно комбинировать и менять местами. Например, элементы досье можно перечислять в любом порядке, а события можно вывести перед досье.
+All these options can be combined and printed in any order. For example you can print profile in any order and you can print events before profile.
 
+Details
+-------
 
-Тонкости
---------
+Template engines have some special aspects and it is necessary to know about it from the beginning. Lets start with multistring texts.
 
-Шаблонизаторы имеют свои особенности и о некоторых из них необходимо сразу упомянуть. Начнем с работы с многострочными текстами.
+Let we have adaptation text::
 
-Пусть у вас есть адаптация с текстом::
+	One, two, three, four, five,
+	I caught a fish alive. 
 
-	Раз, два, три, четыре, пять,
-	Вышел зайчик погулять.
+There are two string in this text. If we use docx template{text} we will receive::
 
-В этом фрагменте текста две строчки. Если вывести этот текст в ворд с помощью {text}, то получим::
+	One, two, three, four, five, I caught a fish alive.
 
-	Раз, два, три, четыре, пять, Вышел зайчик погулять.
-
-При вставке в ворд имеющиеся переводы строк игнорируются, поэтому текст из нескольких абзацев слипается в один. Чтобы избавится от этого эффекта необходимо обрабатывать каждый абзац исходного текста отдельно. Для этого в шаблоне используется конструкция вида (ворд шаблон)::
+In docx export string breaks are ignored so all paragraphs will be joined in one paragraph. To avoid this effect we need to print each paragraph separately. We need to use template (docx template)::
 
 	{#splittedText}{string}
 	{/splittedText} 
 
-В этом случае исходный текст автоматически разбивается в НИМС на строки по символу перевода строки и каждая строка вставляется отдельно в ворд. 
+In this case text is splitted automatically by paragraphs.
 
-Это разбиение может пригодиться не только для работы с вордом. Например, при экспорте в html переводы строк так же игнорируются. Чтобы явно указать разбиение на абзацы используется конструкция вида (текстовый шаблон)::
+It may be useful not only in docx export. For example in html export paragraphs are ignored too. We need to use such template in this case (Mustache template)::
 
 	{{#splittedText}}<p>{{string}}</p>
 	{{/splittedText}}
 
-Разбиение на строки реализовано не только для текстов событий, но и для досье. Например, биографию по абзацам можно вывести так (ворд шаблон)::
+Also you can split profile texts by string (docx template)::
 
-	{#profileInfo-splitted-Биография}{string}
-	{/profileInfo-splitted-Биография} 
+	{#profileInfo-splitted-Biography}{string}
+	{/profileInfo-splitted-Biography} 
 
-Ещё одна тонкость для работы с текстовыми шаблонами заключается в том, что некоторые символы по умолчанию кодируются. Простой пример - вывод времени события. Если выводить время шаблоном ``{{time}}``, то на выходе получим ``3018&#x2F;09&#x2F;30 20:00``. Чтобы этого не происходило, необходимо указать тройные фигурные скобки. Для шаблона ``{{{time}}}`` получим ``3018/09/30 20:00``. Так что если у вас в текст попадают странные символы, попробуйте заменить двойные скобки на тройные.
+One more special aspect with Mustache engine is default special characters encoding. Simple example - print event time. If you use template ``{{time}}`` you will see ``3018&#x2F;09&#x2F;30 20:00``. To avoid it use triple brackets. With template ``{{{time}}}`` you will see ``3018/09/30 20:00``. So if you get strange symbols in text try to replace double brackets with triple.
 
 
