@@ -204,173 +204,172 @@ There is character filter list on the left side. You can select only necessary c
 	
 .. _events-desc:
 
-Адаптации
----------
+Adaptations
+-----------
 
-У каждого персонажа может быть свое видение происходящих событий, поэтому для событий необходимо сделать адаптацию как это событие выглядело с точки зрения того или иного персонажа.
+Each character may have own vision of his events. You need to describe event from character point of view for each character (if it is necessary).
 
-Слева сверху расположен селектор истории (единственный выбор). Слева снизу расположен переключатель фильтра - по персонажам и по событиям (множественный выбор через ctrl/shift). По центру отображаются таблица из двух столбцов. В левом столбце выводится оригинальное описание события, которое можно редактировать. В правом столбце выводятся текстовые поля с описанием события для каждого выбранного персонажа - текст адаптации. Таким образом в один момент времени можно работать, как с адаптацией одного персонажа, так и с несколькими персонажами одновременно. Под текстом адаптации выводится галочка - отметка о завершении работы над адаптацией. Сверху расположена галочка-фильтр завершенных историй. История считается завершенной, если проставлены галочки о завершении всех адаптаций. 
+Upper left corner - story selector (single select). Lower left corner - adaptations filter. You can see adaptations by characters or by events (multiselect with ctrl/shift). Page center - two columns table. Left column - original event description. Right column - adaptation texts. You can select several characters or several events and work with several adaptations simultaneously. There is a checkbox under adaptation text with label ``Text finished``. Check it when adaptation will be finished. Completness statistic is based on these checkboxes. Story is finished if all adaptations are finished.
 
-Оригинал события состоит из названия события, времени события и текста. Адаптация события состоит из имени персонажа, субъективного времени и текста адаптации. Пример субъективного времени: "лет двадцать назад", "третьего дня, с утра" и т.д. Если текст адаптации пуст, то во вводную пойдет текст оригинала. По аналогии если субъективное время не указано, то во вводную пойдёт время события как есть, с точностью до минуты.
+Original event consists of event name, event text and event time. Adaptation consists of character name, subjective time and subjective text. For example, subjective time is "20 years ago", "three days ago", "last summer". Character can't remember exact time but he can remember it rudely. If subjective text is empty then character will get original event text in handout. If subjective time is empty then character will get original event time in handout.
 
-Размер левого столбца с селектором истории и фильтрами событий/персонажей можно регулировать с помощью таскаемого уголка (см. скриншот). Вообще, так можно изменять любое окно, имеющее треугольничек в правом нижнем углу.
+Left panel size may be changed with panel resize corner (in bottom right corner). Any element with such corner can be resized.
 
 .. figure:: images/4_events.jpg
 
-	Вкладка События
+	Tab Adaptations
 	
 .. _breifings-desc:
 
-Вводные
--------
+Handouts
+--------
 
-На вкладке **Вводные** происходит финальная подготовка вводных к экспорту и сам экспорт. На подвкладке **Предварительный просмотр** выполняется вычитка вводных. На подвкладке **Экспорт** соответственно экспорт. 
+**Handouts** tab is used for proofreading and handout export. **Preview** subtab is used for proofreading. **Export** subtab is used for export.
 	
 .. _breifings-preview:
 
-Вводные. Предварительный просмотр
----------------------------------
+Handouts. Preview
+-----------------
 
-Прежде чем экспортировать вводные, можно посмотреть какая информация будет выведена, используя вкладку предварительного просмотра. В заголовке панели находится селектор персонажа, для которого мы хотим посмотреть вводную. При просмотре вводной доступны следующие опции:
+You can use **Preview** subtab to look at handouts before export. Subtab header contains character selector for preview. There are some available options:
 
-	``Режим адаптации`` и ``Режим вычитки`` - в более ранних версиях НИМС был реализован только режим вычитки, отображавший только тот текст, который пойдёт во вводные. Понаблюдав за пользователями мы пришли к выводу, что в режиме предварительного просмотра иногда необходимо показывать не только выводимый текст события, а оба варианта - и адаптацию и оригинал и оставить возможность для их редактирования. Разница для различных режимов в частных случаях описана ниже.
-
-	``Группировать события по историям`` и ``Сортировать события по хронологии`` - выбор способа представления событий.
+	``Adaptation mode`` and ``Proofreading mode`` - earlier ther was only proofreading mode in NIMS. In this mode we see only player visible text. In practice it may be useful to see both event adaptations and event originals simultaneously and edit them together. Difference of these modes described below.
 	
-	``Свернуть все панели`` - в предварительном просмотре вводные персонажа разбиты на панели: инвентарь, досье, группы, отношение к другим персонажам, и в зависимости от способа отображения событий будут показаны панели для историй или группы событий по пять штук. В зависимости от этой галочки все панели будут изначально свёрнуты или развёрнуты.
+	``Group events by story`` and ``Sort events by timeline`` - two possible ways of events export.
 	
-	``Отключить заголовки`` - возможность отключения заголовков в предварительном просмотре. Так как заголовки могут содержать излишнюю информацию, может возникнуть необходимость не выводить их во вводных и вычитка вводных может производиться с учётом этого.
+	``Hide all panels`` - there are five kinds of panels in handout preview: profile, inventory, groups, relations and events. It may be very annoying to scroll through them. Using this checkbox you can collapse or expand them all.
+	
+	``Disable headers`` - story names and event names may contain spoilers for players. By this reason there are no story and event headers in default templates. Using this checkbox you will see how handout looks without meaningful names. It may be useful in proofreading process.
 	
 .. figure:: images/5_1_1_briefingPreview.jpg
 
-	Вкладка Предварительный просмотр, все панели свёрнуты
+	Subtab Preview, all panels collapsed
 	
-Панель Досье
-^^^^^^^^^^^^
+Profile Panel
+^^^^^^^^^^^^^
 
-На этой панели выводятся все поля досье персонажа, которые отмечены как выгружаемые в **Конструкторе досье**. Досье доступно только для просмотра. Режимы адаптации и вычитки не влияют на отображение этой панели.
+You can see character's profile on this panel. All printed profile items are marked as ``Do export`` items in **Profile constructor**. Profile is read only. There are no difference for this panel in adaptation and proofreading mode.
 
 .. figure:: images/5_1_2_profile.jpg
 
-	Вкладка Предварительный просмотр, досье персонажа
+	Subtab Preview, Profile Panel
 
-Панель Инвентарь
-^^^^^^^^^^^^^^^^
+Inventory Panel
+^^^^^^^^^^^^^^^
 
-На этой панели выводится весь инвентарь персонажа. Число в заголовке панели показывает количество не пустых инвентарей персонажа. Инвентари доступны для редактирования. Режимы адаптации и вычитки не влияют на отображение этой панели. 
+You can see character's inventories on this panel. Number in panel header is a number of non empty inventories of this character. Inventories are editable. There are no difference for this panel in adaptation and proofreading mode.
 
 .. figure:: images/5_1_3_inventory.jpg
 
-	Вкладка Предварительный просмотр, инвентарь персонажа
+	Subtab Preview, Inventory Panel
 
-Панель Группы
-^^^^^^^^^^^^^
+Groups Panel
+^^^^^^^^^^^^
 
-На этой панели выводятся все тексты для персонажей из групп, в которых состоит персонаж. Число в заголовке панели показывает количество групп персонажа. Тексты групп доступны только для просмотра. Режимы адаптации и вычитки не влияют на отображение этой панели. 
+You can see character's group texts in this panel. Number in panel header is a number of character groups. Group texts are read only. There are no difference for this panel in adaptation and proofreading mode.
 
 .. figure:: images/5_1_4_groups.jpg
 
-	Вкладка Предварительный просмотр, группы
+	Subtab Preview, Groups
 
-Панель Отношение к другим персонажам
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Relations Panel
+^^^^^^^^^^^^^^^
 
-На этой панели заполняется описание отношений между персонажами. Число в заголовке панели означает количество не пустых отношений к другим персонажам. Все персонажи делятся на две группы относительно вычитываемого персонажа: те, с кем он был в одном событии и те, с кем не был. Иными словами всех кто в первой группе персонаж может знать в лицо, а всех остальных не знать. У персонажа может быть отношение к любому другому персонажу. Причём отношения могут быть ассиметричны. Например, все знают и боятся босса мафии, а он знает только своих и ему этого достаточно. 
+You can fill character's relation to other characters on this panel. Number in panel header is a number of non empty relations of this character. All game characters are splitted into two groups: characters which meet selected character in events and other characters. In other words characters from the first group may have face-to-face meetings. Characters from second group may never meet selected character. Any character may have relation to any other. Also relations may be asymmetric. For example, everyone knows mafia's boss but mafia's boss knows only his mobsters and nobody else.
 
-Часто нужно иметь перед глазами какую-то минимальную информацию о человеке, к которому прописывается отношение. Для этого была добавлена возможность выбора поля досье. Соответствующее поле досье будет отображаться в колонке ``Дополнительно``.
+During relation writing it may be important to see some counter character profile info. You can select which profile item you want to see in table. This value will be shown in ``Extra information`` column.
 
-В зависимости от режима редактирования таблица отношений имеет следующие колонки:
+Relations panel depends on preview page mode and have different columns in relations table:
 
-	``Имя персонажа`` - имя персонажа к которому мы прописываем отношение.
+	``Character name`` - counter character name.
 	
-	``Отношение`` - описание отношения.
+	``Relation`` - relation text.
 	
-	``Обратное отношение`` - описание обратного отношения. Эта колонка есть в режиме адаптаций и отсутствует в режиме вычитки.
+	``Reverse relation`` - counter character relation text. This column exists in adaptation mode and hidden in proofreading mode.
 	
-	``Дополнительно`` - дополнительная информация о персонаже, к которому мы прописываем отношение. Здесь выводится список историй в которых персонажи встречались и избранное поле досье персонажа, к которому мы прописываем отношение.
+	``Extra information`` - counter character extra information. There are list of stories where characters and counter character meet in events and selected counter character profile item.
 
-Если текст отношения оставить пустым, то считается, что отношения нет. 
+If relation text is empty it means that there are no relation.
 
 .. figure:: images/5_1_5_relations_amode.jpg
 
-	Вкладка Предварительный просмотр, отношение в режиме адаптаций
+	Subtab Preview, Relations in adaptation mode
 	
 .. figure:: images/5_1_6_relations_pmode.jpg
 
-	Вкладка Предварительный просмотр, отношение в режиме вычитки
+	Subtab Preview, Relations in proofreading mode
 	
-Панель Событий
-^^^^^^^^^^^^^^
+Events Panels
+^^^^^^^^^^^^^
 
-На этой панели заполняются тексты событий и субъективное время. Не редактируемые поля: название события, время наступления события. Редактируемые поля: текст оригинала события (после разблокировки), текст адаптации события и субъективное время события. Для разблокировки редактирования оригинала нажмите кнопку ``Разблокировать редактирование оригинала события``. Ранее панель событий работала только в режиме вычитки - показывался только тот текст, который будет выводиться во вводную. В режиме адаптации можно редактировать оба текстовых поля и оригинала и адаптации. Поле текста адаптации в этом случае показывается безусловно, даже если адаптация пуста.
+You can modify event texts, adaptation texts and subjective time on this panel. Read only fields: event name, event time. Editable fields: event origin text (need unlock to edit), adaptation text and subjective time. Press button ``Unlock origin editing`` to edit origin text. In adaptation mode this panels show both origin and adaptation texts even if adaptation texts are empty. In proofreading mode this panel shows only significant text - adaptation text if it is not empty or origin text otherwise.
 
-Поле ``Субъективное время`` показывает время события, которое получит персонаж во вводной. Если поле пусто, он увидит время как есть.
+``Subjective time`` field shows event time which character can remember. If field is empty character will see time as is.
 
 .. figure:: images/5_1_7_events_amode.jpg
 
-	Вкладка Предварительный просмотр, события в режиме адаптаций
+	Subtab Preview, Events in adaptation mode
 	
 .. figure:: images/5_1_8_events_pmode.jpg
 
-	Вкладка Предварительный просмотр, события в режиме вычитки
+	Subtab Preview, Events in proofreading mode
 
 .. _breifings-export:
 	
-Вводные. Экспорт
+Handouts. Export
 ----------------
 
-На вкладке экспорта доступны следующие опции. Вводные можно выводить одним файлом, либо каждую в отдельный файл. Во втором случае вводные будут выгружены в zip архиве. Можно выводить как все вводные, так и только некоторые. Возможна выгрузка поштучно, интервалами по 5, 10 и 20 вводных или случайный выбор (самый гибкий, но и самый трудоёмкий вариант).
+There are next generic options on **Export** tab. You can print handouts to one file or to separate files. In second case you will receive zip archive with generated handouts. You can export all handouts, range handouts or selected handouts (most flexible but most time-consuming option).
 
-В разделе Простая выгрузка перечислены несколько встроенных шаблонов: ``выгрузка в docx с событиями по хронологии``, ``выгрузка в docx с событиями по историям``, ``выгрузка таблицы с инвентарем`` и ``выгрузка в текстовый файл``.
+On ``Simple export`` subtab you can see buttons with embedded templates: ``Make handouts, sort events by timeline (docx)``, ``Make handouts, group events by story (docx)``, ``Make text handouts``, ``Make inventory list (docx)``.
 
 .. figure:: images/5_2_1_standardExport.jpg
 
-	Вкладка Вводные. Экспорт-Простая выгрузка
-	
-По готовности выгруженного файла будет выведен дополнительный запрос на сохранение (см. рис.). Ранее возникала ошибка при сохранении файла. После добавления этого диалога проблема исчезла.
+	Handouts tab. Export-Simple export
+
+When export will be ended you will see a save request (see. pic.). There were bug here. Adding this dialog partially solves of not saving handout problem.
 
 .. figure:: images/5_2_4_extraConfirm.jpg
 
-	Вкладка Вводные. Экспорт-дополнительный запрос выгрузки
-	
-В разделе продвинутой выгрузки необходимо загрузить свой собственный шаблон docx. Шаблон может включать в себя как все данные, так и только часть из них. Примеры шаблонов распространяются вместе с НИМС. Язык шаблона очень похож на язык текстовой выгрузки Mustache. Текстовые выгрузки доступны прямо в странице, поэтому учиться работе с шаблонами рекомендуется на них (следующий раздел).
+	Handouts tab. Export-extra dialog question
+
+On ``Advanced export docx`` subtab you need to upload your own docx template to generate handouts. Template may use all export data or only part. You can find template examples in NIMS archive. Template language is very close to Mustache language which is used in text export. See details in :ref:`breifings-templates`.
   
 .. figure:: images/5_2_2_customDocx.jpg
 
-	Вкладка Вводные. Экспорт-Продвинутая выгрузка docx
+	Handouts tab. Export-Advanced export docx
 	
-Работа с шаблонами подробно описана в разделе :ref:`breifings-templates`. На странице текстовой выгрузки слева находится поле с шаблоном, справа выводится текст с результатами применения этого шаблона. Шаблон по умолчанию включает все доступные для выгрузки данные о персонажах. Поля для вставки отмечаются с помощью двойных фигурных скобок {{...}}. Некоторые специальные символы при вставке экранируются и превращаются в белиберду. Это нормально) Чтобы этого избежать используйте тройные фигурные скобки {{{...}}}. В частности запрещенным символом является слэш при указании времени. Попробуйте заменить {{{time}}} на {{time}}, чтобы посмотреть как изменится выдача. Кнопка ``Предварительный просмотр`` сгенерирует текст в правом поле. Выгрузка текстовых файлов осуществляется с помощью кнопки ``Выгрузка``.
+On ``Advanced text export`` subtab you can work with template in interactive mode. On the left side you need to type template. On the right side you will see generated handout. Embedded text template includes almost all possible data for export. It is used Mustache template engine in text generation. Button ``Preview`` generates handout in right panel. Button ``Export`` generates text files by template.
 
-Поэкспериментировав с текстовой выгрузкой становится понятно что и как вы хотите вывести. Но нужно было разбираться с текстовыми шаблонами для docx, так как там есть некоторые отличия в механизме шаблонов. Специально для упрощения работы с docx было добавлено 2 кнопки. Кнопка ``Конвертировать в docx шаблон`` преобразует текущий текстовый шаблон в docx шаблон. Далее вы можете открыть полученный файл, настроить внешний вид и применить этот шаблон на странице с продвинутой выгрузкой. Кнопка ``Сгенерировать в docx по текущему шаблону`` преобразует текущий текстовый шаблон в docx шаблон и тут же применяет имеющиеся данные к docx шаблону для получения результата. Полученный таким образом docx файл можно использовать для проверки выгрузки, так как он будет фактически без оформления.
+Also you can make some experiments with text templates and then transform it to docx templates. Button ``Convert to docx template`` transforms text template to docx template. Button ``Generate to docx by current template`` transforms text template to docx template and applies it to real data. Resulted docx has poor formatting but it is useful for template checking.
 
+Also you can specify any necessary text file extension (txt, tex, html, etc.).
 
-Так же можно указать нужное расширение файла, при формировании текстов (txt, html и др.).
-
-.. warning:: Текст шаблона не сохраняется в НИМС, если вы уйдете с вкладки и вернетесь обратно, то шаблон будет сброшен.
+.. warning:: Template text is not saved in NIMS. If switch to other tab and came back your template will be replaced by embedded one.
   
 .. figure:: images/5_2_3_customTxt.jpg
 
-	Вкладка Вводные. Экспорт-Продвинутая текстовая выгрузка
+	Handouts tab. Export-Advanced text export
 	
 .. _timeline-desc:
 
-Хронология
-----------
+Timeline
+--------
 
-На этой вкладке отображается хронология событий. Слева находится селектор событий. Чтобы сделать множественный выбор зажмите ctrl и выбирайте элементы в списке. Масштаб хронологии изменяется с помощью колесика мыши. Красным отмечено время начала и завершения доигровых событий. 
+You can see events timeline on this tab. On the left side - story multi selector. There is a timeline in the center. Timeline scale is changes by mouse wheel. Red events are pregame start and end dates.
 
-Размер левого столбца с селектором историй можно регулировать с помощью таскаемого уголка (см. скриншот).
+Story selector width can be changed with right bottom corner.
 
-.. note:: Возможность перетаскивания событий в версии НИМС 0.4.2 была отключена по просьбе пользователей, чтобы не смещать события случайно.
+.. note:: Earlier it was possible to move events on timeline. This function was disabled by users request to avoid accidentally events moving.
 
 .. figure:: images/6_timeline.jpg
 
-	Вкладка Хронология
+	Timeline tab
 	
 .. _social-network-desc:
 
-Социальная сеть
----------------
+Social Network
+--------------
 
 На этой вкладке отрисовываются социальные сети на основе имеющихся данных. Поддерживаются несколько типов отрисовываемых сетей с разными видами узлов и связей между ними (см. далее типы графов). Для отрисовки необходимо указать общие и частные параметры социальной сети и нажать кнопку ``Нарисовать``.
 
