@@ -147,60 +147,60 @@ Characters. Profile constructor
 Stories
 -------
 
-На странице **Истории** осуществляется заполнение информации об историях. В правой верхней части экрана находится панель управления историями: создание/переименование/удаление историй. В левой верхней части экрана расположена панель выбора текущей истории для просмотра. Заполнение мастерской информации выполняется на соответствующих подвкладках
+On **Stories** tab you fill information about stories. Upper right panel - stories management: create/rename/remove actions. Upper left panel - story view selector. Center - subtabs for story editing.
 
-	**Мастерская история** - текст истории в самом общем виде. Заполнять мастерскую историю не обязательно, но по нашему опыту бывает полезно иметь всю историю перед глазами.
+	**Master story** - common story text. It is not necessary to fill it but in our experience it may be useful.
 	
-	:ref:`story-events` - описания событий истории. Описание состоит из названия события, описания события (этот текст мы так же называем **оригиналом события** в противоположность **адаптации**) и времени наступления события.
+	:ref:`story-events` - story events information. Event is described by name, description and time. Event description is the **original** text and it is opposite to **adaptation** text.
 	
-	:ref:`story-characters` - перечисление персонажей, участвующих в истории, их инвентарей, связанных с этой историей и вид активности персонажа (см. :ref:`concepts-character-activity`).
+	:ref:`story-characters` - story character list, inventories and activity marks (see. :ref:`concepts-character-activity`).
 	
-	:ref:`story-presence` - здесь отмечается факт присутствия каждого персонажа истории в событиях.
+	:ref:`story-presence` - presence table of characters in event.
 
-При работе на вкладке **Истории** можно включить режим работы с одной или с двумя подвкладками. Можно выбрать любую комбинацию подвкладок. Чтобы спрятать подвкладку кликните на активный заголовок. На данном рисунке активны две панели. Далее будут скриншоты и для однопанельного режима.
+You can enable any pair or single subtab on **Stories**. Click active subtab header to collapse it. On this picture you see two active tabs. Later there will be single subtab screenshots.
 
 .. figure:: images/3_1_masterStory.jpg
 
-	Вкладка Истории
+	Tab Stories
 	
 .. _story-events:
 
-Истории. События
-----------------
+Stories. Events
+---------------
 
-На вкладке **События** выполняется разбиение истории на события. У каждого события есть следующие атрибуты: название (не уникально), текст, позиция и время. Кроме обычных операций создания/удаления/перемещения событий добавлены операции клонирования и объединения событий. Клонирование создает полную копию события с созданием копии текстов адаптаций (см. раздел :ref:`events-desc`). Объединение событий соединяет два подряд идущих события в одно. Объединяется все: название, описание и адаптации.
+You make splitting stories to events on **Events** subtab. Each event has next attributes: name (it is not unique), text, position and time. Standard actions available: create, move, remove. Special actions: clone and merge. Clone action makes copy of event including adaptations (see :ref:`events-desc`). Merge action concatenates two sequential events in one. This action concatenates everything: names, descriptions, adaptations.
 
-В таблице события приведены в том порядке, в котором их укажет мастер, а не в хронологическом порядке. Переименование и обновление текста событий сохраняется при завершении редактирования, то есть немедленно. Справа указано точное время наступления события. Если поле подсвечено красным, значит используется значение по умолчанию - время окончания доигровых событий.
+Event list sequence is fixed by master. It is not sorted automatically by time. Event rename and text corrections are saved immediately. There is time field in upper right corner of event. If it is highlighted with red then this event has default time (pre game events end time).
 
 .. figure:: images/3_2_storyEvents.jpg
 
-	Вкладка События
+	Tab Events
 	
 .. _story-characters:
 
-Истории. Персонажи
-------------------
+Stories. Characters
+-------------------
 
-На вкладке **Персонажи** выполняется добавление/удаление/замещение персонажей в истории. При замещении все данные от старого персонажа переходят к новому. Так что да, Ромео не приехал, его место займет Меркуцио)
+On **Characters** tab you add/replace/remove characters in story. On replace action all information from old character will be transfered to new one.
 
-Здесь же приведено две таблицы. В первой таблице заполняется инвентарь персонажа, связанный с этой историей. Например, Фродо получает Кольцо Всевластья в истории начало пути и мы делаем отметку в таблице инвентаря, что на начало игры кольцо будет у Фродо. Вторая таблица указывает вид активности персонажа в истории. Описание видов активности приведено в разделе :ref:`concepts-character-activity`.
+There are two tables on this page. First is an inventory table where you can fill story related inventory. For example, Frodo gets the One Ring in the beginning of Starting journey story. So we add it to inventory to be sure that Frodo have the One Ring on game start. Second table is an activity table. See see activity descriptions in :ref:`concepts-character-activity`.
 
 .. figure:: images/3_3_storyCharacters.jpg
 
-	Вкладка Истории. Персонажи
+	Tab Stories. Characters
 
 .. _story-presence:
 	
-Истории. Присутствие
---------------------
+Stories. Presence
+-----------------
 
-На этой вкладке определяется участие персонажей в тех или иных событиях. В таблице в первом столбце перечислены названия событий. В заголовке имена персонажей истории. Отметьте галочкой пересечение персонажа и события, если персонаж принял в нём участие. Снятие галочки приводит к удалению уже существующих адаптаций событий (см. раздел :ref:`events-desc`). На всякий случай в этом месте всегда выскакивает напоминалка.
+One this subtab you can set presence fact of characters in events. There are story events names in the first column. There are story character names in the first row. Check crossing of event row and character column if this character took part in this event. Unchecking this crossing will remove all character specific information from event. It will remove all written adaptations (see :ref:`events-desc`). If character have some adaptations system will ask permission to remove them.
 
-Слева находится список-фильтр персонажей. С его помощью мы указываем каких персонажей мы хотим видеть в таблице справа (множественный выбор через ctrl/shift). Это сделано для работы с историями с большим количеством персонажей.
+There is character filter list on the left side. You can select only necessary characters for the table in center (multiselect with ctrl/shift). It was implemented for stories with big character lists.
 
 .. figure:: images/3_4_eventPresence.jpg
 
-	Вкладка Истории. Присутствие
+	Tab Stories. Presence
 	
 .. _events-desc:
 

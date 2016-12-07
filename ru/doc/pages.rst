@@ -174,7 +174,7 @@
 
 .. figure:: images/3_2_storyEvents.jpg
 
-	Вкладка События
+	Вкладка Истории. События
 	
 .. _story-characters:
 
