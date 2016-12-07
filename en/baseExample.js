@@ -22,7 +22,7 @@ See the License for the specific language governing permissions and
                 "date": "3019/02/27 00:00",
                 "preGameDate": "3018/01/01 00:00",
                 "description": "Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.",
-                "saveTime": "Mon Aug 01 2016 01:11:26 GMT+0500 (Pakistan Standard Time)"
+                "saveTime": "Thu Dec 08 2016 04:57:04 GMT+0500 (Pakistan Standard Time)"
               },
               "Characters": {
                 "Aragorn": {
@@ -37,7 +37,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "The last strider's leader and the first king of joined kingdoms, direct descent of Elendil's royal blood (by Isildur line).\nAragorn became the greatest human of his age. He leaded the people of west against Sauron forces. He helped to destroy the One Ring (he was one of the ring fellowship). He joined Arnor and Gondor kingdoms.",
                   "VKontakte image": "photo-17502880_426145599",
-                  "Site image": "Aragorn"
+                  "Site image": "Aragorn",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Arwen": {
                   "name": "Arwen",
@@ -51,7 +54,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "Elrond's daughter. Galadriel's granddaughter.\n",
                   "VKontakte image": "photo-17502880_426145598",
-                  "Site image": "Arwen"
+                  "Site image": "Arwen",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Bilbo": {
                   "name": "Bilbo",
@@ -65,7 +71,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "Frodo's uncle.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Boromir": {
                   "name": "Boromir",
@@ -79,7 +88,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "The eldest son and successor of Steward of Gondor - Denethor the second and his wife Finduilas. He is a Faramir's brother.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Neutral",
+                  "People of Gondor": true,
+                  "People of Rohan": false
                 },
                 "Galadriel": {
                   "name": "Galadriel",
@@ -93,7 +105,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "The mightiest elven ruler in the Middle-earth after the War of Wrath. She is the ruler of Lothlórien. ",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Gandalf": {
                   "name": "Gandalf",
@@ -107,7 +122,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "Mighty wizard.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Gimli": {
                   "name": "Gimli",
@@ -121,7 +139,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "He is dwarf joined to war against Sauron.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Gollum": {
                   "name": "Gollum",
@@ -135,7 +156,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "A small, slimy creature who lived on a small island in the centre of an underground lake at the roots of the Misty Mountains. He survived on cave fish, which he caught from his small boat, and small goblins who strayed too far from the stronghold of the Great Goblin. Over the years, his eyes adapted to the dark and became \"lamp-like\", shining with a sickly pale light.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Dark",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Legolas": {
                   "name": "Legolas",
@@ -149,7 +173,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "Legolas was the son of Thranduil, King of the Woodland Realm of Northern Mirkwood.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Merry": {
                   "name": "Merry",
@@ -163,7 +190,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "Frodo's friend. The fellow of the ring.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Nazgul": {
                   "name": "Nazgul",
@@ -177,7 +207,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "They were nine men who succumbed to Sauron's power and attained near-immortality as wraiths, servants bound to the power of the One Ring and completely under the dominion of Sauron.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Dark",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Pippin": {
                   "name": "Pippin",
@@ -191,7 +224,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "Frodo's friend. The fellow of the ring.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Saruman": {
                   "name": "Saruman",
@@ -205,7 +241,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "He is leader of the Istari, wizards sent to Middle-earth in human form by the godlike Valar to challenge Sauron.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Dark",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Sauron": {
                   "name": "Sauron",
@@ -219,7 +258,10 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "He is described as the chief lieutenant of the first Dark Lord, Morgoth.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Dark",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Sam": {
                   "name": "Sam",
@@ -233,7 +275,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "Gardener, servant and friend of Frodo.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Frodo": {
                   "name": "Frodo",
@@ -247,7 +292,10 @@ See the License for the specific language governing permissions and
                   "Sing good": true,
                   "Biography": "Hobbit which became the Ring-bearer by the twist of fate.",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
                 },
                 "Elrond": {
                   "name": "Elrond",
@@ -261,10 +309,53 @@ See the License for the specific language governing permissions and
                   "Sing good": false,
                   "Biography": "Elrond is a son of Eärendil and Elwing. Elrond was Lord of Rivendell, one of the mighty rulers of old that remained in Middle-earth in its Third Age. ",
                   "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question"
+                  "Site image": "Question",
+                  "Side": "Light",
+                  "People of Gondor": false,
+                  "People of Rohan": false
+                },
+                "People of Gondor": {
+                  "name": "People of Gondor",
+                  "Player": "",
+                  "Status": "Open",
+                  "Race": "Human",
+                  "Civility": "doesn't matter",
+                  "Weapon": "",
+                  "Outfit": "",
+                  "Weight, kilos.": 0,
+                  "Sing good": false,
+                  "Biography": "",
+                  "VKontakte image": "photo-17502880_426145597",
+                  "Site image": "",
+                  "Side": "Dark",
+                  "People of Gondor": true,
+                  "People of Rohan": false
+                },
+                "People of Rohan": {
+                  "name": "People of Rohan",
+                  "Player": "",
+                  "Status": "Open",
+                  "Race": "Human",
+                  "Civility": "doesn't matter",
+                  "Weapon": "",
+                  "Outfit": "",
+                  "Weight, kilos.": 0,
+                  "Sing good": false,
+                  "Biography": "",
+                  "VKontakte image": "photo-17502880_426145597",
+                  "Site image": "",
+                  "Side": "Dark",
+                  "People of Gondor": false,
+                  "People of Rohan": true
                 }
               },
               "ProfileSettings": [
+                {
+                  "name": "Side",
+                  "type": "enum",
+                  "value": "Dark,Light,Neutral",
+                  "doExport": true
+                },
                 {
                   "name": "Player",
                   "type": "string",
@@ -329,6 +420,18 @@ See the License for the specific language governing permissions and
                   "name": "Site image",
                   "type": "string",
                   "value": "",
+                  "doExport": true
+                },
+                {
+                  "name": "People of Gondor",
+                  "type": "checkbox",
+                  "value": false,
+                  "doExport": true
+                },
+                {
+                  "name": "People of Rohan",
+                  "type": "checkbox",
+                  "value": false,
                   "doExport": true
                 }
               ],
@@ -1346,7 +1449,7 @@ See the License for the specific language governing permissions and
                   "storyName": "The fellowship of the Ring"
                 },
                 "CharacterProfile": {
-                  "characterName": "Galadriel"
+                  "characterName": "People of Gondor"
                 },
                 "Events": {
                   "storyName": "Journey begins",
@@ -1366,17 +1469,465 @@ See the License for the specific language governing permissions and
                   ],
                   "eventIndexes": [],
                   "selectedFilter": "adaptationFilterByCharacter"
+                },
+                "GroupProfile": {
+                  "groupName": "People of Gondor"
                 }
               },
-              "Version": "0.4.4u3",
+              "Version": "0.5.2",
               "Log": [
                 [
                   "user",
                   "Mon Aug 01 2016 01:11:26 GMT+0500 (Pakistan Standard Time)",
                   "getDatabase",
                   "[]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:35:38 GMT+0500 (Pakistan Standard Time)",
+                  "createCharacter",
+                  "[\"People of Gondor\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:35:45 GMT+0500 (Pakistan Standard Time)",
+                  "createCharacter",
+                  "[\"People of Rohan\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:36:48 GMT+0500 (Pakistan Standard Time)",
+                  "createProfileItem",
+                  "[\"Side\",\"enum\",\"_\",true,11]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:36:57 GMT+0500 (Pakistan Standard Time)",
+                  "moveProfileItem",
+                  "[11,0]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:37:17 GMT+0500 (Pakistan Standard Time)",
+                  "updateDefaultValue",
+                  "[\"Side\",\"Dark,Light,Neutral\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:37:34 GMT+0500 (Pakistan Standard Time)",
+                  "createProfileItem",
+                  "[\"People of Gondor\",\"checkbox\",false,true,12]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:37:39 GMT+0500 (Pakistan Standard Time)",
+                  "createProfileItem",
+                  "[\"People of Rohan\",\"checkbox\",false,true,13]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:40:42 GMT+0500 (Pakistan Standard Time)",
+                  "createGroup",
+                  "[\"People of Gondor\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:40:52 GMT+0500 (Pakistan Standard Time)",
+                  "createGroup",
+                  "[\"People of Rohan\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:41:02 GMT+0500 (Pakistan Standard Time)",
+                  "createGroup",
+                  "[\"Neutrals\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:41:06 GMT+0500 (Pakistan Standard Time)",
+                  "createGroup",
+                  "[\"Elves\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:41:17 GMT+0500 (Pakistan Standard Time)",
+                  "createGroup",
+                  "[\"Light side\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:41:22 GMT+0500 (Pakistan Standard Time)",
+                  "createGroup",
+                  "[\"Dark side\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:42:03 GMT+0500 (Pakistan Standard Time)",
+                  "saveFilterToGroup",
+                  "[\"People of Gondor\",[{\"type\":\"checkbox\",\"name\":\"profile-People of Gondor\",\"selectedOptions\":{\"true\":true}}]]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:42:33 GMT+0500 (Pakistan Standard Time)",
+                  "saveFilterToGroup",
+                  "[\"People of Rohan\",[{\"type\":\"checkbox\",\"name\":\"profile-People of Rohan\",\"selectedOptions\":{\"true\":true}}]]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:42:43 GMT+0500 (Pakistan Standard Time)",
+                  "saveFilterToGroup",
+                  "[\"Neutrals\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Neutral\":true}}]]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:43:19 GMT+0500 (Pakistan Standard Time)",
+                  "saveFilterToGroup",
+                  "[\"Light side\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Light\":true}}]]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:43:36 GMT+0500 (Pakistan Standard Time)",
+                  "saveFilterToGroup",
+                  "[\"Dark side\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Dark\":true}}]]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:43:47 GMT+0500 (Pakistan Standard Time)",
+                  "saveFilterToGroup",
+                  "[\"Elves\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Light\":true}},{\"type\":\"enum\",\"name\":\"profile-Race\",\"selectedOptions\":{\"Elf\":true}}]]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:47:35 GMT+0500 (Pakistan Standard Time)",
+                  "addBoardGroup",
+                  "[\"Dark side\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:47:38 GMT+0500 (Pakistan Standard Time)",
+                  "addBoardGroup",
+                  "[\"Elves\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:47:41 GMT+0500 (Pakistan Standard Time)",
+                  "addBoardGroup",
+                  "[\"Light side\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:47:46 GMT+0500 (Pakistan Standard Time)",
+                  "addBoardGroup",
+                  "[\"Neutrals\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:47:50 GMT+0500 (Pakistan Standard Time)",
+                  "addBoardGroup",
+                  "[\"People of Gondor\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:47:54 GMT+0500 (Pakistan Standard Time)",
+                  "addBoardGroup",
+                  "[\"People of Rohan\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:48:08 GMT+0500 (Pakistan Standard Time)",
+                  "createResource",
+                  "[\"Mines of Moria\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:48:20 GMT+0500 (Pakistan Standard Time)",
+                  "createResource",
+                  "[\"The One Ring\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:48:35 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Dark side\",\"resource-The One Ring\",\"Controls\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:48:48 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-People of Gondor\",\"resource-The One Ring\",\"Want to use\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:49:03 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Dark side\",\"group-Light side\",\"Want destroy\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:49:08 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Light side\",\"group-Dark side\",\"Want destroy\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:49:25 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Dark side\",\"group-Neutrals\",\"Want to enslave\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:49:36 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Light side\",\"group-Neutrals\",\"Want to join\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:49:49 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Elves\",\"group-Light side\",\"Directs\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:50:19 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Light side\",\"resource-The One Ring\",\"Want to destroy\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:50:46 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-People of Rohan\",\"group-People of Gondor\",\"ally\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:50:51 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-People of Gondor\",\"group-People of Rohan\",\"ally\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:51:49 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-People of Rohan\",\"group-Light side\",\"incline\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:51:55 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-People of Gondor\",\"group-Light side\",\"incline\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:52:16 GMT+0500 (Pakistan Standard Time)",
+                  "setEdgeLabel",
+                  "[\"group-Dark side\",\"resource-The One Ring\",\"Want to get\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:52:24 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Dark side\",\"resource-Mines of Moria\",\"Controls\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:52:54 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-People of Gondor\",\"resource-Mines of Moria\",\"Want to capture\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:53:21 GMT+0500 (Pakistan Standard Time)",
+                  "addEdge",
+                  "[\"group-Neutrals\",\"resource-The One Ring\",\"Want to use\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:53:34 GMT+0500 (Pakistan Standard Time)",
+                  "removeEdge",
+                  "[\"group-People of Gondor\",\"resource-The One Ring\"]"
+                ],
+                [
+                  "user",
+                  "Thu Dec 08 2016 04:53:36 GMT+0500 (Pakistan Standard Time)",
+                  "setEdgeLabel",
+                  "[\"group-People of Gondor\",\"resource-The One Ring\",\"Want to use\"]"
                 ]
-              ]
+              ],
+              "Groups": {
+                "People of Gondor": {
+                  "name": "People of Gondor",
+                  "masterDescription": "",
+                  "characterDescription": "During the first millennium of the Third Age, Gondor was victorious in war and its wealth and power grew. After Sauron's defeat, Gondor watched over Mordor. In T.A. 490, Gondor's centuries-old peace was ended by the first of many Easterling invasions.[1] That war lasted into the following century, and from it Gondor conquered much territory in Rhûn north of Mordor.\n\nUnder the rule of the four \"Ship-Kings\", Gondor established a powerful navy and extended along the coast from the Mouths of Anduin. In 933,[1] Gondor captured the southern port city Umbar, formerly held by the hostile Black Númenóreans. Later, the Haradrim defeated Gondor on land and besieged Umbar; but King Hyarmendacil I strengthened his army and navy, and forced the kings of Harad to submit after a great victory in T.A. 1050.\n\nGondor reached its peak during the reign of Hyarmendacil, controlling a vast territory and holding suzerainty over neighbouring nations such as the Haradrim and the northern Men of the Vales of Anduin. Mordor was desolate and guarded by fortresses. Under Hyarmendacil I's successor, Atanatar the Glorious, The kingdom enjoyed such wealth and splendour that, according to The Lord of the Rings, \"men said precious stones are pebbles in Gondor for children to play with\".[4]",
+                  "filterModel": [
+                    {
+                      "type": "checkbox",
+                      "name": "profile-People of Gondor",
+                      "selectedOptions": {
+                        "true": true
+                      }
+                    }
+                  ],
+                  "doExport": true
+                },
+                "People of Rohan": {
+                  "name": "People of Rohan",
+                  "masterDescription": "",
+                  "characterDescription": "In the thirteenth century of the Third Age (T.A.), the Kings of Gondor made close alliances with the Northmen of Rhovanion, a people said in The Lord of the Rings to be akin to the Three Houses of Men (later the Dúnedain) from the First Age.\n\nIn the twenty-first century, a remnant tribe of such Northmen calling itself the Éothéod moved from the valleys of Anduin to the north west of Mirkwood, clearing out what remained of the recently defeated witch kingdom of Angmar, east of the Misty Mountains. While there, some dispute arose between them and the Dwarves over the treasure-hoard of Scatha the dragon.\n\nLater, in 2509, Cirion the Steward of Gondor sent summons to the Éothéod for aid in throwing off a combined invasion of Men from the north east of Middle-earth, and Orcs from Mordor.\n\nEorl the Young, king of the Éothéod, answered the summons, and arrived unexpected at a decisive battle at the Field of Celebrant, routing the orc army, and then destroying it as it fled.\n\nAs a reward, Eorl was given the plains of Calenardhon, and he moved his kingdom there. This land had earlier been part of Gondor proper, but had been devastated by the plague of 1636, and the survivors to a large extent slain in the invasion mentioned above.",
+                  "filterModel": [
+                    {
+                      "type": "checkbox",
+                      "name": "profile-People of Rohan",
+                      "selectedOptions": {
+                        "true": true
+                      }
+                    }
+                  ],
+                  "doExport": true
+                },
+                "Neutrals": {
+                  "name": "Neutrals",
+                  "masterDescription": "They have choice and they don't do it yet.",
+                  "characterDescription": "",
+                  "filterModel": [
+                    {
+                      "type": "enum",
+                      "name": "profile-Side",
+                      "selectedOptions": {
+                        "Neutral": true
+                      }
+                    }
+                  ],
+                  "doExport": true
+                },
+                "Elves": {
+                  "name": "Elves",
+                  "masterDescription": "Our way is Valinor.",
+                  "characterDescription": "",
+                  "filterModel": [
+                    {
+                      "type": "enum",
+                      "name": "profile-Side",
+                      "selectedOptions": {
+                        "Light": true
+                      }
+                    },
+                    {
+                      "type": "enum",
+                      "name": "profile-Race",
+                      "selectedOptions": {
+                        "Elf": true
+                      }
+                    }
+                  ],
+                  "doExport": true
+                },
+                "Light side": {
+                  "name": "Light side",
+                  "masterDescription": "Want to destroy Sauron and his harm to Middle-earth.",
+                  "characterDescription": "",
+                  "filterModel": [
+                    {
+                      "type": "enum",
+                      "name": "profile-Side",
+                      "selectedOptions": {
+                        "Light": true
+                      }
+                    }
+                  ],
+                  "doExport": true
+                },
+                "Dark side": {
+                  "name": "Dark side",
+                  "masterDescription": "Want to control Arda.",
+                  "characterDescription": "",
+                  "filterModel": [
+                    {
+                      "type": "enum",
+                      "name": "profile-Side",
+                      "selectedOptions": {
+                        "Dark": true
+                      }
+                    }
+                  ],
+                  "doExport": true
+                }
+              },
+              "InvestigationBoard": {
+                "groups": {
+                  "Dark side": {
+                    "name": "Dark side",
+                    "notes": ""
+                  },
+                  "Elves": {
+                    "name": "Elves",
+                    "notes": ""
+                  },
+                  "Light side": {
+                    "name": "Light side",
+                    "notes": ""
+                  },
+                  "Neutrals": {
+                    "name": "Neutrals",
+                    "notes": ""
+                  },
+                  "People of Gondor": {
+                    "name": "People of Gondor",
+                    "notes": ""
+                  },
+                  "People of Rohan": {
+                    "name": "People of Rohan",
+                    "notes": ""
+                  }
+                },
+                "resources": {
+                  "Mines of Moria": {
+                    "name": "Mines of Moria"
+                  },
+                  "The One Ring": {
+                    "name": "The One Ring"
+                  }
+                },
+                "relations": {
+                  "group-Dark side": {
+                    "resource-The One Ring": "Want to get",
+                    "group-Light side": "Want destroy",
+                    "group-Neutrals": "Want to enslave",
+                    "resource-Mines of Moria": "Controls"
+                  },
+                  "group-Elves": {
+                    "group-Light side": "Directs"
+                  },
+                  "group-Light side": {
+                    "group-Dark side": "Want destroy",
+                    "group-Neutrals": "Want to join",
+                    "resource-The One Ring": "Want to destroy"
+                  },
+                  "group-Neutrals": {
+                    "resource-The One Ring": "Want to use"
+                  },
+                  "group-People of Gondor": {
+                    "group-People of Rohan": "ally",
+                    "group-Light side": "incline",
+                    "resource-Mines of Moria": "Want to capture"
+                  },
+                  "group-People of Rohan": {
+                    "group-People of Gondor": "ally",
+                    "group-Light side": "incline"
+                  }
+                }
+              },
+              "Relations": {
+                "Aragorn": {
+                  "Gandalf": "My respect.",
+                  "Arwen": "My shiny."
+                },
+                "Arwen": {
+                  "Aragorn": "My tiger."
+                },
+                "Sauron": {
+                  "Aragorn": "You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king."
+                }
+              }
             };
 
 })(typeof exports === 'undefined'? this['BaseExample']={}: exports);
