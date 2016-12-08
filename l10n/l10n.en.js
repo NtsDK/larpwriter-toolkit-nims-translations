@@ -400,7 +400,7 @@ Dictionaries['en'] = {
         "by-link" : "by link",
         "icons-authors" : "Authors of used icons from www.flaticon.com: Anton Saputro, Pavel Kozlov, Budi Tanrim, Catalin Fertu, Picol, Dave Gandy and Freepik. Sort icon author FatCow.",
         "versions" : "Version story",
-        "var052" : "Версия 0.5.2 (21 Nov 2016) - working with groups, investigation board and character relations.",
+        "var052" : "Version 0.5.2 (21 Nov 2016) - working with groups, investigation board and character relations.",
         "var044u3" : "Version 0.4.4u3 (21 Jul 2016) - new example base and new section in documentation about export.",
         "var044u2" : "Version 0.4.4u2 (14 Jun 2016) - added strict validation with JSON schema.",
         "var044" : "Version 0.4.4 (21 Apr 2016) - defensive improvements and tests.",
