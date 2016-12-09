@@ -83,7 +83,7 @@ Some items are very important in stories so game masters need to know which char
 Relations
 ---------
 
-*Relation* is an information what character think about each other. It is implemented as text description. Character may have relation both to well known characters and to unknowns. Relation can be single unidirectional and bidirectional.
+*Relation* is an information what character think about each other. It is implemented as text description. Character may have relation both to well known characters and to unknowns. Relation can be unidirectional and bidirectional.
 
 .. note:: Example
 
