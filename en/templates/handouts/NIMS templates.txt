@@ -1,7 +1,7 @@
 ﻿Generic template for export by timeline
 {{gameName}}
 {{#briefings}}
-{{name}}
+{{charName}}
 
 {{inventory}}
 {{profileInfo-Weapon}}
@@ -23,7 +23,7 @@
 Generic template for export by stories
 {{gameName}}
 {{#briefings}}
-{{name}}
+{{charName}}
 
 {{inventory}}
 {{profileInfo-Weapon}}
@@ -33,7 +33,7 @@ Generic template for export by stories
 {{/profileInfo-splitted-Biography}}
 
 {{#storiesInfo}}
-{{name}}
+{{storyName}}
 
 {{#eventsInfo}}
 

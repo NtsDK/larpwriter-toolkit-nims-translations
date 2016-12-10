@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{gameName}}. {{name}}</title>
+<title>{{gameName}}. {{charName}}</title>
 
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script type='text/javascript' src='libs/unitegallery/js/unitegallery.min.js'></script> 
@@ -33,22 +33,21 @@
 		
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title"><b>{{name}}</b></h3>
+        <h3 class="panel-title"><b>{{charName}}</b></h3>
       </div>
       <div class="panel-body">
         <div class="programContent">
           <img align="left" src="images2/{{profileInfo-Site image}}.jpg" style="height: 100px;">
           <div class="text">
 					
-					Weapon: {{profileInfo-Weapon}}<br>
-					Inventory: {{profileInfo-Outfit}}, {{inventory}}<br><br>
-					{{#profileInfo-splitted-Biography}}<p>{{string}}</p>
-					{{/profileInfo-splitted-Biography}}
+					{{#profileInfoArray}}{{itemName}}: {{value}}<br>
+					{{/profileInfoArray}}
+					Inventory: {{inventory}}<br>
 
           <br>
 					
 					{{#storiesInfo}}
-					<h4>{{name}}</h4>
+					<h4>{{storyName}}</h4>
 					
 					{{#eventsInfo}}
 					<div>

@@ -1,6 +1,6 @@
 ﻿General template
 {{#briefings}}
-{{name}}
+{{charName}}
 {{inventory}}
 {{profileInfo-Outfit}}
 {{/briefings}}
@@ -9,7 +9,7 @@ vkontakte inventory
 {|
 |-
 {{#briefings}}
-|{{name}}
+|{{charName}}
 |{{inventory}}
 |-
 {{/briefings}}
@@ -19,7 +19,7 @@ vkontakte inventory + outfit
 {|
 |-
 {{#briefings}}
-|{{name}}
+|{{charName}}
 |{{profileInfo-Outfit}}; {{inventory}}
 |-
 {{/briefings}}

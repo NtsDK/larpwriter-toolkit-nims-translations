@@ -1,6 +1,6 @@
 ﻿General template
 {{#briefings}}
-{{name}}
+{{charName}}
 {{profileInfo-Player}}
 {{profileInfo-Status}}
 {{profileInfo-Biography}}
@@ -10,7 +10,7 @@
 
 vkontakte simple
 {{#briefings}}
-* '''{{name}}''' ({{profileInfo-Status}}, {{profileInfo-Player}})
+* '''{{charName}}''' ({{profileInfo-Status}}, {{profileInfo-Player}})
 {{profileInfo-Biography}}
 
 {{/briefings}}
@@ -18,9 +18,9 @@ vkontakte simple
 
 vkontakte with pictures
 {{#briefings}}
-'''{{name}}''' ({{profileInfo-Status}}, {{profileInfo-Player}})
+'''{{charName}}''' ({{profileInfo-Status}}, {{profileInfo-Player}})
 {|noborder
 |-
-|[[{{profileInfo-Картинка ВК}}|100px;left| ]] {{profileInfo-Biography}}
+|[[{{profileInfo-VKontakte image}}|100px;left| ]] {{profileInfo-Biography}}
 |}
 {{/briefings}}
