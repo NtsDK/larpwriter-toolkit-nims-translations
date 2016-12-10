@@ -69,6 +69,9 @@ release = '0.5.2'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
+#figure_language_filename = '{root}.{language}{ext}'
+#figure_language_filename='{path}ru/{basename}{ext}'
+#figure_language_filename='{path}/{basename}{ext}'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -109,6 +112,9 @@ pygments_style = 'sphinx'
 todo_include_todos = True
 
 numfig = True
+
+
+
 
 
 # -- Options for HTML output ----------------------------------------------
