@@ -44,13 +44,19 @@ Temporary data view structure specifies which information may be exported and ho
 		
 		- ``text``, text - group text.
 		
+		- ``splittedText``, string array - group text, splitted by strings. 
+		
+			- ``string``, string.
+		
 	- ``relations``, data array - character relations.
 	
 		- ``toCharacter``, string - counter character name.
 		
 		- ``text``, text - relation text.
 		
-		- ``splittedText``, text - relation text splitted by string.
+		- ``splittedText``, string array - relation text splitted by string.
+		
+			- ``string``, string.
 		
 		- ``stories``, string - story list in which characters meets.
 		
