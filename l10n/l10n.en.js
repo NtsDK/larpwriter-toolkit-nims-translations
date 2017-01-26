@@ -3,13 +3,17 @@ Dictionaries['en'] = {
     "header": {
         "page-title": "Story Master Toolkit NIMS",
         "overview":"Overview",
+        "enter":"Login",
+        "register":"Register",
         "characters":"Characters",
+        "profiles":"Profiles",
+        "players":"Players",
         "stories":"Stories",
         "adaptations":"Adaptations",
         "briefings":"Handouts",
         "timeline":"Timeline",
         "social-network":"Social Network",
-        "character-filter":"Character Filter",
+        "profile-filter":"Profile Filter",
         "open-database":"Load database from file",
         "save-database":"Save database to file",
         "create-database":"Create new database",
@@ -24,8 +28,9 @@ Dictionaries['en'] = {
         "dictionary-icon":"gb",
         "briefing-preview" : "Preview",
         "briefing-export" : "Export",
-        "character-profile" : "Profile",
-        "character-profile-constructor" : "Profile constructor",
+        "profile-editor" : "Profile Editor",
+        "profile-constructor" : "Profile Constructor",
+        "profile-binding" : "Binding",
         "master-story" : "Master story",
         "story-events" : "Events",
         "story-characters" : "Characters",
@@ -36,6 +41,10 @@ Dictionaries['en'] = {
         "investigation-board" : "Story map",
         "relations" : "Relation to other characters",
         "about" : "About",
+        "textSearch" : "Text Search",
+        "masterManagement" : "Masters",
+        "playerManagement" : "Players",
+        "player" : "Player's",
     },
     "common": {
         "to":"to",
@@ -64,16 +73,24 @@ Dictionaries['en'] = {
         "characterActivityInStory" : "Character-Activity-Story",
         // no group
         "noGroup": "No group" ,
+        "fromGroup": "Group member" ,
         // activities
         "active"    : "Active" ,
         "follower"  : "Follower" ,
         "defensive" : "Defensive" ,
         "passive"   : "Passive" ,
+        "active-s"    : "A" ,
+        "follower-s"  : "F" ,
+        "defensive-s" : "D" ,
+        "passive-s"   : "P" ,
         // number filter
         "ignore" : "Ignore",
         "greater" : "Greater",
         "equal" : "Equal",
         "lesser" : "Lesser",
+        // multi enum filter
+        "every" : "Every",
+        "some" : "Some",
         // adaptations labels
         "finishedText" : "Text finished",
         "finishedSuffix" : "(finished)",
@@ -84,6 +101,23 @@ Dictionaries['en'] = {
         "enum":"Single Choice", // single choice
         "number":"Number",
         "checkbox":"Checkbox",
+        "multiEnum":"Multi Choice",
+        // player access types
+        "write" : "Write",
+        "readonly" : "Read only",
+        "hidden" : "Hidden",
+        // symbol count
+        'masterStories' : 'Master stories',
+        'eventOrigins' : 'Event origins',
+        'eventAdaptations' : 'Event adaptations',
+        'groups' : 'Groups',
+        'relations' : 'Relations',
+        // binding count
+        'freeCharacters': 'Free characters',
+        'freePlayers': 'Free players',
+        'bindingNum': 'Binded characters/players',
+        // misc
+        'notAvailable': 'N/A',
     },
     "overview": {
         "descr":"Description",
@@ -96,6 +130,8 @@ Dictionaries['en'] = {
         "character-count":"Character count",
         "event-count":"Event count",
         "user-count":"User count",
+        "group-count":"Group count",
+        "player-count":"Players count",
         "first-event":"First event",
         "last-event":"Last event",
         "symbol-count":"Symbol count (excluding spaces)",
@@ -111,51 +147,70 @@ Dictionaries['en'] = {
         'last-save-time': 'Last save time',
         'character-stories-diagram': 'Story count per character',
         'character-symbols-diagram': 'Symbol count per character',
+        'character-symbols-doughnut': 'Symbol count per text type',
+        'binding-doughnut': 'Characters and players',
     },
-    "characters": {
+    "profiles": {
         "character-managing":"Character managing",
         "character-name":"Character name",
         "new-character-name":"New character name",
+
+        "player-managing":"Player managing",
+        "player-name":"Player name",
+        "new-player-name":"New player name",
+        
         "profile":"Profile",
+        "character-profile":"Character profile",
+        "player-profile":"Player profile",
+        "character-report":"Report",
         "profile-editor":"Profile editor",
         "characters":"Characters",
         "profile-item-name":"Enter item name",
         "profile-item-type":"Type",
         "profile-item-position":"Position",
+        "profile-item-do-export":"Do export",
+        "profile-item-player-access":"Player access",
 
         "move-item":"Move",
         "table-profile-item-name":"Profile item name",
         "profile-item-default-value":"Value(s)",
-        "profile-item-do-export":"Do export",
+        
+        "story": "Story",
+        "activity": "Activity",
+        "completness": "Completeness",
+        "meets": "Meets",
+        "inventory": "Inventory",
+        
+        "characters-profile-structure": "Characters profile structure",
+        "players-profile-structure": "Players profile structure",
+        
+        'player-has-no-character-and-can-create-it' : 'You have no binding with character but you can create character yourself.',
+        'player-has-no-character-and-cant-create-it' : 'You have no binding with character and you can\'t create character yourself. Ask masters for details.',
         
         // character management errors
-        "character-name-is-not-specified" : "Character name is empty",
-        "new-character-name-is-not-specified" : "New name is empty.",
-        "names-are-the-same" : "Names are the same.",
-        "character-name-already-used" : "Name {0} already used.",
         "are-you-sure-about-character-removing" : "Are you sure you want to remove {0}? All related data for this character will be removed irretrivable.",
 
         // profile configurer errors
-        "unknown-profile-item-type" : "Unknown item type: {0}",
-        "profile-item-positions-are-equal": "Item positions are equal",
         "are-you-sure-about-removing-profile-item": "Are you sure about removing profile item {0}? All related data for this profile item will be removed irretrivable.",
         "not-a-number":"Not a number",
         "enum-item-cant-be-empty":"Single choice value can't be empty",
         "new-enum-values-remove-some-old-values": "New single choice values remove some old values: {0}. This action will update current profiles. Are you sure?",
-        "profile-item-name-is-not-specified": "Profile item name is not specified",
-        "profile-item-name-cant-be-name": "Profile item name can't be 'name'",
-        "such-name-already-used": "Such name already used",
         "are-you-sure-about-changing-profile-item-type":"Are you sure about changing profile item type {0}? All profile values for this field will be lost.",
     },
-    "character-filter": {
+    "profile-filter": {
         "show-profile-item":"Show profile item",
         "filter":"Filter",
         "results":"Results:",
         "character":"Character",
+        "character-owner":"Character owner",
+        "player-name" : "Player",
+        "player-owner" : "Player owner",
         "completeness": "Adaptation completness, %",
         "totalStories": "Story number",
-        "character-owner" : "Owner",
-        "download-filter-table" : "Download table"
+        "download-filter-table" : "Download table",
+        'characterFilterItems' : 'Character profile',
+        'playerFilterItems' : 'Player profile',
+        'summaryFilterItems' : 'Statistics'
     },
     "stories":{
         "stories":"Stories",
@@ -178,19 +233,10 @@ Dictionaries['en'] = {
         "event":"Event",
         "remove-character-from-event-warning": "Are you sure about removing character {0} from event '{1}'? This character has event adaption which will be removed irretrivable.",
         //story management errors
-        "story-name-is-not-specified" : "Story name is not specified.",
-        "new-story-name-is-not-specified" : "New name is not specified.",
-        "names-are-the-same" : "Names are the same.",
-        "story-name-already-used" : "Name {0} already used.",
         "are-you-sure-about-story-removing" : "Are you sure about removing story {0}? All data related to story will be removed irretrivable.",
         // story characters errors
-        "character-name-is-not-specified":"Character name is not specified",
-        "one-of-switch-characters-is-not-specified":"Name of switch character is not specified",
         "remove-character-from-story-warning":"Are you sure about removing character {0} from story? All data related to character will be removed irretrivable.",
         // story event management
-        "event-name-is-not-specified" : "Event name is not specified",
-        "event-text-is-empty" : "Event text is empty",
-        "event-positions-are-the-same" : "Event positions are the same",
         "cant-merge-last-event" : "Selected event merged with next. There are no merge events after last event.",
         "remove-event-warning" : "Are you sure about removing event {0}? All data related to event will be removed irretrivable.",
     },
@@ -207,7 +253,7 @@ Dictionaries['en'] = {
         "adaptation": "Adaptation",
     },
     "admins":{
-        "user-management": "Users management",
+        "user-management": "Login management",
         "user-name": "User name",
         "user-password": "Password",
         "new-password": "New password",
@@ -227,16 +273,25 @@ Dictionaries['en'] = {
         "stories": "Stories",
         "groups": "Groups",
         "users": "Users",
+        "players": "Players",
         "assign-rights": "Assign rights",
         "take-away-rights": "Take away rights",
         'have-not-owner' : "Have not owner",
-        'user-name-is-not-specified' : "User name is not specified",
-        'password-is-not-specified' : "Password is not specifid",
-        'user-already-exists' : "User already exists",
-        'confirm-user-remove' : "Are you sure about removing user {0}? User objects will not be removed.",
-        'user-is-not-selected' : "User is not selected",
         'confirm-admin-assigment' : "Are you sure about about assigning user {0} as admin? You can't undo this action.",
         'confirm-editor-assigment' : "Are you sure about about assigning user {0} as editor? While editor exists other users can't modify their objects.",
+        
+        // players management
+        'create-player'             : 'Create player'               ,
+        'create-login'              : 'Create login'                ,
+        'remove-login'              : 'Remove login'                ,
+        'settings'                  : 'Settings'                    ,
+        'allow-player-creation'     : 'Allow player creation'       ,
+        'allow-character-creation'  : 'Allow character creation'    ,   
+        'welcome-text'              : 'Welcome text'                ,
+        'auto-export'               : 'Autoexport'                  ,
+        // errors
+        'confirm-user-remove' : "Are you sure about removing user {0}? User objects will not be removed.",
+        'user-is-not-selected' : "User is not selected",
         'function-must-be-overriden-on-server': "Function {0} must be overriden by server.",
     },
     "briefings":{
@@ -245,8 +300,11 @@ Dictionaries['en'] = {
         "sort-by-timeline": "Sort events by timeline",
         "export-mode": "Export mode",
         "each-briefing-to-own-file": "Each handout to own file",
+        'export-only-finished-stories' : 'Export only finished stories',
         "briefing-selection": "Select handout for export",
+        "story-selection": "Story selection",
         "print-all": "Export all",
+        "export-all-stories": "Export all stories",
         "print-partly": "Partial export",
         "briefings-amount": "Handout amount",
         "briefings-range": "Handout range",
@@ -279,7 +337,8 @@ Dictionaries['en'] = {
         "unlock-event-source":"Unlock origin editing",
         "hide-all-panels" : "Hide all panels",
         "disable-headers" : "Disable headers",
-        'profile': 'Profile',
+        'character-profile': 'Character profile "{0}"',
+        'player-profile': 'Player profile "{0}"',
         'events-header':'Event {0}-{1}',
         'story-header':'Story {0}',
         'event-header':'Event {0}',
@@ -292,7 +351,7 @@ Dictionaries['en'] = {
         'unknown-characters': 'Unknown by story characters',
         
         // relation editor
-        'character-name': 'Character name',
+        'character-name': 'Character/Player',
         'direct-relation': 'Relation',
         'reverse-relation': 'Reverse relation',
         'extra-info': 'Extra information',
@@ -307,7 +366,9 @@ Dictionaries['en'] = {
         "save-file": "Document is ready. Save?",
     },
     "timeline":{
-        "stories": "Stories",
+        "filter" : "Filter",
+        "filter-by-characters" : "By characters",
+        "filter-by-stories" : "By stories",
     },
     "social-network":{
         "show-node": "Focus node:",
@@ -325,6 +386,9 @@ Dictionaries['en'] = {
         "hide-panel": "Hide panel",
         "require-resources-warning":"Warning! Social network rendering requires many computer resources. It is recommended to save database before rendering.",
         "remove-resources-warning":"Remove warning",
+        'show-player-names': 'Show player names',
+        'profile-group' : 'Profile: {0}',
+        'filter-group' : 'Group: {0}',
     },
     "utils":{
         "close-page-warning": "Be sure you save your data. After page closing all unsaved data will be lost.",
@@ -355,10 +419,6 @@ Dictionaries['en'] = {
         "total" : 'Total: ',
         
         // group management errors
-        "group-name-is-not-specified" : "Group name is not specified",
-        "new-group-name-is-not-specified" : "New name is not specified.",
-        "names-are-the-same" : "Names are the same.",
-        "group-name-already-used" : "Name {0} already used.",
         "are-you-sure-about-group-removing" : "Are you sure about removing group {0}? All data related to group will be removed irretrivable.",
         "group-editing-forbidden" : "Not sufficient rights for editing {0}",
         "page-filter-is-incompatible-with-base-profiles" : "Character filter on page is not compatible with character profile in base by items: {0}. Reopen tab with character filter to load new settings.",
@@ -379,18 +439,7 @@ Dictionaries['en'] = {
         'new-resource-name' : 'New resource name',
         
         // errors
-        'group-name-is-not-specified': 'Group name can\'t be empty.',
-        'group-already-used-on-board' : 'Group already used on board.',
-        'group-is-not-used-on-board' : 'Group is not used on board.',
-        
-        "new-name-is-not-specified" : 'Name is not specified.',
-        "name-already-used" : 'Name "{0}" already used.',
-        "rename-name-is-not-specified" : 'New name is not specified.',
-        "names-are-the-same" : 'Names are the same.',
-        
         "resource-node-cant-be-first" : 'Resource can\'t be the first node for the edge.',
-        "such-relation-already-exists" : 'Relation already exists.',
-        "relation-is-not-exist" : 'Relation is not exist.',
     },
     'about' : {
         "about-authors" : "Program 'Story master toolkit NIMS' (SMTK NIMS) is written by Timofey Rechkalov (NtsDK) and Maria Sidekhmenova (Matilda).",
@@ -407,6 +456,85 @@ Dictionaries['en'] = {
         "var043" : "Version 0.4.3 (29 Feb 2016) - added statistics and export improvements.",
         "var042" : "Version 0.4.2 (18 Jan 2016) - added server mode.",
         "var041" : "Version 0.4.1 (27 Nov 2015) - first public release.",
+    },
+    'binding':{
+        'character-or-player-not-selected' : 'Character or player not selected',
+        'binding-is-not-selected' : 'Binding is not selected',
+        
+        'characters' : 'Characters',
+        'players' : 'Players',
+        'characters-players' : 'Characters/Players',
+        'bind' : 'Bind',
+        'unbind' : 'Unbind',
+    },
+    'text-search':{
+        "enter-search-string":"Enter search string",
+        "search"           :"Search"            ,
+        "characterProfiles":"Character profiles",
+        "playerProfiles"   :"Player profiles"   ,
+        "groups"           :"Groups"            ,
+        "relations"        :"Relations"         ,
+        "masterStory"      :"Master stories"    ,
+        "eventOrigins"     :"Event origins"     ,
+        "eventAdaptations" :"Event adaptations" ,
+        "find"             :"Find"              ,
+        "case-sensitive-search":"Case sensitive search",
+    },
+    'entrance': {
+        'register-success'              :'Registration finished. Use login form to enter.'     ,
+        'enter-user-name-and-password'  :'Enter user name and password'                        ,
+        'login'                         :'Login'                                               ,
+        'password'                      :'Password'                                            ,
+        'enter'                         :'Enter'                                               ,
+        'user-name'                     :'User name'                                           ,
+        'confirmation'                  :'Confirmation'                                        ,
+        'confirm-password'              :'Confirm password'                                    ,
+        'register'                      :'Register'                                            ,
+        
+        'disclaimer'                    :'In case of problem or difficulties please contact maintainers.' ,  
+        'developer-site'                :'Maintainer site.'                                                                        ,
+        
+    },
+    'errors': {
+        'unexpected-user-type': 'Wrong user type "{0}"',
+        'password-is-incorrect' : 'Password is incorrect',
+        'user-is-not-found' : 'User is not found',
+        'password-is-not-specified' : "Password is not specified",
+        'passwords-not-match' : 'Passwords not match',
+        'register-operation-is-forbidden':'Registration is forbidden',
+        'unexpected-switch-argument': 'Error: unprocessed argument - {0}. Please contact maintainers.',
+        
+        'unsupported-types-in-list' : 'Unsupported types: "{0}"',
+        'unsupported-type-in-list' : 'Unsupported type: "{0}"',
+        'entity-is-not-exist' : 'Entity "{0}" is not exist',
+        'entities-are-not-exist' : 'Entities "{0}" are not exist',
+        'argument-is-not-a-string' : 'Argument "{0}" is not a string',
+        
+        'argument-is-not-a-number' : 'Argument "{0}" is not a number',
+        'argument-is-not-an-array' : 'Argument "{0}" is not an array',
+        'argument-is-not-an-object' : 'Argument "{0}" is not an object',
+        'argument-is-not-a-boolean' : 'Argument "{0}" is not a boolean',
+        'argument-is-not-nil' : 'Argument "{0}" is not nil',
+        'entity-is-used': 'Entity "{0}" already exists',
+        
+        'name-is-empty-string' : 'Name can\'t be empty string',
+        'argument-must-not-be-equal' : 'Argument must not be equal "{0}"',
+        'argument-is-not-in-range' : 'Argument "{0}" is out of range ({1}, {2})',
+        'argument-is-empty-string' : 'Argument can\'t be empty string',
+        'argument-is-not-empty-string' : 'Argument must be empty string',
+        
+        'forbidden':'Command call is forbidden',
+        'unknown-command':'Unknown command "{0}"',
+        'user-is-not-logged':'User is not logged is',
+        'forbidden-for-role':'Command "{0}" is forbidden for role "{1}"',
+        'forbidden-for-non-admin':'Command "{0}" is for administrator role only',
+        'forbidden-for-non-editor':'Command "{0}" is for editor role only',
+        'other-user-is-editor':'User "{0}" is an editor. Base is closed for changes by other authors.',
+        'master-is-not-an-owner': 'You are not an owner of entity "{0}"',
+        'forbidden-to-create-char':'Players can\'t create characters',
+        'player-cant-write-to-other-player':'Player can\'t modify other player',
+        'character-is-not-binded-to-player':'Character is not binded to player',
+        'player-cant-write-profile-item':'Player can\'t modify profile item',
     }
 };
 
