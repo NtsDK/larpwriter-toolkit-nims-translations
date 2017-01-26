@@ -22,6 +22,7 @@
 	quickStart
 	pages
 	export
+	api
 
 
 .. Indices and tables
