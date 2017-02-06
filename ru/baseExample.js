@@ -1449,7 +1449,7 @@ See the License for the specific language governing permissions and
                   "storyName": "Братство кольца"
                 },
                 "CharacterProfile": {
-                  "characterName": "Народ Гондора"
+                  "characterName": "Арагорн"
                 },
                 "Events": {
                   "storyName": "Начало пути",
