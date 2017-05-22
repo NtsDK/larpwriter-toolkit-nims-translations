@@ -20,7 +20,9 @@
 	tasks
 	toolsEnum
 	quickStart
-	pages
+	firstPage
+	masterPage
+	playerPage
 	export
 	api
 

@@ -1,4 +1,4 @@
-﻿.. _breifings-templates:
+﻿.. _briefings-templates:
 
 Экспорт вводных
 ===============

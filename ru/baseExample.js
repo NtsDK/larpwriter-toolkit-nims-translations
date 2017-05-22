@@ -22,7 +22,7 @@ See the License for the specific language governing permissions and
                 "date": "3019/02/27 00:00",
                 "preGameDate": "3018/01/01 00:00",
                 "description": "События фильма, как основа для ролевой игры. В этой базе изложен первый фильм из трилогии Властелин колец. Хронология событий взята из книги.",
-                "saveTime": "Thu Oct 27 2016 19:27:47 GMT+0500 (Pakistan Standard Time)"
+                "saveTime": "Mon May 22 2017 15:25:17 GMT+0500 (Pakistan Standard Time)"
               },
               "Characters": {
                 "Фродо": {
@@ -34,7 +34,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 64,
                   "Умеет петь": true,
                   "Снаряжение": "",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -51,7 +50,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 57,
                   "Умеет петь": true,
                   "Снаряжение": "Кастрюли",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -68,7 +66,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 57,
                   "Умеет петь": true,
                   "Снаряжение": "",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -85,7 +82,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 82,
                   "Умеет петь": false,
                   "Снаряжение": "кольцо Нарья",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -102,7 +98,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 80,
                   "Умеет петь": true,
                   "Снаряжение": "",
-                  "Игрок": "Василий",
                   "Статус": "Занята",
                   "Картинка ВК": "photo-17502880_426145599",
                   "Картинка сайт": "Арагорн",
@@ -119,7 +114,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 57,
                   "Умеет петь": true,
                   "Снаряжение": "",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -136,7 +130,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 80,
                   "Умеет петь": false,
                   "Снаряжение": "",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -153,7 +146,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 1,
                   "Умеет петь": false,
                   "Снаряжение": "палантир",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -170,7 +162,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 68,
                   "Умеет петь": false,
                   "Снаряжение": "палантир",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -187,7 +178,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 90,
                   "Умеет петь": false,
                   "Снаряжение": "Рог Гондора",
-                  "Игрок": "Петр",
                   "Статус": "Занята",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -204,7 +194,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 72,
                   "Умеет петь": false,
                   "Снаряжение": "кольцо Вилью",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -221,7 +210,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 55,
                   "Умеет петь": true,
                   "Снаряжение": "",
-                  "Игрок": "Ирина",
                   "Статус": "Занята",
                   "Картинка ВК": "photo-17502880_426145598",
                   "Картинка сайт": "Арвен",
@@ -238,7 +226,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 53,
                   "Умеет петь": false,
                   "Снаряжение": "кольцо Нэнью",
-                  "Игрок": "Анна",
                   "Статус": "Занята",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -255,7 +242,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 34,
                   "Умеет петь": false,
                   "Снаряжение": "",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -272,7 +258,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 73,
                   "Умеет петь": false,
                   "Снаряжение": "",
-                  "Игрок": "Михаил",
                   "Статус": "На обсуждении",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -289,7 +274,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 0,
                   "Умеет петь": true,
                   "Снаряжение": "",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -306,7 +290,6 @@ See the License for the specific language governing permissions and
                   "Вес, кг.": 53,
                   "Умеет петь": true,
                   "Снаряжение": "",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Картинка ВК": "photo-17502880_426145597",
                   "Картинка сайт": "Вопрос",
@@ -317,7 +300,6 @@ See the License for the specific language governing permissions and
                 "Народ Гондора": {
                   "name": "Народ Гондора",
                   "Блок": "Тёмный",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Раса": "человек",
                   "Пол": "не важно",
@@ -334,7 +316,6 @@ See the License for the specific language governing permissions and
                 "Народ Рохана": {
                   "name": "Народ Рохана",
                   "Блок": "Тёмный",
-                  "Игрок": "",
                   "Статус": "Свободна",
                   "Раса": "человек",
                   "Пол": "не важно",
@@ -349,92 +330,6 @@ See the License for the specific language governing permissions and
                   "Народ Рохана": true
                 }
               },
-              "ProfileSettings": [
-                {
-                  "name": "Блок",
-                  "type": "enum",
-                  "value": "Тёмный,Светлый,Нейтрал",
-                  "doExport": true
-                },
-                {
-                  "name": "Игрок",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Статус",
-                  "type": "enum",
-                  "value": "Свободна,Занята,На обсуждении",
-                  "doExport": true
-                },
-                {
-                  "name": "Раса",
-                  "type": "enum",
-                  "value": "человек,эльф,гном,орк,хоббит,майар,другое",
-                  "doExport": true
-                },
-                {
-                  "name": "Пол",
-                  "type": "enum",
-                  "value": "не важно,М,Ж",
-                  "doExport": true
-                },
-                {
-                  "name": "Оружие",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Снаряжение",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Вес, кг.",
-                  "type": "number",
-                  "value": 0,
-                  "doExport": true
-                },
-                {
-                  "name": "Умеет петь",
-                  "type": "checkbox",
-                  "value": false,
-                  "doExport": false
-                },
-                {
-                  "name": "Биография",
-                  "type": "text",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Картинка ВК",
-                  "type": "string",
-                  "value": "photo-17502880_426145597",
-                  "doExport": true
-                },
-                {
-                  "name": "Картинка сайт",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Народ Гондора",
-                  "type": "checkbox",
-                  "value": false,
-                  "doExport": true
-                },
-                {
-                  "name": "Народ Рохана",
-                  "type": "checkbox",
-                  "value": false,
-                  "doExport": true
-                }
-              ],
               "Stories": {
                 "Начало пути": {
                   "name": "Начало пути",
@@ -1461,9 +1356,19 @@ See the License for the specific language governing permissions and
                 },
                 "GroupProfile": {
                   "groupName": "Нейтралы"
+                },
+                "ProfileEditor": {
+                  "character": "Арагорн",
+                  "player": "Аркадий"
+                },
+                "Adaptations": {
+                  "storyName": "Арвен и Арагорн",
+                  "characterNames": [],
+                  "eventIndexes": [],
+                  "selectedFilter": "adaptationFilterByCharacter"
                 }
               },
-              "Version": "0.5.2",
+              "Version": "0.6.1",
               "Log": [
                 [
                   "user",
@@ -1716,6 +1621,186 @@ See the License for the specific language governing permissions and
                   "Thu Oct 13 2016 19:32:53 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
                   "[\"Народ Рохана\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Рохана\",\"selectedOptions\":{\"true\":true}}]]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:04:01 GMT+0500 (Pakistan Standard Time)",
+                  "createProfile",
+                  "[\"player\",\"Аркадий\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:04:16 GMT+0500 (Pakistan Standard Time)",
+                  "createProfile",
+                  "[\"player\",\"Белла\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:04:34 GMT+0500 (Pakistan Standard Time)",
+                  "createProfile",
+                  "[\"player\",\"Вальдемар\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:04:57 GMT+0500 (Pakistan Standard Time)",
+                  "createProfile",
+                  "[\"player\",\"Галина\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:05:08 GMT+0500 (Pakistan Standard Time)",
+                  "createProfileItem",
+                  "[\"player\",\"Город\",\"enum\",0]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:05:47 GMT+0500 (Pakistan Standard Time)",
+                  "updateDefaultValue",
+                  "[\"player\",\"Город\",\"Мск,Спб,Че,Екат,НН,Нвсб,другое\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:05:51 GMT+0500 (Pakistan Standard Time)",
+                  "changeProfileItemPlayerAccess",
+                  "[\"player\",\"Город\",\"write\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:06:10 GMT+0500 (Pakistan Standard Time)",
+                  "createProfileItem",
+                  "[\"player\",\"Способ связи\",\"multiEnum\",1]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:06:27 GMT+0500 (Pakistan Standard Time)",
+                  "updateDefaultValue",
+                  "[\"player\",\"Способ связи\",\"Мессенджеры,телефон,\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:06:29 GMT+0500 (Pakistan Standard Time)",
+                  "changeProfileItemPlayerAccess",
+                  "[\"player\",\"Способ связи\",\"write\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:05 GMT+0500 (Pakistan Standard Time)",
+                  "updateDefaultValue",
+                  "[\"player\",\"Способ связи\",\"Мессенджеры,телефон,телеграф,дымовые сигналы,почта,электронная почта\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:07 GMT+0500 (Pakistan Standard Time)",
+                  "doExportProfileItemChange",
+                  "[\"player\",\"Способ связи\",false]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:08 GMT+0500 (Pakistan Standard Time)",
+                  "doExportProfileItemChange",
+                  "[\"player\",\"Город\",false]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:18 GMT+0500 (Pakistan Standard Time)",
+                  "createBinding",
+                  "[\"Арагорн\",\"Аркадий\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:21 GMT+0500 (Pakistan Standard Time)",
+                  "createBinding",
+                  "[\"Арвен\",\"Белла\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:22 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:28 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:30 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:32 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Белла\",\"Город\",\"enum\",\"Екат\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:34 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:35 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон,почта\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:37 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Вальдемар\",\"Способ связи\",\"multiEnum\",\"\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:39 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Вальдемар\",\"Город\",\"enum\",\"Че\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:44 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Вальдемар\",\"Способ связи\",\"multiEnum\",\"Мессенджеры\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:46 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Галина\",\"Способ связи\",\"multiEnum\",\"\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:07:49 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Галина\",\"Город\",\"enum\",\"НН\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:08:38 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:20:56 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:25:02 GMT+0500 (Pakistan Standard Time)",
+                  "updateProfileField",
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                ],
+                [
+                  "user",
+                  "Mon May 22 2017 15:25:11 GMT+0500 (Pakistan Standard Time)",
+                  "removeProfileItem",
+                  "[\"character\",1,\"Игрок\"]"
                 ]
               ],
               "Groups": {
@@ -1893,6 +1978,141 @@ See the License for the specific language governing permissions and
                 "Саурон": {
                   "Арагорн": "Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём."
                 }
+              },
+              "CharacterProfileStructure": [
+                {
+                  "name": "Блок",
+                  "type": "enum",
+                  "value": "Тёмный,Светлый,Нейтрал",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Статус",
+                  "type": "enum",
+                  "value": "Свободна,Занята,На обсуждении",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Раса",
+                  "type": "enum",
+                  "value": "человек,эльф,гном,орк,хоббит,майар,другое",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Пол",
+                  "type": "enum",
+                  "value": "не важно,М,Ж",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Оружие",
+                  "type": "string",
+                  "value": "",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Снаряжение",
+                  "type": "string",
+                  "value": "",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Вес, кг.",
+                  "type": "number",
+                  "value": 0,
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Умеет петь",
+                  "type": "checkbox",
+                  "value": false,
+                  "doExport": false,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Биография",
+                  "type": "text",
+                  "value": "",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Картинка ВК",
+                  "type": "string",
+                  "value": "photo-17502880_426145597",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Картинка сайт",
+                  "type": "string",
+                  "value": "",
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Народ Гондора",
+                  "type": "checkbox",
+                  "value": false,
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                },
+                {
+                  "name": "Народ Рохана",
+                  "type": "checkbox",
+                  "value": false,
+                  "doExport": true,
+                  "playerAccess": "hidden"
+                }
+              ],
+              "PlayerProfileStructure": [
+                {
+                  "name": "Город",
+                  "type": "enum",
+                  "value": "Мск,Спб,Че,Екат,НН,Нвсб,другое",
+                  "doExport": false,
+                  "playerAccess": "write"
+                },
+                {
+                  "name": "Способ связи",
+                  "type": "multiEnum",
+                  "value": "Мессенджеры,телефон,телеграф,дымовые сигналы,почта,электронная почта",
+                  "doExport": false,
+                  "playerAccess": "write"
+                }
+              ],
+              "Players": {
+                "Аркадий": {
+                  "name": "Аркадий",
+                  "Город": "Мск",
+                  "Способ связи": "дымовые сигналы"
+                },
+                "Белла": {
+                  "name": "Белла",
+                  "Город": "Екат",
+                  "Способ связи": "телефон,почта"
+                },
+                "Вальдемар": {
+                  "name": "Вальдемар",
+                  "Город": "Че",
+                  "Способ связи": "Мессенджеры"
+                },
+                "Галина": {
+                  "name": "Галина",
+                  "Город": "НН",
+                  "Способ связи": ""
+                }
+              },
+              "ProfileBindings": {
+                "Арагорн": "Аркадий",
+                "Арвен": "Белла"
               }
             };
 
