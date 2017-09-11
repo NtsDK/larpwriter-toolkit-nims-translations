@@ -1,0 +1,1 @@
+set NODE_ENV=dev && set MODE=server && gulp dev --configFile "config\ru.json"
