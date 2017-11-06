@@ -1,7 +1,13 @@
 ﻿
 Dictionaries['ru'] = {
     "header": {
-        "page-title": "НИМС набор инструментов мастера сюжетника",
+        "refresh": "Обновить",
+        "influences": "Воздействия",
+        "human": "Человек",
+        "map": "Карта",
+        "analyst": "Аналитик",
+        "other": "Иной",
+        "page-title": "ГРИ Дозоры 2017",
         "overview":"Обзор",
         "enter":"Вход",
         "register":"Регистрация",
