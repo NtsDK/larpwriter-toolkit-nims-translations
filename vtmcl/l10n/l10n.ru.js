@@ -1,6 +1,8 @@
 ﻿(window.Dictionaries = (window.Dictionaries || {}))['ru'] = {
     "main": {
-//        'page-title' : 'Чарлист Vampire: the Masquerade',
+        'actions-n-possibilities': 'Действия и возможности',
+        'video': 'Видео',
+//        'page-title' : 'Лист персонажа Vampire: the Masquerade',
         
         'profile' : 'Досье',
         'name' : 'Имя:',
@@ -137,7 +139,8 @@
         'notes': 'Заметки',
     },
     "header": {
-        'charlist':'Чарлист',
+        'charsheet':'Лист персонажа',
+        'instruction':'Инструкция',
         'theme': 'Смена темы',
         'apiCheck':'Проверка API',
         'fullScreen':'Показать/Спрятать тулбар',
@@ -159,7 +162,7 @@
         "shop-view": "Витрина",
         "shop-binding": "Сопоставление",
 //        "page-title": "АРМ Магазин",
-        'page-title' : 'Чарлист Vampire: the Masquerade',
+        'page-title' : 'Лист персонажа Vampire: the Masquerade',
         
 //        "overview":"Обзор",
         "enter":"Вход",
@@ -267,14 +270,14 @@
         "params" : "Параметры",
     },
     'about' : {
-        "about-authors" : "Программа 'Автоматизированное рабочее место Магазин' разработана Речкаловым Тимофеем (NtsDK) для ролевой игры живого действия Deus ex Machina (deus.rpg.ru), МГ «Лестница в небо». 2-6 августа 2017, Центральный регион.",
+        "about-authors" : "Программа 'Лист персонажа Vampire: the Masquerade' разработана Тимофеем Речкаловым (NtsDK) по просьбе Павла Синеглазова. Дизайн: Павел Синеглазов. Реализация: Тимофей Речкалов.",
         "site-mention" : "Сайт автора: ",
-        "site-description" : "На сайте вы можете ознакомиться с другими программами для ролевых игр живого действия.",
+        "site-description" : "На сайте вы можете ознакомиться с другими программами автора.",
         "program-is-free-in-rep" : "Исходный код доступен под лицензией Apache 2",
         "by-link" : "в репозитории",
-        "icons-authors" : "Авторы используемых иконок с сайта www.flaticon.com: Pixel Perfect, Chris Veigt, Minh Hoang, Freepik, Nice and Serious. Автор иконки сортировки FatCow.",
+        "icons-authors" : "Авторы используемых иконок с сайта www.flaticon.com: Freepik, Picol, Nice and Serious. Флаги взяты с flag-icon-css.lip.is.",
         "versions" : "История версий",
-        "var101" : "Версия 1.0.1 (11 Aug 2017) - проект АРМ Магазин интегрирован в проект НИМС. Отключены автоматические запросы к внешней базе данных.",
+        "var010" : "Версия 0.1.0 (7 Nov 2017) - проект 'Лист персонажа Vampire: the Masquerade' интегрирован в проект НИМС. Реализован базовый лист персонажа для VtM 4ой редакции с поддержкой русского и английского языков.",
     },
 //    'entrance': {
 //        'register-success'              :'Регистрация завершена. Воспользуйтесь формой входа.' ,

@@ -1,6 +1,8 @@
 ﻿(window.Dictionaries = (window.Dictionaries || {}))['en'] = {
         "main": {
-//            'page-title' : 'Charlist Vampire: the Masquerade',
+            'actions-n-possibilities': 'Actions and possibilities',
+            'video': 'Video',
+//            'page-title' : 'Character sheet Vampire: the Masquerade',
             
             'profile' : 'Profile',
             'name' : 'Name:',
@@ -137,7 +139,8 @@
             'notes': 'Notes',
         },
     "header": {
-        'charlist':'Charlist',
+        'charsheet':'Character sheet',
+        'instruction':'Instruction',
         'theme': 'Change theme',
         'apiCheck':'API check',
         'fullScreen':'Show/Hide toolbar',
@@ -159,7 +162,7 @@
         "shop-view": "Shop view",
         "shop-binding": "Shop binding",
 //        "page-title": "AWS Shop",
-        'page-title' : 'Charlist Vampire: the Masquerade',
+        'page-title' : 'Character sheet Vampire: the Masquerade',
         
 //        "overview":"Overview",
         "enter":"Login",
@@ -267,14 +270,14 @@
         "params" : "Parameters",
     },
     'about' : {
-        "about-authors" : "Program 'AWS Shop' is written by Timofey Rechkalov (NtsDK) for LARP Deus ex Machina (deus.rpg.ru), organizers «Stairway to Heaven». 2017, August 2-6 (Wed-Sun), Moscow region, Russia.",
+        "about-authors" : "Program 'Character sheet Vampire: the Masquerade' is written by Timofey Rechkalov (NtsDK) by Pavel Sineglazov request. Design: Pavel Sineglazov. Coding: Timofey Rechkalov.",
         "site-mention" : "Author\'s site: ",
-        "site-description" : "You can find other programs for LARP games on author's site.",
+        "site-description" : "You can find other programs on author's site.",
         "program-is-free-in-rep" : "Source code is open under Apache 2 license",
         "by-link" : "in repository",
-        "icons-authors" : "Authors of used icons from www.flaticon.com: Pixel Perfect, Chris Veigt, Minh Hoang, Freepik, Nice and Serious. Sort icon author FatCow.",
+        "icons-authors" : "Authors of used icons from www.flaticon.com: Freepik, Picol, Nice and Serious. Flags used from flag-icon-css.lip.is.",
         "versions" : "Version story",
-        "var101" : "Version 1.0.1 (11 Aug 2017) - AWS Shop project merged in NIMS project. Disabled all automatic queries to external databases.",
+        "var010" : "Version 0.1.0 (7 Nov 2017) - project 'Character sheet Vampire: the Masquerade' merged in NIMS project. Implemented basic character sheet for VtM 4th edition with English and Russian support.",
     },
 //    'entrance': {
 //        'register-success'              :'Registration finished. Use login form to enter.'     ,
