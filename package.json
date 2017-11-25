@@ -1,0 +1,19 @@
+{
+  "name": "smtk-nims-translations",
+  "version": "1.0.0",
+  "description": "This is a repo for SMTK NIMS translations. Here you can find sources for translation into your preferred language. Project core hosted [here](https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://NtsDK@github.com/NtsDK/smtk-nims-translations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NtsDK/smtk-nims-translations/issues"
+  },
+  "homepage": "https://github.com/NtsDK/smtk-nims-translations#readme"
+}

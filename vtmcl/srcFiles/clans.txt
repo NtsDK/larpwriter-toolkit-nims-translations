@@ -1,0 +1,176 @@
+Ahrimanes
+Аримейн 
+
+Anda
+Анда 
+
+Angellis Ater
+Ангеллис Атер 
+
+Assamite
+Ассамиты 
+
+Assamite Viziers
+Ассамиты Визири 
+
+Assamite Warriors
+Ассамиты Воины 
+
+Assamite Sorcerers
+Ассамиты Чародеи 
+
+Baali
+Баали 
+
+Blood Brothers
+Кровавые Братья 
+
+Brahman
+Брахманы 
+
+Brujah
+Бруха 
+
+Brujah Antitribu
+Отступники Бруха 
+
+Caitiff
+Каитиффы 
+
+Cappadocian
+Каппадокийцы 
+
+Children Of Osiris
+Дети Осириса 
+
+City Gangrel
+Городские Гангрелы 
+
+Country Gangrel
+Сельские Гангрелы 
+
+Daitya
+Дайтьи 
+
+Daughters of Cacophony
+Дочери Какофонии 
+
+Followers of Set
+Последователи Сета 
+
+Gangrel
+Гангрел 
+
+Gargoyles
+Горгульи 
+
+Giovanni
+Джованни 
+
+Harbingers of Skulls
+Предвестники Черепов 
+
+Kiasyd
+Каэсиды 
+
+Koldun
+Колдун 
+
+Lamia
+Ламии 
+
+Lasombra
+Ласомбра 
+
+Lasombra Antitribu
+Отступники Ласомбра 
+
+Lhiannan
+Лианнан 
+
+Malkavian
+Малкавианы 
+
+Malkavian Antitribu
+Отступники Малкавианы 
+
+Mariner Gangrel
+Морские Гангрелы 
+
+Nagaraja
+Нагараджа 
+
+Noiad
+Ноад 
+
+Nosferatu
+Носферату 
+
+Nosferatu Antitribu
+Отступники Носферату 
+
+Old Clan Tzimisce
+Старый клан Цимисхи 
+
+Panders
+Пандеры 
+
+Ravnos
+Равнос 
+
+Ravnos Antitribu
+Отступники Равнос 
+
+Salubri
+Салюбри 
+
+Salubri Antitribu
+Отступники Салюбри 
+
+Samedi
+Самеди 
+
+Serpents of the Light
+Змеи Света 
+
+Telyavelic Tremere
+Телявельские Тремеры 
+
+Tlacique
+Тлацик 
+
+Toreador
+Тореадор 
+
+Toreador Antitribu
+Отступники Тореадор 
+
+Tremere
+Тремер 
+
+True Brujah
+Истинные Бруха 
+
+Tzimisce
+Цимисхи 
+
+Ventrue
+Вентру 
+
+Ventrue Antitribu
+Отступники Вентру 
+
+Warrior Setites
+Сетиты-воины 
+
+Wu Zao
+Ву Зао 
+
+Assamite Antitribu
+Отступники Ассамитов 
+
+Gangrel Antitribu
+Отступники Гангрел 
+
+Tremere Antitribu
+Отступники Тремер 
