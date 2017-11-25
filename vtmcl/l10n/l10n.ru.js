@@ -1,9 +1,17 @@
 ﻿(window.Dictionaries = (window.Dictionaries || {}))['ru'] = {
-    "main": {
+    "instruction-tab": {
         'actions-n-possibilities': 'Действия и возможности',
         'video': 'Видео',
-//        'page-title' : 'Лист персонажа Vampire: the Masquerade',
-        
+    },
+    "charsheet-tab": {
+        'settings' : 'Настройки',
+        'background-color' : 'Цвет фона',
+        'charsheet-background-mode' : 'Фон листа персонажа',
+        'charsheet-background-color' : 'Цвет фона листа персонажа',
+        'charsheet-background-image' : 'Изображение фона листа персонажа',
+        'to-default-background-image' : 'Изображение по умолчанию',
+    },
+    "charsheet": {
         'profile' : 'Досье',
         'name' : 'Имя:',
         'player' : 'Игрок:',
@@ -252,6 +260,10 @@
         'bindingNum': 'Связанные персонажи/игроки',
         // misc
         'notAvailable': 'Н/Д',
+        // background options
+        'charsheet-image':'Изображение',
+        'charsheet-none':'Нет фона',
+        'charsheet-color':'Цвет',
     },
     "overview": {
         'consistency-problem-detected': "Проверка данных выявила нарушение целостности базы, пожалуйста свяжитесь с разработчиками для устранения проблемы.",
