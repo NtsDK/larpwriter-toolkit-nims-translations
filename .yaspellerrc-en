@@ -1,0 +1,34 @@
+{
+  "excludeFiles": [
+    ".git",
+    "libs",
+    "node_modules",
+    "presentation-builder/node_modules",
+    "nims\\en\\doc\\_build\\html",
+    "nims\\en\\presentation\\core",
+    "nims\\en\\presentation\\extensions",
+    "nims\\en\\presentation\\images",
+    "nims\\en\\presentation\\introduction",
+    "nims\\en\\presentation\\themes",
+    "nims\\en\\presentation\\jquery.min.js",
+    "nims\\en\\presentation\\modernizr.custom.js",
+    "nims\\ru\\doc\\_build\\html",
+    "nims\\ru\\presentation\\core",
+    "nims\\ru\\presentation\\extensions",
+    "nims\\ru\\presentation\\images",
+    "nims\\ru\\presentation\\introduction",
+    "nims\\ru\\presentation\\themes",
+    "nims\\ru\\presentation\\jquery.min.js",
+    "nims\\ru\\presentation\\modernizr.custom.js"
+  ],
+  "lang": "en",
+  "fileExtensions": [
+    ".md",
+    ".js",
+    ".rst",
+    ".html"
+  ],
+  "dictionary": [
+    "НИМС"
+  ]
+}

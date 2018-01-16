@@ -4,7 +4,12 @@
   "description": "This is a repo for SMTK NIMS translations. Here you can find sources for translation into your preferred language. Project core hosted [here](https://bitbucket.org/NtsDK/story-master-toolkit-smtk-nims).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "yaspeller-nims": "./node_modules/.bin/yaspeller -c .yaspellerrc ./nims",
+    "yaspeller-nims-en": "./node_modules/.bin/yaspeller -c .yaspellerrc-en ./nims",
+    "yaspeller-measurelook": "./node_modules/.bin/yaspeller ./measurelook",
+    "yaspeller-vtmcl": "./node_modules/.bin/yaspeller ./vtmcl",
+    "yaspeller-presentations": "./node_modules/.bin/yaspeller ./presentation-builder"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/NtsDK/smtk-nims-translations/issues"
   },
-  "homepage": "https://github.com/NtsDK/smtk-nims-translations#readme"
+  "homepage": "https://github.com/NtsDK/smtk-nims-translations#readme",
+  "devDependencies": {
+    "yaspeller": "^4.0.3"
+  }
 }

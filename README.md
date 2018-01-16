@@ -1,3 +1,8 @@
+# Using linter
+
+https://github.com/hcodes/yaspeller/blob/master/README.ru.md
+
+    npm run yaspeller-nims >out.log 2> err.log
 
 # Story Master Toolkit NIMS (SMTK NIMS) - Translations
 
