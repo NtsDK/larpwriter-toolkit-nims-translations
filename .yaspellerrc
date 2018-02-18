@@ -28,9 +28,7 @@
     ".rst",
     ".html"
   ],
-  "ignoreText": [
-    ["\n","g"]
-  ],
+  "ignoreText": ["\\\\n"],
   "ignore-capitalization": true,
   "check-yo": true,
   "findRepeatWords": true,

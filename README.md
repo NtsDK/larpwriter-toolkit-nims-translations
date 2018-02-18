@@ -3,6 +3,9 @@
 https://github.com/hcodes/yaspeller/blob/master/README.ru.md
 
     npm run yaspeller-nims >out.log 2> err.log
+    npm run yaspeller-measurelook >out.log 2> err.log
+    
+    ./node_modules/.bin/yaspeller --ignore-text="\\n" -l ru ./nims/test.js
 
 # Story Master Toolkit NIMS (SMTK NIMS) - Translations
 

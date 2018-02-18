@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "yaspeller-nims": "./node_modules/.bin/yaspeller -c .yaspellerrc ./nims",
+    "yaspeller-nims": "./node_modules/.bin/yaspeller -c .yaspellerrc ./nims/test.js",
+    "yaspeller-nims2": "./node_modules/.bin/yaspeller -c .yaspellerrc --ignore-text=\"\\\\n\" ./nims/test.js",
     "yaspeller-nims-en": "./node_modules/.bin/yaspeller -c .yaspellerrc-en ./nims",
     "yaspeller-measurelook": "./node_modules/.bin/yaspeller ./measurelook",
     "yaspeller-vtmcl": "./node_modules/.bin/yaspeller ./vtmcl",
