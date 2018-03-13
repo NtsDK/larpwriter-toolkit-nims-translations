@@ -39,7 +39,7 @@ Dictionaries['ru'] = {
         "group-profile" : "Досье групп",
         "group-schema" : "Иерархия",
         "investigation-board" : "Карта сюжета",
-        "relations" : "Отношение к другим персонажам",
+        "relations" : "Отношения",
         "about" : "О программе",
         "textSearch" : "Поиск по текстам",
         "masterManagement" : "Мастера",
@@ -48,7 +48,10 @@ Dictionaries['ru'] = {
         "roleGrid" : "Сетка ролей",
         "checkConsistency" : "Проверить целостность базы",
         "clickAllTabs" : "Прокликать все вкладки",
-        "refresh":"Обновить текущую вкладку"
+        "refresh":"Обновить текущую вкладку",
+        'filling-profile': 'Заполнение досье',
+        'changing-profile-structure': 'Изменение структуры досье',
+        'binding-characters-and-players': 'Сопоставление персонажей и игроков',
     },
     "common": {
         "to":"в",
@@ -75,6 +78,7 @@ Dictionaries['ru'] = {
         "socialRelations"          : "Социальные связи",
         "characterPresenceInStory" : "Персонаж-участие-история",
         "characterActivityInStory" : "Персонаж-активность-история",
+        "characterRelations" : "Отношения между персонажами",
         // no group
         "noGroup": "Без групп" ,
         "fromGroup": "Входит в группу" ,
@@ -87,6 +91,10 @@ Dictionaries['ru'] = {
         "follower-s"  : "С" ,
         "defensive-s" : "З" ,
         "passive-s"   : "П" ,
+        // relation types
+        'allies' : 'Союзники',
+        'neutral' : 'Нейтральные',
+        'directional' : 'Направленные',
         // number filter
         "ignore" : "Не важно",
         "greater" : "Больше",
@@ -99,6 +107,7 @@ Dictionaries['ru'] = {
         "finishedText" : "Описание завершено",
         "finishedSuffix" : "(завершено)",
         "emptySuffix" : "(пусто)",
+        
         // profile item types
         "text":"Текст",
         "string":"Строка",
@@ -122,11 +131,13 @@ Dictionaries['ru'] = {
         'bindingNum': 'Связанные персонажи/игроки',
         // misc
         'notAvailable': 'Н/Д',
+        'finished' : 'Завершено', 
+        'unfinished' : 'Не завершено',
     },
     "overview": {
         "descr":"Описание",
         "diagrams":"Диаграммы",
-        "name":"Название",
+        "name":"Название игры",
         "pre-game-start-date":"Дата начала доигровых событий",
         "pre-game-end-date":"Дата окончания доигровых событий",
         "stats":"Статистика",
@@ -139,14 +150,16 @@ Dictionaries['ru'] = {
         "first-event":"Первое событие",
         "last-event":"Последнее событие",
         "symbol-count":"Количество знаков в текстах (без пробелов)",
-        "story-completeness":"Завершенность историй",
-        "general-completeness":"Общая завершенность",
+        "story-completeness":"Завершённость историй",
+        "general-completeness":"Общая завершённость",
+        "relation-completeness":"Завершённость отношений",
         "event-count-diagram":"Количество событий в историях",
         "character-count-diagram":"Количество персонажей в историях",
         "story-completeness-diagram":"Детальная завершенность историй",
         "object-belonging-diagrams":"Принадлежность объектов",
         "story-completeness-value":'{0}% ({1} из {2} историй)',
         "general-completeness-value": '{0}% ({1} из {2} адаптаций)',
+        "relation-completeness-value": '{0}% ({1} из {2} отношений)',
         'consistency-problem-detected': "Проверка данных выявила нарушение целостности базы, пожалуйста свяжитесь с разработчиками для устранения проблемы.",
         'consistency-is-ok': 'Повреждений базы не выявлено.',
         'last-save-time': 'Время последнего сохранения базы',
@@ -164,15 +177,23 @@ Dictionaries['ru'] = {
         "player-name":"Имя игрока",
         "new-player-name":"Новое имя игрока",
         
+        'create-profile-item' : 'Создать поле досье',
+        'enter-new-profile-item-name' : 'Введите новое имя поля досье',
+        'rename-profile-item' : 'Переименовать поле досье',
+        'remove-profile-item' : 'Удалить поле досье',
+        'move-profile-item' : 'Переместить поле досье',
+        
         "profile":"Досье",
         "character-profile":"Досье персонажа",
         "player-profile":"Досье игрока",
-        "character-report":"Отчёт",
+        "character-report-by-stories":"Отчёт по историям",
+        "character-report-by-relations":"Отчёт по отношениям",
         "profile-editor":"Редактор досье",
         "characters":"Персонажи",
-        "profile-item-name":"Введите название поля",
-        "profile-item-type":"Тип",
-        "profile-item-position":"Позиция",
+        "profile-item-name":"Название поля досье",
+        "profile-item-type":"Тип поля досье",
+        "profile-item-position":"Позиция поля досье",
+        "new-profile-item-position":"Новая позиция поля досье",
         "profile-item-do-export":"Печатать во вводных",
         "profile-item-player-access":"Доступ игрока",
 
@@ -185,15 +206,34 @@ Dictionaries['ru'] = {
         "completness": "Завершённость",
         "meets": "Встречает",
         "inventory": "Инвентарь",
+        'character' : 'Персонаж',
+        'direction' : 'Направление',
+        'origin' : 'Суть отношений',
         
         "characters-profile-structure": "Структура досье персонажа",
         "players-profile-structure": "Структура досье игрока",
         
+        'find-character' : 'Поиск персонажей',
+        'find-player' : 'Поиск игроков',
+        'show-in-role-grid' : "Показать в сетке ролей",
+        
+        'create-character' : 'Создать персонажа',
+        'create-player' : 'Создать игрока',
+        'rename-character' : 'Переименовать персонажа',
+        'rename-player' : 'Переименовать игрока',
+        'remove-character' : 'Удалить персонажа',
+        'remove-player' : 'Удалить игрока',
+        
         'player-has-no-character-and-can-create-it' : 'У вас нет привязки к персонажу, но вы можете создать персонажа самостоятельно.',
         'player-has-no-character-and-cant-create-it' : 'У вас нет привязки к персонажу и вы не можете создать персонажа самостоятельно. Обратитесь к мастерам.',
         
-        // character management errors
+        // character management
+        'enter-character-name': 'Введите имя персонажа',
+        'enter-new-character-name': 'Введите новое имя персонажа',
         "are-you-sure-about-character-removing" : "Вы уверены, что хотите удалить {0}? Все данные связанные с персонажем будут удалены безвозвратно.",
+        'enter-player-name': 'Введите имя игрока',
+        'enter-new-player-name': 'Введите новое имя игрока',
+        "are-you-sure-about-player-removing" : "Вы уверены, что хотите удалить {0}? Все данные связанные с игроком будут удалены безвозвратно.",
 
         // profile configurer errors
         "are-you-sure-about-removing-profile-item": "Вы уверены, что хотите удалить поле профиля {0}? Все данные связанные с этим полем будут удалены безвозвратно.",
@@ -365,6 +405,12 @@ Dictionaries['ru'] = {
         'direct-relation': 'Отношение',
         'reverse-relation': 'Обратное отношение',
         'extra-info': 'Дополнительно',
+        'relation-origin': 'Суть отношений',
+        'relation-from-to': 'Отношение {0} к {1}',
+        'starterToEnder' : 'Активное отношение {0} к {1}',
+        'allies' : 'Союзники',
+        'enderToStarter' : 'Активное отношение {1} к {0}',
+        'are-you-sure-about-relation-removing': 'Вы уверены, что хотите удалить отношение {0}? Все данные связанные с отношением будут удалены безвозвратно.',
         // export status
         "save-preparing" : "Подготовка к выгрузке.",
         "start-saving": "Данные подготовлены. Начинаю выгрузку.",
@@ -391,7 +437,8 @@ Dictionaries['ru'] = {
         "story":"История",
         "private-settings": "Частные настройки",
         "social-network": "Социальная сеть",
-        "activity": "Активность",
+        "activity": "Виды активности для отрисовки",
+        "relations": "Виды отношений для отрисовки",
         "draw": "Нарисовать",
         "hide-panel": "Спрятать панель",
         "require-resources-warning":"Внимание! Отрисовка социальной сети требует большого количества ресурсов. Рекомендуем сохранить данные перед отрисовкой.",
@@ -474,12 +521,18 @@ Dictionaries['ru'] = {
     'binding':{
         'character-or-player-not-selected' : 'Персонаж или игрок не выбран',
         'binding-is-not-selected' : 'Сопоставление не выбрано',
+        'binded-characters-n-players' : 'Сопоставленные персонажи и игроки',
+        'binding-tip' : 'Перетащите персонажа на игрока, чтобы их сопоставить. Нажмите кнопку разъединения, чтобы разбить пару.',
         
         'characters' : 'Персонажи',
         'players' : 'Игроки',
         'characters-players' : 'Персонажи/Игроки',
         'bind' : 'Сопоставить',
         'unbind' : 'Разъединить',
+        "character-search" : 'Поиск персонажей',
+        "player-search" : 'Поиск игроков',
+        "binding-search" : 'Поиск сопоставлений',
+        "unlink-binding" : 'Разъединить',
     },
     'text-search':{
         "enter-search-string":"Введите искомый текст",
