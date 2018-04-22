@@ -1,0 +1,158 @@
+﻿+clan
++humanity/path
++nature/demeanor
++disciplines
++backgrounds
+
+merits
+flaws
+
+
+
+
+
+
+    "animalism":"Анимализм",
+    "assamite_sorcery":"Чародейство Ассамитов"
+    "auspex":"Прорицание",
+    "bardo":"Бардо",
+    "celerity":"Стремительность",
+    "chimerstry":"Химерия",
+    "daimoinon":"Демонизм"
+    "dementation":"Помешательство",
+    "dominate":"Доминирование",
+    "fortitude":"Стойкость",
+    "gargoyle_flight":"Полёт горгулий",
+    "koldunic_sorcery":"Колдовство",
+    "melpominee":"Мельпомения",
+    "mytherceria":"Мистерия",
+    "necromancy":"Некромантия",
+    "obeah":"Обеах",
+    "obfuscate":"Затемнение",
+    "obtenebration":"Власть над Тенью",
+    "ogham":"Огам",
+    "potence":"Могущество",
+    "presence":"Присутствие",
+    "protean":"Превращение",
+    "quietus":"Смертоносность",
+    "sanguinus":"Сангвинус",
+    "serpentis":"Серпетис",
+    "spiritus":"Шаманство",
+    "temporis":"Темпорис",
+    "thanatosis":"Танатозис",
+    "thaumaturgy":"Тауматургия",
+    "valeren":"Валерен",
+    "vicissitude":"Изменчивость",
+    "visceratika":"Висцератика",
+    
+    
+    "allies": "Союзники",
+    "alternate_identity": "Альтернативная личность",
+    "black_hand_membership": "Членство в Черной Руке",
+    "contacts": "Связи",
+    "domain": "Домен",
+    "fame": "Слава",
+    "generation": "Поколение",
+    "herd": "Стадо",
+    "influence": "Влияние",
+    "mentor": "Ментор",
+    "resources": "Ресурсы",
+    "retainers": "Слуги",
+    "rituals": "Ритуалы",
+    "status": "Статус",
+    
+    
+    Человечность (Humanity)
+    Путь Крови (Path of Blood)
+    Путь Костей (Path of the Bones)
+    Путь Каина (Path of Caine)
+    Путь Катари (Path of Cathari)
+    Путь Дикого Сердца (Path of the Feral Heart)
+    Путь Гармонии (Path of Harmony)
+    Путь Соглашения Чести (Path of Honorable Accord)
+    Путь Лилит (Path of Lilith)
+    Путь Метаморфоз (Path of Metamorphosis)
+    Путь Ночи (Path of Night)
+    Путь Парадокса (Path of Paradox)
+    Путь Власти и Внутреннего Голоса (Path of Power and the Inner Voice)
+    Путь Тифона (Path of Typhon)
+    Путь Внутреннего Фокуса (Path of Self-Focus)
+    Путь Выжженного Сердца (Path of the Scorched Heart)
+    Путь Откровений Зла (Path of Evil Revelations)
+    Путь Смерти и Души (Path of Death and the Soul)
+    
+    
+    Анархи, Шабаш, Камарилья, Инконню, Истинная Черная Рука, инферналисты
+    А Ш К И ЧР Д
+    
+    Аримейн (Ш) (Ahrimanes)
+    Анда (?) (Anda)
+    Ангеллис Атер (?) (Angellis Ater)
+    Ассамиты (Н) (Assamite)
+    Ассамиты Визири (Н) (Assamite Viziers)
+    Ассамиты Воины (Н) (Assamite Warriors)
+    Ассамиты Чародеи (Н) (Assamite Sorcerers)
+    Баали (Н) (Baali)
+    Кровавые Братья (Ш) (Blood Brothers)
+    Брахманы (?) (Brahman)
+    Бруха (К) (Brujah)
+    Отступники Бруха (Ш) (Brujah Antitribu)
+    Каитиффы (К) (Caitiff)
+    Каппадокийцы (Н) (Cappadocian)
+    Дети Осириса (Н) (Children Of Osiris)
+    Городские Гангрелы (К) (City Gangrel)
+    Сельские Гангрелы? (К) (Country Gangrel)
+    Дайтьи (?) (Daitya)
+    Дочери Какофонии (Н) (Daughters of Cacophony)
+    Последователи Сета (Н) (Followers of Set)
+    Гангрел (К) (Gangrel)
+    Горгульи (К) (Gargoyles)
+    Джованни (Н) (Giovanni)
+    Предвестники Черепов (Ш) (Harbingers of Skulls)
+    Каэсиды (Ш) (Kiasyd)
+    Колдун (?) (Koldun)
+    Ламии (?) (Lamia)
+    Ласомбра (Ш) (Lasombra)
+    Отступники Ласомбра (К) (Lasombra Antitribu)
+    Лианнан (?) (Lhiannan) 
+    Малкавианы (К) (Malkavian)
+    Отступники Малкавианы (Ш) (Malkavian Antitribu)
+    Морские Гангрелы (К) (Mariner Gangrel)
+    Нагараджа (Н) (Nagaraja)
+    Ноад (?) (Noiad) 
+    Носферату (К) (Nosferatu)
+    Отступники Носферату (Ш) (Nosferatu Antitribu)
+    Старый клан Цимисхи (Н) (Old Clan Tzimisce)
+    Пандеры (Ш) (Panders)
+    Равнос (Н) (Ravnos)
+    Отступники Равнос (Ш) (Ravnos Antitribu)
+    Салюбри (Н) (Salubri)
+    Отступники Салюбри (Ш) (Salubri Antitribu)
+    Самеди (Н) (Samedi)
+    Змеи Света (Ш) (Serpents of the Light)
+    Телявельские Тремеры (?) (Telyavelic Tremere)
+    Тлацик (?) (Tlacique) 
+    Тореадор (К) (Toreador)
+    Отступники Тореадор (Ш) (Toreador Antitribu)
+    Тремер (К) (Tremere)
+    Истинные Бруха (Н) (True Brujah)
+    Цимисхи (Ш) (Tzimisce)
+    Вентру (К) (Ventrue)
+    Отступники Вентру (Ш) (Ventrue Antitribu)
+    Сетиты-воины (Warrior Setites)
+    Ву Зао (Wu Zao)
+    Отступники Ассамитов (Ш) (Assamite Antitribu)
+    Отступники Гангрел (Ш) (Gangrel Antitribu)
+    Отступники Тремер (Ш) (Tremere Antitribu)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
