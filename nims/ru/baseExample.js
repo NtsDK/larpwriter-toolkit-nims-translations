@@ -1363,8 +1363,8 @@ See the License for the specific language governing permissions and
                 },
                 "Adaptations": {
                   "storyName": "Арвен и Арагорн",
-                  "characterNames": [],
-                  "eventIndexes": [],
+                  "characterNames": null,
+                  "eventIndexes": null,
                   "selectedFilter": "adaptationFilterByCharacter"
                 }
               },
