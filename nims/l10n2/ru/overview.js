@@ -1,6 +1,11 @@
 {
     "descr":"Описание",
+    "about-game":"Информация об игре",
     "diagrams":"Диаграммы",
+    "character-diagrams":"Диаграммы досье персонажей",
+    "player-diagrams":"Диаграммы досье игроков",
+    "statistic-diagrams":"Статистические диаграммы",
+    "profile-diagrams":"Диаграммы досье",
     "name":"Название игры",
     "pre-game-start-date":"Дата начала доигровых событий",
     "pre-game-end-date":"Дата окончания доигровых событий",
