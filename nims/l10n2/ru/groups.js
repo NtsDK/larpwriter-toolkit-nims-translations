@@ -19,8 +19,14 @@
     "show-group-filter" : "Показать фильтр группы",
     "save-group-filter" : "Сохранить фильтр в группу",
     "manage-groups" : "Управление",
-    "text-contains" : "содержит '{0}'",
+    "text-contains" : "содержит",
+    "one-from" : "один из",
     "total" : 'Всего: ',
+    
+    "profile-item" : 'Поле досье/статистика',
+    "profile-item-type" : 'Тип поля',
+    "condition" : 'Условие',
+    "value" : 'Значение',
     
     // group management errors
     "are-you-sure-about-group-removing" : "Вы уверены, что хотите удалить {0}? Все данные связанные с группой будут удалены безвозвратно.",
