@@ -28,6 +28,9 @@
     "condition" : 'Условие',
     "value" : 'Значение',
     
+    "theoretical-group-schema" : 'Иерархия групп по теории множеств',
+    "practical-group-schema" : 'Иерархия групп по участникам',
+    
     // group management errors
     "are-you-sure-about-group-removing" : "Вы уверены, что хотите удалить {0}? Все данные связанные с группой будут удалены безвозвратно.",
     "group-editing-forbidden" : "У вас недостаточно прав для редактирования группы {0}",
