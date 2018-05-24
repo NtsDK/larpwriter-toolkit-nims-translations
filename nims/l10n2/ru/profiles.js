@@ -29,7 +29,21 @@
 
     "move-item":"Переместить",
     "table-profile-item-name":"Название поля",
-    "profile-item-default-value":"Значения",
+    "profile-item-default-value":"Настройка значения(й)",
+    "default-value" : "Значение по умолчанию",
+    "value-list" : "Список значений",
+    "add-remove-values" : "Добавить/удалить значения из выбора",
+    "rename-enum-item" : "Переименовать значение из выбора",
+    "renamed-value" : "Значение для переименования",
+    "new-enum-value-name" : "Новое название",
+    
+    "current-enum-value" : "Текущий список значений",
+    "enum-filling-instruction" : "Введите список значений через запятую",
+    "new-enum-value" : "Новый список значений",
+    "new-enum-values" : "Добавленные значения",
+    "removed-enum-values" : "Удалённые значения",
+    "enum-editor" : "Добавить/удалить значения единственного выбора",
+    "multi-enum-editor" : "Добавить/удалить значения множественного выбора",
     
     "story": "История",
     "activity": "Активность",
