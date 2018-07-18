@@ -6,9 +6,11 @@
     "player-diagrams":"Диаграммы досье игроков",
     "statistic-diagrams":"Статистические диаграммы",
     "profile-diagrams":"Диаграммы досье",
+    
     "name":"Название игры",
     "pre-game-start-date":"Дата начала доигровых событий",
     "pre-game-end-date":"Дата окончания доигровых событий",
+    
     "stats":"Статистика",
     "story-count":"Количество историй",
     "character-count":"Количество персонажей",
@@ -22,6 +24,7 @@
     "story-completeness":"Завершённость историй",
     "general-completeness":"Общая завершённость",
     "relation-completeness":"Завершённость отношений",
+    
     "event-count-diagram":"Количество событий в историях",
     "character-count-diagram":"Количество персонажей в историях",
     "story-completeness-diagram":"Детальная завершенность историй",
@@ -32,6 +35,7 @@
     'consistency-problem-detected': "Проверка данных выявила нарушение целостности базы, пожалуйста свяжитесь с разработчиками для устранения проблемы.",
     'consistency-is-ok': 'Повреждений базы не выявлено.',
     'last-save-time': 'Время последнего сохранения базы',
+    
     'character-stories-diagram': 'Количество историй у персонажей',
     'character-symbols-diagram': 'Количество знаков у персонажей',
     'character-symbols-doughnut': 'Количество знаков по видам текстов',

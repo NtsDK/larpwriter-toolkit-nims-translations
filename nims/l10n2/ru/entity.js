@@ -5,6 +5,6 @@
     'of-profile-item' : 'поля досье',
     'of-character' : 'персонажа',
     'of-player' : 'игрока',
-    'of-story' : 'истрии',
+    'of-story' : 'истории',
     'of-master' : 'мастера',
 }

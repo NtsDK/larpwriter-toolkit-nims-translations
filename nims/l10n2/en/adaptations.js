@@ -9,4 +9,8 @@
     "adaptations": "Adaptations",
     "origin": "Origin",
     "adaptation": "Adaptation",
+    "adaptation-finished": "Adaptation is finished",
+    "adaptation-in-progress": "Adaptation is in progress",
+    "adaptation-text": "Adaptation text",
+    'subjective-time':"Subjective time",
 }

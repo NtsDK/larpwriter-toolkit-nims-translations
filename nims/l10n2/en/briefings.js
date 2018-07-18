@@ -63,6 +63,14 @@
     'direct-relation': 'Relation',
     'reverse-relation': 'Reverse relation',
     'extra-info': 'Extra information',
+    'relation-origin': 'Relation origin',
+    'relation-from-to': 'Relation from {0} to {1}',
+    'starterToEnder' : 'Active relation from {0} to {1}',
+    'allies' : 'Allies',
+    'directional' : 'Directional',
+    'neutral' : 'Neutral',
+    'enderToStarter' : 'Active relation from {1} to {0}',
+    'are-you-sure-about-relation-removing': 'Are you sure about removing relation {0}? Relation texts will be irreversible lost.',
     // export status
     "save-preparing" : "Preparing export.",
     "start-saving": "Data is ready. Export started.",
@@ -72,4 +80,6 @@
     "save-archive": "Archive is ready. Save?",
     "file-is-ready": "Document is ready.",
     "save-file": "Document is ready. Save?",
+        
+    'to-page-top':'To page top',
 }

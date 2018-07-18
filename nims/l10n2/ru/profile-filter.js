@@ -13,5 +13,6 @@
     "download-filter-table" : "Скачать таблицу",
     'characterFilterItems' : 'Досье персонажа',
     'playerFilterItems' : 'Досье игрока',
-    'summaryFilterItems' : 'Статистика'
+    'summaryFilterItems' : 'Статистика',
+    'add-filter-condition' : 'Добавить условие в фильтр'
 }

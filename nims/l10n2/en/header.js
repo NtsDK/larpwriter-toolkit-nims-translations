@@ -43,4 +43,16 @@
     "masterManagement" : "Masters",
     "playerManagement" : "Players",
     "player" : "Player's",
+    "roleGrid" : "Role grid",
+    "gears" : "Gear",
+    "sliders" : "Mixing Desk",
+    "showDiff" : "Show changes history",
+    "checkConsistency" : "Check base consistency",
+    "showDbmsConsistencyState" : "Show base consistency state",
+    "clickAllTabs" : "Click through all tabs",
+    "refresh":"Refresh current tab",
+    'filling-profile': 'Filling profile',
+    'changing-profile-structure': 'Changing profile structure',
+    'binding-characters-and-players': 'Binding characters and players',
+
 }

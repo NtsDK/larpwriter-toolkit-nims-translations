@@ -10,6 +10,7 @@
     "socialRelations"          : "Social Realtions",
     "characterPresenceInStory" : "Character-Presence-Story",
     "characterActivityInStory" : "Character-Activity-Story",
+    "characterRelations" : "Character relations",
     // no group
     "noGroup": "No group" ,
     "fromGroup": "Group member" ,
@@ -22,6 +23,10 @@
     "follower-s"  : "F" ,
     "defensive-s" : "D" ,
     "passive-s"   : "P" ,
+    // relation types
+    'allies' : 'Allies',
+    'neutral' : 'Neutral',
+    'directional' : 'Directional',
     // number filter
     "ignore" : "Ignore",
     "greater" : "Greater",
@@ -32,8 +37,11 @@
     "some" : "Some",
     // adaptations labels
     "finishedText" : "Text finished",
+    "adaptation-finished" : "Adaptaion finished",
     "finishedSuffix" : "(finished)",
     "emptySuffix" : "(empty)",
+    "filter": "Filter",
+    
     // profile item types
     "text":"Text",
     "string":"String",
@@ -57,4 +65,10 @@
     'bindingNum': 'Binded characters/players',
     // misc
     'notAvailable': 'N/A',
+    'finished' : 'Finished', 
+    'unfinished' : 'Unfinished',
+    
+    'saving' : 'Saving...',
+    'saving-success' : 'Saving success',
+    'saving-fail' : 'Saving failed',
 }
