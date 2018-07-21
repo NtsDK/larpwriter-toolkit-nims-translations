@@ -40,4 +40,6 @@
     'player-cant-write-to-other-player':'Player can\'t modify other player',
     'character-is-not-binded-to-player':'Character is not binded to player',
     'player-cant-write-profile-item':'Player can\'t modify profile item',
+    
+    'indexeddb-is-not-found': 'Your browser does not support backup saving. Auto backups are disabled.'
 }

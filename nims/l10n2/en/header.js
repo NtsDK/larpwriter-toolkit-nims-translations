@@ -37,7 +37,7 @@
     "group-profile" : "Group profiles",
     "group-schema" : "Hierarchy",
     "investigation-board" : "Story map",
-    "relations" : "Relation to other characters",
+    "relations" : "Relations",
     "about" : "About",
     "textSearch" : "Text Search",
     "masterManagement" : "Masters",

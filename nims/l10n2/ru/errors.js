@@ -40,4 +40,6 @@
     'player-cant-write-to-other-player':'Игрок не может изменять другого игрока',
     'character-is-not-binded-to-player':'Персонаж не привязан к игроку',
     'player-cant-write-profile-item':'Игрок не может изменять элемент досье',
+        
+    'indexeddb-is-not-found': 'Ваш браузер не поддерживает сохранение резервных копий. Сохранение резервных копий выключено.'
 }

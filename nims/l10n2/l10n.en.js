@@ -25,4 +25,5 @@
     'text-search':          @@include('./en/text-search.js'),
     "timeline":             @@include('./en/timeline.js'),
     "utils":                @@include('./en/utils.js'), 
+    "dialogs":              @@include('./en/dialogs.js'), 
 };

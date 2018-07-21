@@ -11,6 +11,7 @@
     "replace": "Replace",
     "save": "Save",
     "on": "on",
+    "load": "Load",
     "set-item-before" : "Before '{0}'",
     "set-item-as-last" : "To end",
 }

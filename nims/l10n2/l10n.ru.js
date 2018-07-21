@@ -24,6 +24,7 @@
     "stories":              @@include('./ru/stories.js'),
     'text-search':          @@include('./ru/text-search.js'),
     "timeline":             @@include('./ru/timeline.js'),
-    "utils":                @@include('./ru/utils.js'), 
+    "utils":                @@include('./ru/utils.js'),
+    "dialogs":              @@include('./ru/dialogs.js'),
 };
 
