@@ -22,7 +22,7 @@ See the License for the specific language governing permissions and
                 "date": "3019/02/27 00:00",
                 "preGameDate": "3018/01/01 00:00",
                 "description": "События фильма, как основа для ролевой игры. В этой базе изложен первый фильм из трилогии Властелин колец. Хронология событий взята из книги.",
-                "saveTime": "Sat May 12 2018 21:05:43 GMT+0500 (Pakistan Standard Time)"
+                "saveTime": "Sun Jul 22 2018 15:48:37 GMT+0500 (Екатеринбург, стандартное время)"
               },
               "Characters": {
                 "Фродо": {
@@ -1315,1189 +1315,1575 @@ See the License for the specific language governing permissions and
                   "selectedFilter": "adaptationFilterByCharacter"
                 }
               },
-              "Version": "0.6.1",
+              "Version": "0.7.2",
               "Log": [
                 [
                   "user",
                   "Thu Oct 13 2016 19:09:25 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"Блок\",\"enum\",\"_\",true,11]"
+                  "[\"Блок\",\"enum\",\"_\",true,11]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:09:55 GMT+0500 (Pakistan Standard Time)",
                   "updateDefaultValue",
-                  "[\"Блок\",\"Тёмный,Светлый,Нейтрал\"]"
+                  "[\"Блок\",\"Тёмный,Светлый,Нейтрал\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:10:09 GMT+0500 (Pakistan Standard Time)",
                   "moveProfileItem",
-                  "[11,0]"
+                  "[11,0]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:12:30 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Светлый блок\"]"
+                  "[\"Светлый блок\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:12:37 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Темный блок\"]"
+                  "[\"Темный блок\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:12:47 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Нейтралы\"]"
+                  "[\"Нейтралы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:12:58 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Эльфы\"]"
+                  "[\"Эльфы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:13:52 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Нейтралы\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Нейтрал\":true}}]]"
+                  "[\"Нейтралы\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Нейтрал\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:13:55 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Светлый блок\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Светлый\":true}}]]"
+                  "[\"Светлый блок\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Светлый\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:13:59 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Темный блок\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Тёмный\":true}}]]"
+                  "[\"Темный блок\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Тёмный\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:14:05 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Эльфы\",[{\"type\":\"enum\",\"name\":\"profile-Раса\",\"selectedOptions\":{\"эльф\":true}}]]"
+                  "[\"Эльфы\",[{\"type\":\"enum\",\"name\":\"profile-Раса\",\"selectedOptions\":{\"эльф\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:16:26 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Нейтралы\"]"
+                  "[\"Нейтралы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:16:29 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Светлый блок\"]"
+                  "[\"Светлый блок\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:16:31 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Темный блок\"]"
+                  "[\"Темный блок\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:16:33 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Эльфы\"]"
+                  "[\"Эльфы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:16:47 GMT+0500 (Pakistan Standard Time)",
                   "createResource",
-                  "[\"Кольцо Всевластья\"]"
+                  "[\"Кольцо Всевластья\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:17:14 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Темный блок\",\"resource-Кольцо Всевластья\",\"Стремится захватить\"]"
+                  "[\"group-Темный блок\",\"resource-Кольцо Всевластья\",\"Стремится захватить\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:17:27 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Светлый блок\",\"resource-Кольцо Всевластья\",\"Стремится уничтожить\"]"
+                  "[\"group-Светлый блок\",\"resource-Кольцо Всевластья\",\"Стремится уничтожить\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:17:50 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Нейтралы\",\"resource-Кольцо Всевластья\",\"Стремятся эффективно использовать\"]"
+                  "[\"group-Нейтралы\",\"resource-Кольцо Всевластья\",\"Стремятся эффективно использовать\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:18:15 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Светлый блок\",\"group-Темный блок\",\"Хочет уничтожить\"]"
+                  "[\"group-Светлый блок\",\"group-Темный блок\",\"Хочет уничтожить\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:18:20 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Темный блок\",\"group-Светлый блок\",\"Хочет уничтожить\"]"
+                  "[\"group-Темный блок\",\"group-Светлый блок\",\"Хочет уничтожить\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:19:40 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Эльфы\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Светлый\":true}},{\"type\":\"enum\",\"name\":\"profile-Раса\",\"selectedOptions\":{\"эльф\":true}}]]"
+                  "[\"Эльфы\",[{\"type\":\"enum\",\"name\":\"profile-Блок\",\"selectedOptions\":{\"Светлый\":true}},{\"type\":\"enum\",\"name\":\"profile-Раса\",\"selectedOptions\":{\"эльф\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:20:25 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Темный блок\",\"group-Нейтралы\",\"Хочет поработить\"]"
+                  "[\"group-Темный блок\",\"group-Нейтралы\",\"Хочет поработить\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:20:54 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Светлый блок\",\"group-Нейтралы\",\"Хочет присоединить\"]"
+                  "[\"group-Светлый блок\",\"group-Нейтралы\",\"Хочет присоединить\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:21:37 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Эльфы\",\"group-Светлый блок\",\"Направляют\"]"
+                  "[\"group-Эльфы\",\"group-Светлый блок\",\"Направляют\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:22:00 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Народ Рохана\"]"
+                  "[\"Народ Рохана\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:22:04 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Народ Гондора\"]"
+                  "[\"Народ Гондора\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:22:11 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Народ Гондора\"]"
+                  "[\"Народ Гондора\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:22:13 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Народ Рохана\"]"
+                  "[\"Народ Рохана\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:22:51 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Народ Гондора\",\"group-Народ Рохана\",\"Союзники\"]"
+                  "[\"group-Народ Гондора\",\"group-Народ Рохана\",\"Союзники\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:22:54 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Народ Рохана\",\"group-Народ Гондора\",\"Союзники\"]"
+                  "[\"group-Народ Рохана\",\"group-Народ Гондора\",\"Союзники\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:23:20 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Народ Гондора\",\"group-Светлый блок\",\"Склоняются\"]"
+                  "[\"group-Народ Гондора\",\"group-Светлый блок\",\"Склоняются\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:23:24 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Народ Рохана\",\"group-Светлый блок\",\"Склоняются\"]"
+                  "[\"group-Народ Рохана\",\"group-Светлый блок\",\"Склоняются\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:26:04 GMT+0500 (Pakistan Standard Time)",
                   "createResource",
-                  "[\"Шахты Мории\"]"
+                  "[\"Шахты Мории\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:26:18 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Темный блок\",\"resource-Шахты Мории\",\"Контролирует\"]"
+                  "[\"group-Темный блок\",\"resource-Шахты Мории\",\"Контролирует\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:26:47 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Народ Гондора\",\"resource-Шахты Мории\",\"Хочет захватить\"]"
+                  "[\"group-Народ Гондора\",\"resource-Шахты Мории\",\"Хочет захватить\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:31:26 GMT+0500 (Pakistan Standard Time)",
                   "createCharacter",
-                  "[\"Народ Гондора\"]"
+                  "[\"Народ Гондора\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:31:30 GMT+0500 (Pakistan Standard Time)",
                   "createCharacter",
-                  "[\"Народ Рохана\"]"
+                  "[\"Народ Рохана\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:31:40 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"Народ Гондора\",\"checkbox\",false,true,12]"
+                  "[\"Народ Гондора\",\"checkbox\",false,true,12]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:31:46 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"Народ Рохана\",\"checkbox\",false,true,13]"
+                  "[\"Народ Рохана\",\"checkbox\",false,true,13]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:32:36 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Народ Гондора\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Гондора\",\"selectedOptions\":{\"true\":true}}]]"
+                  "[\"Народ Гондора\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Гондора\",\"selectedOptions\":{\"true\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Oct 13 2016 19:32:53 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Народ Рохана\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Рохана\",\"selectedOptions\":{\"true\":true}}]]"
+                  "[\"Народ Рохана\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Рохана\",\"selectedOptions\":{\"true\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:04:01 GMT+0500 (Pakistan Standard Time)",
                   "createProfile",
-                  "[\"player\",\"Аркадий\"]"
+                  "[\"player\",\"Аркадий\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:04:16 GMT+0500 (Pakistan Standard Time)",
                   "createProfile",
-                  "[\"player\",\"Белла\"]"
+                  "[\"player\",\"Белла\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:04:34 GMT+0500 (Pakistan Standard Time)",
                   "createProfile",
-                  "[\"player\",\"Вальдемар\"]"
+                  "[\"player\",\"Вальдемар\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:04:57 GMT+0500 (Pakistan Standard Time)",
                   "createProfile",
-                  "[\"player\",\"Галина\"]"
+                  "[\"player\",\"Галина\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:05:08 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"player\",\"Город\",\"enum\",0]"
+                  "[\"player\",\"Город\",\"enum\",0]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:05:47 GMT+0500 (Pakistan Standard Time)",
                   "updateDefaultValue",
-                  "[\"player\",\"Город\",\"Мск,Спб,Че,Екат,НН,Нвсб,другое\"]"
+                  "[\"player\",\"Город\",\"Мск,Спб,Че,Екат,НН,Нвсб,другое\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:05:51 GMT+0500 (Pakistan Standard Time)",
                   "changeProfileItemPlayerAccess",
-                  "[\"player\",\"Город\",\"write\"]"
+                  "[\"player\",\"Город\",\"write\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:06:10 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"player\",\"Способ связи\",\"multiEnum\",1]"
+                  "[\"player\",\"Способ связи\",\"multiEnum\",1]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:06:27 GMT+0500 (Pakistan Standard Time)",
                   "updateDefaultValue",
-                  "[\"player\",\"Способ связи\",\"Мессенджеры,телефон,\"]"
+                  "[\"player\",\"Способ связи\",\"Мессенджеры,телефон,\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:06:29 GMT+0500 (Pakistan Standard Time)",
                   "changeProfileItemPlayerAccess",
-                  "[\"player\",\"Способ связи\",\"write\"]"
+                  "[\"player\",\"Способ связи\",\"write\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:05 GMT+0500 (Pakistan Standard Time)",
                   "updateDefaultValue",
-                  "[\"player\",\"Способ связи\",\"Мессенджеры,телефон,телеграф,дымовые сигналы,почта,электронная почта\"]"
+                  "[\"player\",\"Способ связи\",\"Мессенджеры,телефон,телеграф,дымовые сигналы,почта,электронная почта\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:07 GMT+0500 (Pakistan Standard Time)",
                   "doExportProfileItemChange",
-                  "[\"player\",\"Способ связи\",false]"
+                  "[\"player\",\"Способ связи\",false]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:08 GMT+0500 (Pakistan Standard Time)",
                   "doExportProfileItemChange",
-                  "[\"player\",\"Город\",false]"
+                  "[\"player\",\"Город\",false]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:18 GMT+0500 (Pakistan Standard Time)",
                   "createBinding",
-                  "[\"Арагорн\",\"Аркадий\"]"
+                  "[\"Арагорн\",\"Аркадий\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:21 GMT+0500 (Pakistan Standard Time)",
                   "createBinding",
-                  "[\"Арвен\",\"Белла\"]"
+                  "[\"Арвен\",\"Белла\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:22 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:28 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:30 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"\"]"
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:32 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Белла\",\"Город\",\"enum\",\"Екат\"]"
+                  "[\"player\",\"Белла\",\"Город\",\"enum\",\"Екат\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:34 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон\"]"
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:35 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон,почта\"]"
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон,почта\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:37 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Вальдемар\",\"Способ связи\",\"multiEnum\",\"\"]"
+                  "[\"player\",\"Вальдемар\",\"Способ связи\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:39 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Вальдемар\",\"Город\",\"enum\",\"Че\"]"
+                  "[\"player\",\"Вальдемар\",\"Город\",\"enum\",\"Че\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:44 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Вальдемар\",\"Способ связи\",\"multiEnum\",\"Мессенджеры\"]"
+                  "[\"player\",\"Вальдемар\",\"Способ связи\",\"multiEnum\",\"Мессенджеры\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:46 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Галина\",\"Способ связи\",\"multiEnum\",\"\"]"
+                  "[\"player\",\"Галина\",\"Способ связи\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:07:49 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Галина\",\"Город\",\"enum\",\"НН\"]"
+                  "[\"player\",\"Галина\",\"Город\",\"enum\",\"НН\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:08:38 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:20:56 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:25:02 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Mon May 22 2017 15:25:11 GMT+0500 (Pakistan Standard Time)",
                   "removeProfileItem",
-                  "[\"character\",1,\"Игрок\"]"
+                  "[\"character\",1,\"Игрок\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:03 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:19 GMT+0500 (Pakistan Standard Time)",
                   "removeProfileItem",
-                  "[\"character\",12,\"Народ Рохана\"]"
+                  "[\"character\",12,\"Народ Рохана\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:22 GMT+0500 (Pakistan Standard Time)",
                   "removeProfileItem",
-                  "[\"character\",11,\"Народ Гондора\"]"
+                  "[\"character\",11,\"Народ Гондора\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:26 GMT+0500 (Pakistan Standard Time)",
                   "removeProfileItem",
-                  "[\"character\",10,\"Картинка сайт\"]"
+                  "[\"character\",10,\"Картинка сайт\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:29 GMT+0500 (Pakistan Standard Time)",
                   "removeProfileItem",
-                  "[\"character\",9,\"Картинка ВК\"]"
+                  "[\"character\",9,\"Картинка ВК\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:39 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"character\",\"Оружие2\",\"multiEnum\",5]"
+                  "[\"character\",\"Оружие2\",\"multiEnum\",5]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:45 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:45 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:50 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:58 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арвен\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Арвен\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:11:58 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон,почта\"]"
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон,почта\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:03 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:07 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:09 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Галадриэль\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Галадриэль\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:12 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:16 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Гимли\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Гимли\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:20 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Голлум\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Голлум\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:24 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:27 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Мерри\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Мерри\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:33 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Назгул\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Назгул\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:37 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Народ Гондора\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Народ Гондора\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:41 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Народ Рохана\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Народ Рохана\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:46 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Пиппин\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Пиппин\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:49 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:53 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Саурон\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Саурон\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:12:57 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Сэм\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Сэм\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:02 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Фродо\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Фродо\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:05 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:25 GMT+0500 (Pakistan Standard Time)",
                   "updateDefaultValue",
-                  "[\"character\",\"Оружие2\",\"меч,лук,нож,каштаны,посох,магия,топор\"]"
+                  "[\"character\",\"Оружие2\",\"меч,лук,нож,каштаны,посох,магия,топор\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:28 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:37 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:37 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:40 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч\"]"
+                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:41 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:43 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч,лук,нож\"]"
+                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч,лук,нож\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:46 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арвен\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Арвен\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:46 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон,почта\"]"
+                  "[\"player\",\"Белла\",\"Способ связи\",\"multiEnum\",\"телефон,почта\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:50 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:53 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"меч\"]"
+                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"меч\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:13:54 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"меч,каштаны\"]"
+                  "[\"character\",\"Бильбо\",\"Оружие2\",\"multiEnum\",\"меч,каштаны\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:03 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:05 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч\"]"
+                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:06 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:08 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Галадриэль\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Галадриэль\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:11 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:13 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"посох\"]"
+                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"посох\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:14 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"посох,магия\"]"
+                  "[\"character\",\"Гендальф\",\"Оружие2\",\"multiEnum\",\"посох,магия\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:16 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Гимли\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Гимли\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:18 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Гимли\",\"Оружие2\",\"multiEnum\",\"топор\"]"
+                  "[\"character\",\"Гимли\",\"Оружие2\",\"multiEnum\",\"топор\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:22 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Голлум\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Голлум\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:25 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:28 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"лук\"]"
+                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:39 GMT+0500 (Pakistan Standard Time)",
                   "updateDefaultValue",
-                  "[\"character\",\"Оружие2\",\"меч,лук,нож,каштаны,посох,магия,топор,эльфийские ножи\"]"
+                  "[\"character\",\"Оружие2\",\"меч,лук,нож,каштаны,посох,магия,топор,эльфийские ножи\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:42 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"лук\"]"
+                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:46 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"лук,эльфийские ножи\"]"
+                  "[\"character\",\"Леголас\",\"Оружие2\",\"multiEnum\",\"лук,эльфийские ножи\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:48 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Мерри\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Мерри\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:50 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Мерри\",\"Оружие2\",\"multiEnum\",\"каштаны\"]"
+                  "[\"character\",\"Мерри\",\"Оружие2\",\"multiEnum\",\"каштаны\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:52 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Назгул\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Назгул\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:55 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Народ Гондора\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Народ Гондора\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:14:58 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Народ Рохана\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Народ Рохана\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:03 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Пиппин\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Пиппин\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:05 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Пиппин\",\"Оружие2\",\"multiEnum\",\"каштаны\"]"
+                  "[\"character\",\"Пиппин\",\"Оружие2\",\"multiEnum\",\"каштаны\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:09 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:15 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"посох\"]"
+                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"посох\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:16 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"посох,магия\"]"
+                  "[\"character\",\"Саруман\",\"Оружие2\",\"multiEnum\",\"посох,магия\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:20 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Саурон\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Саурон\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:24 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Сэм\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Сэм\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:26 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Сэм\",\"Оружие2\",\"multiEnum\",\"каштаны\"]"
+                  "[\"character\",\"Сэм\",\"Оружие2\",\"multiEnum\",\"каштаны\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:30 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Фродо\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Фродо\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:33 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Фродо\",\"Оружие2\",\"multiEnum\",\"каштаны\"]"
+                  "[\"character\",\"Фродо\",\"Оружие2\",\"multiEnum\",\"каштаны\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:36 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:50 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"character\",\"Народ Гондора\",\"enum\",10]"
+                  "[\"character\",\"Народ Гондора\",\"enum\",10]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:15:58 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"character\",\"Народ Рохана\",\"checkbox\",11]"
+                  "[\"character\",\"Народ Рохана\",\"checkbox\",11]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:02 GMT+0500 (Pakistan Standard Time)",
                   "changeProfileItemType",
-                  "[\"character\",\"Народ Гондора\",\"checkbox\"]"
+                  "[\"character\",\"Народ Гондора\",\"checkbox\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:07 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]"
+                  "[\"character\",\"Элронд\",\"Оружие2\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:09 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч,лук,нож\"]"
+                  "[\"character\",\"Арагорн\",\"Оружие2\",\"multiEnum\",\"меч,лук,нож\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:09 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]"
+                  "[\"player\",\"Аркадий\",\"Способ связи\",\"multiEnum\",\"дымовые сигналы\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:13 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Арагорн\",\"Народ Гондора\",\"checkbox\",true]"
+                  "[\"character\",\"Арагорн\",\"Народ Гондора\",\"checkbox\",true]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:15 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:17 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Народ Гондора\",\"checkbox\",true]"
+                  "[\"character\",\"Боромир\",\"Народ Гондора\",\"checkbox\",true]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:31 GMT+0500 (Pakistan Standard Time)",
                   "removeProfile",
-                  "[\"character\",\"Народ Гондора\"]"
+                  "[\"character\",\"Народ Гондора\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:31 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:36 GMT+0500 (Pakistan Standard Time)",
                   "removeProfile",
-                  "[\"character\",\"Народ Рохана\"]"
+                  "[\"character\",\"Народ Рохана\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:36 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие2\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:50 GMT+0500 (Pakistan Standard Time)",
                   "removeProfileItem",
-                  "[\"character\",4,\"Оружие\"]"
+                  "[\"character\",4,\"Оружие\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:53 GMT+0500 (Pakistan Standard Time)",
                   "renameProfileItem",
-                  "[\"character\",\"Оружие\",\"Оружие2\"]"
+                  "[\"character\",\"Оружие\",\"Оружие2\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:56 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:16:56 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:17:01 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:17:39 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Народ Гондора\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Гондора\",\"selectedOptions\":{\"true\":true}}]]"
+                  "[\"Народ Гондора\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Гондора\",\"selectedOptions\":{\"true\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:17:50 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Народ Рохана\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Рохана\",\"selectedOptions\":{\"true\":true}}]]"
+                  "[\"Народ Рохана\",[{\"type\":\"checkbox\",\"name\":\"profile-Народ Рохана\",\"selectedOptions\":{\"true\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:18:17 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:19:16 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:29:02 GMT+0500 (Pakistan Standard Time)",
                   "renameProfile",
-                  "[\"character\",\"Гендальф\",\"Гэндальф\"]"
+                  "[\"character\",\"Гендальф\",\"Гэндальф\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:29:02 GMT+0500 (Pakistan Standard Time)",
                   "updateProfileField",
-                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]"
+                  "[\"character\",\"Боромир\",\"Оружие\",\"multiEnum\",\"меч,лук\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:29:47 GMT+0500 (Pakistan Standard Time)",
                   "setMasterStory",
-                  "[\"Начало пути\",\"Гэндальф активно узнает информацию о кольце.\\nГэндальф отправляет Фродо в Бри. Фродо бежит от черных всадников (защита).\\nВ спутники к Фродо набиваются Сэм, Мерри и Пиппин.\\nСаруман активно пленяет Гэндальфа. Гэндальф активно сбегает.\\nАрагорн пассивно ждет хоббитов в Гарцующем пони. Потом он их защищает от назгулов.\\nНазгулы активно преследуют Фродо и компанию.\\nСаурон пассивно ждет когда Фродо оденет кольцо и таким образом укажет на себя.\\nАрвен активно спасает Фродо от назгулов. Элронд пассивно ждет Фродо, чтобы его вылечить.\\n\\nВ свой очередной день рождения Бильбо устраивает праздник, и таинственно исчезает, оставляя все свои вещи племяннику Фродо. В том числе неизвестное кольцо.\\n\\nГендальф чувствует черную магию в кольце и отправляется в Минас-Тирит, для получения большей информации.\\n\\nСаурон узнает от Голлума у кого сейчас находится кольцо и отправляет за ним назгулов.\\n\\nГэндальф возвращается в Шир, чтобы предупредить Фродо об опасности, древние зло пробудилось и за Фродо отправлены черные всадники. Гендальф проверяет кольцо и оно оказывается тем самым кольцом. Гендальф отправляет Фродо в Бри в таверну Гарцующий пони. Этот разговор услышал Сэм и за это его добавили к пати.\\n\\nГэндальф отправляется к Саруману, чтобы выработать план действий, но Саруман уже на темной стороне.\\n\\nПо пути из Шира Фродо и Сэм встречают Мерри и Пипина, ворующих овощи. Внезапно появляются назгулы, и Мерри с Пиппином присоединяются к пати.\\n\\nПартия приходит в Бри, и останавливается в Гарцующем пони. Гэндальфа там нет. Фродо случайно одевает кольцо, под действием кольца. Это видит Бродяжник. Бродяжник объясняет, что он друг и отводит хоббитов в другой ночлег.\\n\\nНочью назгулы приходят в гарцующий пони и разносят комнату хоббитов, которых там нет.\\n\\nНазгулы настигают хоббитов в развалинах Амон Сул. Один из них ранит Фродо. Бродяжник прогоняет назгулов. Появляется Арвен, везет Фродо в Ривенделл, спасаясь от назгулов.\\n\\nАрвен привозит Фродо в Ривенделл. Назгулы не могут перейти реку на границе Ривенделла.\\n\\nФродо исцеляют, он встречается с Бильбо, получает у него еще часть наследства - меч и кольчугу и собирается идти домой, считая свою миссию выполненной.\"]"
+                  "[\"Начало пути\",\"Гэндальф активно узнает информацию о кольце.\\nГэндальф отправляет Фродо в Бри. Фродо бежит от черных всадников (защита).\\nВ спутники к Фродо набиваются Сэм, Мерри и Пиппин.\\nСаруман активно пленяет Гэндальфа. Гэндальф активно сбегает.\\nАрагорн пассивно ждет хоббитов в Гарцующем пони. Потом он их защищает от назгулов.\\nНазгулы активно преследуют Фродо и компанию.\\nСаурон пассивно ждет когда Фродо оденет кольцо и таким образом укажет на себя.\\nАрвен активно спасает Фродо от назгулов. Элронд пассивно ждет Фродо, чтобы его вылечить.\\n\\nВ свой очередной день рождения Бильбо устраивает праздник, и таинственно исчезает, оставляя все свои вещи племяннику Фродо. В том числе неизвестное кольцо.\\n\\nГендальф чувствует черную магию в кольце и отправляется в Минас-Тирит, для получения большей информации.\\n\\nСаурон узнает от Голлума у кого сейчас находится кольцо и отправляет за ним назгулов.\\n\\nГэндальф возвращается в Шир, чтобы предупредить Фродо об опасности, древние зло пробудилось и за Фродо отправлены черные всадники. Гендальф проверяет кольцо и оно оказывается тем самым кольцом. Гендальф отправляет Фродо в Бри в таверну Гарцующий пони. Этот разговор услышал Сэм и за это его добавили к пати.\\n\\nГэндальф отправляется к Саруману, чтобы выработать план действий, но Саруман уже на темной стороне.\\n\\nПо пути из Шира Фродо и Сэм встречают Мерри и Пипина, ворующих овощи. Внезапно появляются назгулы, и Мерри с Пиппином присоединяются к пати.\\n\\nПартия приходит в Бри, и останавливается в Гарцующем пони. Гэндальфа там нет. Фродо случайно одевает кольцо, под действием кольца. Это видит Бродяжник. Бродяжник объясняет, что он друг и отводит хоббитов в другой ночлег.\\n\\nНочью назгулы приходят в гарцующий пони и разносят комнату хоббитов, которых там нет.\\n\\nНазгулы настигают хоббитов в развалинах Амон Сул. Один из них ранит Фродо. Бродяжник прогоняет назгулов. Появляется Арвен, везет Фродо в Ривенделл, спасаясь от назгулов.\\n\\nАрвен привозит Фродо в Ривенделл. Назгулы не могут перейти реку на границе Ривенделла.\\n\\nФродо исцеляют, он встречается с Бильбо, получает у него еще часть наследства - меч и кольчугу и собирается идти домой, считая свою миссию выполненной.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:31:23 GMT+0500 (Pakistan Standard Time)",
                   "setMasterStory",
-                  "[\"Начало пути\",\"Гэндальф активно узнает информацию о кольце.\\nГэндальф отправляет Фродо в Бри. Фродо бежит от черных всадников (защита).\\nВ спутники к Фродо набиваются Сэм, Мерри и Пиппин.\\nСаруман активно пленяет Гэндальфа. Гэндальф активно сбегает.\\nАрагорн пассивно ждет хоббитов в Гарцующем пони. Потом он их защищает от назгулов.\\nНазгулы активно преследуют Фродо и компанию.\\nСаурон пассивно ждет когда Фродо оденет кольцо и таким образом укажет на себя.\\nАрвен активно спасает Фродо от назгулов. Элронд пассивно ждет Фродо, чтобы его вылечить.\\n\\nВ свой очередной день рождения Бильбо устраивает праздник, и таинственно исчезает, оставляя все свои вещи племяннику Фродо. В том числе неизвестное кольцо.\\n\\nГэндальф чувствует черную магию в кольце и отправляется в Минас-Тирит, для получения большей информации.\\n\\nСаурон узнает от Голлума у кого сейчас находится кольцо и отправляет за ним назгулов.\\n\\nГэндальф возвращается в Шир, чтобы предупредить Фродо об опасности, древние зло пробудилось и за Фродо отправлены черные всадники. Гэндальф проверяет кольцо и оно оказывается тем самым кольцом. Гэндальф отправляет Фродо в Бри в таверну Гарцующий пони. Этот разговор услышал Сэм и за это его добавили к пати.\\n\\nГэндальф отправляется к Саруману, чтобы выработать план действий, но Саруман уже на темной стороне.\\n\\nПо пути из Шира Фродо и Сэм встречают Мерри и Пипина, ворующих овощи. Внезапно появляются назгулы, и Мерри с Пиппином присоединяются к пати.\\n\\nПартия приходит в Бри, и останавливается в Гарцующем пони. Гэндальфа там нет. Фродо случайно одевает кольцо, под действием кольца. Это видит Бродяжник. Бродяжник объясняет, что он друг и отводит хоббитов в другой ночлег.\\n\\nНочью назгулы приходят в гарцующий пони и разносят комнату хоббитов, которых там нет.\\n\\nНазгулы настигают хоббитов в развалинах Амон Сул. Один из них ранит Фродо. Бродяжник прогоняет назгулов. Появляется Арвен, везет Фродо в Ривенделл, спасаясь от назгулов.\\n\\nАрвен привозит Фродо в Ривенделл. Назгулы не могут перейти реку на границе Ривенделла.\\n\\nФродо исцеляют, он встречается с Бильбо, получает у него еще часть наследства - меч и кольчугу и собирается идти домой, считая свою миссию выполненной.\"]"
+                  "[\"Начало пути\",\"Гэндальф активно узнает информацию о кольце.\\nГэндальф отправляет Фродо в Бри. Фродо бежит от черных всадников (защита).\\nВ спутники к Фродо набиваются Сэм, Мерри и Пиппин.\\nСаруман активно пленяет Гэндальфа. Гэндальф активно сбегает.\\nАрагорн пассивно ждет хоббитов в Гарцующем пони. Потом он их защищает от назгулов.\\nНазгулы активно преследуют Фродо и компанию.\\nСаурон пассивно ждет когда Фродо оденет кольцо и таким образом укажет на себя.\\nАрвен активно спасает Фродо от назгулов. Элронд пассивно ждет Фродо, чтобы его вылечить.\\n\\nВ свой очередной день рождения Бильбо устраивает праздник, и таинственно исчезает, оставляя все свои вещи племяннику Фродо. В том числе неизвестное кольцо.\\n\\nГэндальф чувствует черную магию в кольце и отправляется в Минас-Тирит, для получения большей информации.\\n\\nСаурон узнает от Голлума у кого сейчас находится кольцо и отправляет за ним назгулов.\\n\\nГэндальф возвращается в Шир, чтобы предупредить Фродо об опасности, древние зло пробудилось и за Фродо отправлены черные всадники. Гэндальф проверяет кольцо и оно оказывается тем самым кольцом. Гэндальф отправляет Фродо в Бри в таверну Гарцующий пони. Этот разговор услышал Сэм и за это его добавили к пати.\\n\\nГэндальф отправляется к Саруману, чтобы выработать план действий, но Саруман уже на темной стороне.\\n\\nПо пути из Шира Фродо и Сэм встречают Мерри и Пипина, ворующих овощи. Внезапно появляются назгулы, и Мерри с Пиппином присоединяются к пати.\\n\\nПартия приходит в Бри, и останавливается в Гарцующем пони. Гэндальфа там нет. Фродо случайно одевает кольцо, под действием кольца. Это видит Бродяжник. Бродяжник объясняет, что он друг и отводит хоббитов в другой ночлег.\\n\\nНочью назгулы приходят в гарцующий пони и разносят комнату хоббитов, которых там нет.\\n\\nНазгулы настигают хоббитов в развалинах Амон Сул. Один из них ранит Фродо. Бродяжник прогоняет назгулов. Появляется Арвен, везет Фродо в Ривенделл, спасаясь от назгулов.\\n\\nАрвен привозит Фродо в Ривенделл. Назгулы не могут перейти реку на границе Ривенделла.\\n\\nФродо исцеляют, он встречается с Бильбо, получает у него еще часть наследства - меч и кольчугу и собирается идти домой, считая свою миссию выполненной.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:31:50 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Начало пути\",1,\"text\",\"Гэндальф чувствует черную магию в кольце и отправляется в Минас-Тирит, для получения большей информации.\"]"
+                  "[\"Начало пути\",1,\"text\",\"Гэндальф чувствует черную магию в кольце и отправляется в Минас-Тирит, для получения большей информации.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:31:53 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",1,\"Бильбо\",\"text\",\"Сколько раз я себе говорил - не слушай Гэндальфа, старику в очередной раз удалось меня уговорить, поэтому я оставил свое прелестное кольцо Фродо. Эх, как оно без меня?\"]"
+                  "[\"Начало пути\",1,\"Бильбо\",\"text\",\"Сколько раз я себе говорил - не слушай Гэндальфа, старику в очередной раз удалось меня уговорить, поэтому я оставил свое прелестное кольцо Фродо. Эх, как оно без меня?\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:31:58 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Начало пути\",3,\"text\",\"Гэндальф возвращается в Шир, чтобы предупредить Фродо об опасности, древние зло пробудилось и за Фродо отправлены черные всадники. Гэндальф проверяет кольцо и оно оказывается тем самым кольцом. Гэндальф отправляет Фродо в Бри в таверну Гарцующий пони. Этот разговор услышал Сэм и за это его добавили к пати.\"]"
+                  "[\"Начало пути\",3,\"text\",\"Гэндальф возвращается в Шир, чтобы предупредить Фродо об опасности, древние зло пробудилось и за Фродо отправлены черные всадники. Гэндальф проверяет кольцо и оно оказывается тем самым кольцом. Гэндальф отправляет Фродо в Бри в таверну Гарцующий пони. Этот разговор услышал Сэм и за это его добавили к пати.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:01 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",3,\"Фродо\",\"text\",\"Вернувшись домой я встретил взволнованного Гэндальфа. Он попросил меня достать кольцо Бильбо и бросить его в огонь. К моему удивлению, вынутое из огня кольцо оказалось холодным и на его поверхности проступили странные письмена. Геэндальф сказал, что только одно кольцо реагирует так на огонь - кольцо Саурона. Как оказалось Саурон не умер, вновь набирает силу и ищет это кольцо. За мной отправлены черные всадники и мне надо бежать. Наш разговор подслушал Сэм и Гендальф отправил его со мной. Мы идём в Бри, он должен нас встретить там.\"]"
+                  "[\"Начало пути\",3,\"Фродо\",\"text\",\"Вернувшись домой я встретил взволнованного Гэндальфа. Он попросил меня достать кольцо Бильбо и бросить его в огонь. К моему удивлению, вынутое из огня кольцо оказалось холодным и на его поверхности проступили странные письмена. Геэндальф сказал, что только одно кольцо реагирует так на огонь - кольцо Саурона. Как оказалось Саурон не умер, вновь набирает силу и ищет это кольцо. За мной отправлены черные всадники и мне надо бежать. Наш разговор подслушал Сэм и Гендальф отправил его со мной. Мы идём в Бри, он должен нас встретить там.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:07 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",3,\"Сэм\",\"text\",\"Поздним вечером я подстригал кусты у открытого окна и вдруг услышал разговор хозяина и Гэндальфа. Голос Гэндальфа был очень напряжен и я не удержался и решить узнать о чем они говорят. Я понял, что кольцо Бильбо действительно существует и что это очень необычное кольцо и что его ищет сам Саурон, который оказывается не умер. Я так заслушался, что забыл о стрижке, а Гэндальф заметил, что ножницы не звенят. Он поймал меня, я сознался, что все слышал и он отправил меня вместе с Фродо в Бри.\"]"
+                  "[\"Начало пути\",3,\"Сэм\",\"text\",\"Поздним вечером я подстригал кусты у открытого окна и вдруг услышал разговор хозяина и Гэндальфа. Голос Гэндальфа был очень напряжен и я не удержался и решить узнать о чем они говорят. Я понял, что кольцо Бильбо действительно существует и что это очень необычное кольцо и что его ищет сам Саурон, который оказывается не умер. Я так заслушался, что забыл о стрижке, а Гэндальф заметил, что ножницы не звенят. Он поймал меня, я сознался, что все слышал и он отправил меня вместе с Фродо в Бри.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:10 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",3,\"Фродо\",\"text\",\"Вернувшись домой я встретил взволнованного Гэндальфа. Он попросил меня достать кольцо Бильбо и бросить его в огонь. К моему удивлению, вынутое из огня кольцо оказалось холодным и на его поверхности проступили странные письмена. Геэндальф сказал, что только одно кольцо реагирует так на огонь - кольцо Саурона. Как оказалось Саурон не умер, вновь набирает силу и ищет это кольцо. За мной отправлены черные всадники и мне надо бежать. Наш разговор подслушал Сэм и Гэндальф отправил его со мной. Мы идём в Бри, он должен нас встретить там.\"]"
+                  "[\"Начало пути\",3,\"Фродо\",\"text\",\"Вернувшись домой я встретил взволнованного Гэндальфа. Он попросил меня достать кольцо Бильбо и бросить его в огонь. К моему удивлению, вынутое из огня кольцо оказалось холодным и на его поверхности проступили странные письмена. Геэндальф сказал, что только одно кольцо реагирует так на огонь - кольцо Саурона. Как оказалось Саурон не умер, вновь набирает силу и ищет это кольцо. За мной отправлены черные всадники и мне надо бежать. Наш разговор подслушал Сэм и Гэндальф отправил его со мной. Мы идём в Бри, он должен нас встретить там.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:12 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Начало пути\",4,\"text\",\"Гэндальф отправляется к Саруману, чтобы выработать план действий, но Саруман уже на темной стороне.\"]"
+                  "[\"Начало пути\",4,\"text\",\"Гэндальф отправляется к Саруману, чтобы выработать план действий, но Саруман уже на темной стороне.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:20 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",4,\"Саруман\",\"text\",\"Я узрел вечную тьму в палантире и понял, что это мой путь. Визит Гэндальфа не был неожиданностью. Повелитель тьмы велел заставить Гэндальфа прикмнуть к нам, но он смог сбежать. Тем хуже для него.\"]"
+                  "[\"Начало пути\",4,\"Саруман\",\"text\",\"Я узрел вечную тьму в палантире и понял, что это мой путь. Визит Гэндальфа не был неожиданностью. Повелитель тьмы велел заставить Гэндальфа прикмнуть к нам, но он смог сбежать. Тем хуже для него.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:21 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Начало пути\",6,\"text\",\"Партия приходит в Бри, и останавливается в Гарцующем пони. Гэндальфа там нет. Фродо случайно надевает кольцо, под действием кольца. Это видит Бродяжник. Бродяжник объясняет, что он друг и отводит хоббитов в другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"text\",\"Партия приходит в Бри, и останавливается в Гарцующем пони. Гэндальфа там нет. Фродо случайно надевает кольцо, под действием кольца. Это видит Бродяжник. Бродяжник объясняет, что он друг и отводит хоббитов в другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:23 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Мерри\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гендальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Мерри\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гендальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:24 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Фродо\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг я почуствовал непреодолимое желание одеть кольцо и сделал это. Мир потерял краски, вместо людей были только силуэты и среди всего на меня смотрело огромное огненное око. В ужасе я снял кольцо. Никто на меня не смотрел, поэтому я подумал, что все хорошо, но неожиданное меня схватил человек и утащил в одну из внтуренних комнат. Это оказался Бродяжник, друг Гендальфа, встретивший нас. Он был очень зол на меня, за то что я одел кольцо - у Саурона везде глаза и уши. Мои друзья попытались спасти меня от Бродяжника, но я объяснил им, что он друг. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Фродо\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг я почуствовал непреодолимое желание одеть кольцо и сделал это. Мир потерял краски, вместо людей были только силуэты и среди всего на меня смотрело огромное огненное око. В ужасе я снял кольцо. Никто на меня не смотрел, поэтому я подумал, что все хорошо, но неожиданное меня схватил человек и утащил в одну из внтуренних комнат. Это оказался Бродяжник, друг Гендальфа, встретивший нас. Он был очень зол на меня, за то что я одел кольцо - у Саурона везде глаза и уши. Мои друзья попытались спасти меня от Бродяжника, но я объяснил им, что он друг. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:27 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Сэм\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гендальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Сэм\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гендальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:31 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Пиппин\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гендальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Пиппин\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гендальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:33 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",9,\"Арагорн\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится и мы сможем собрать совет кольца.\"]"
+                  "[\"Начало пути\",9,\"Арагорн\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится и мы сможем собрать совет кольца.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:37 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",9,\"Мерри\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится.\"]"
+                  "[\"Начало пути\",9,\"Мерри\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:40 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",9,\"Сэм\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится.\"]"
+                  "[\"Начало пути\",9,\"Сэм\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:32:54 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",9,\"Пиппин\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится.\"]"
+                  "[\"Начало пути\",9,\"Пиппин\",\"text\",\"Мы отправились вслед за Фродо и Арвен в Ривендел так быстро как могли. К счастью они успели, а тела лошадей черных всадников были найдены ниже по течению. Какое-то время они нас не побеспокоят. Нам дали кров. Здесь же был Гэндальф. Элронд вылечит Фродо, а пока будем ждать когда Фродо поправится.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:33:12 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Начало пути\",1,\"name\",\"Подозрения Гэндальфа\"]"
+                  "[\"Начало пути\",1,\"name\",\"Подозрения Гэндальфа\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:33:17 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Начало пути\",4,\"name\",\"Гэндальфа пленит Саруман\"]"
+                  "[\"Начало пути\",4,\"name\",\"Гэндальфа пленит Саруман\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:33:45 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Мерри\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гэндальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Мерри\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гэндальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:33:50 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Фродо\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг я почуствовал непреодолимое желание одеть кольцо и сделал это. Мир потерял краски, вместо людей были только силуэты и среди всего на меня смотрело огромное огненное око. В ужасе я снял кольцо. Никто на меня не смотрел, поэтому я подумал, что все хорошо, но неожиданное меня схватил человек и утащил в одну из внтуренних комнат. Это оказался Бродяжник, друг Гэндальфа, встретивший нас. Он был очень зол на меня, за то что я одел кольцо - у Саурона везде глаза и уши. Мои друзья попытались спасти меня от Бродяжника, но я объяснил им, что он друг. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Фродо\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг я почуствовал непреодолимое желание одеть кольцо и сделал это. Мир потерял краски, вместо людей были только силуэты и среди всего на меня смотрело огромное огненное око. В ужасе я снял кольцо. Никто на меня не смотрел, поэтому я подумал, что все хорошо, но неожиданное меня схватил человек и утащил в одну из внтуренних комнат. Это оказался Бродяжник, друг Гэндальфа, встретивший нас. Он был очень зол на меня, за то что я одел кольцо - у Саурона везде глаза и уши. Мои друзья попытались спасти меня от Бродяжника, но я объяснил им, что он друг. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:33:51 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Пиппин\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гэндальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Пиппин\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гэндальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:33:55 GMT+0500 (Pakistan Standard Time)",
                   "setEventAdaptationProperty",
-                  "[\"Начало пути\",6,\"Сэм\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гэндальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]"
+                  "[\"Начало пути\",6,\"Сэм\",\"text\",\"Мы пришли в Бри в Гарцующий пони. Гэндальфа не было. Мы не знали что делать и решили остаться на ночлег. Вдруг Фродо стало плохо и он исчез точно так же как Бильбо на своем дне рождения. Мы не поняли что произошло, мы искали Фродо и не могли найти. Вдруг мы увидели как человек утаскивает Фродо. Мы пошли за ним, собирались драться. Оказалось, что это Бродяжник, друг Гэндальфа, который будет охранять нас. Бродяжник сказал, что в Гарцующем пони останавливаться опасно и отвел нас на другой ночлег.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:34:36 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Братство кольца\",0,\"text\",\"На совете обозначена проблема уничтожения кольца. Кольцо необходимо бросить в Ородруин, но никто не в силе взять на себя эту ношу. Фродо вызывается сделать это. Проводить его берутся Арагорн, Леголас, Гимли, Боромир, Гэндальф и его друзья из Шира. Так появляется братство кольца.\"]"
+                  "[\"Братство кольца\",0,\"text\",\"На совете обозначена проблема уничтожения кольца. Кольцо необходимо бросить в Ородруин, но никто не в силе взять на себя эту ношу. Фродо вызывается сделать это. Проводить его берутся Арагорн, Леголас, Гимли, Боромир, Гэндальф и его друзья из Шира. Так появляется братство кольца.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:34:39 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Братство кольца\",4,\"text\",\"Гэндальф показывает Фродо Голлума и говорит, что он давно идет за ними.\\nПипин роняет ведро в колодец у могилы Балина, тем самым выдавая себя оркам. Принимают бой. Приходит Балрог.\"]"
+                  "[\"Братство кольца\",4,\"text\",\"Гэндальф показывает Фродо Голлума и говорит, что он давно идет за ними.\\nПипин роняет ведро в колодец у могилы Балина, тем самым выдавая себя оркам. Принимают бой. Приходит Балрог.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 15:34:41 GMT+0500 (Pakistan Standard Time)",
                   "setEventOriginProperty",
-                  "[\"Братство кольца\",5,\"text\",\"Гэндальф остается защищать мост от Балрога и падает в пропасть вместе с ним. Все остальные выходят из Мории и попадают в Лотлориен к Галадриэли.\"]"
+                  "[\"Братство кольца\",5,\"text\",\"Гэндальф остается защищать мост от Балрога и падает в пропасть вместе с ним. Все остальные выходят из Мории и попадают в Лотлориен к Галадриэли.\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 21:05:10 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Мечники и лучники\"]"
+                  "[\"Мечники и лучники\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Sat May 12 2018 21:05:25 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Мечники и лучники\",[{\"type\":\"multiEnum\",\"name\":\"profile-Оружие\",\"condition\":\"some\",\"selectedOptions\":{\"меч\":true,\"лук\":true}}]]"
+                  "[\"Мечники и лучники\",[{\"type\":\"multiEnum\",\"name\":\"profile-Оружие\",\"condition\":\"some\",\"selectedOptions\":{\"меч\":true,\"лук\":true}}]]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:45:46 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sun Jul 22 2018 15:45:46 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:46:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Тип коммуникации\",\"Вербальный\",\"Невербальный\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:46:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Тип коммуникации\",\"Вербальный\",\"Невербальный\"]",
+                  "[\"Sun Jul 22 2018 15:46:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:46:32 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Открытость\",\"Прозрачность\",\"Тайна\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:46:32 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Открытость\",\"Прозрачность\",\"Тайна\"]",
+                  "[\"Sun Jul 22 2018 15:46:32 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:46:46 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Сценография\",\"Полная реалистичность (360 градусов)\",\"Символизм\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:46:46 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Сценография\",\"Полная реалистичность (360 градусов)\",\"Символизм\"]",
+                  "[\"Sun Jul 22 2018 15:46:46 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:00 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Ответственность за создание персонажа\",\"Игрок\",\"Мастер\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:00 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Ответственность за создание персонажа\",\"Игрок\",\"Мастер\"]",
+                  "[\"Sun Jul 22 2018 15:47:00 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:09 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Ответственность за создание культуры\",\"Игрок\",\"Мастер\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:09 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Ответственность за создание культуры\",\"Игрок\",\"Мастер\"]",
+                  "[\"Sun Jul 22 2018 15:47:09 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:17 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Мотивация игроков\",\"Соревнование\",\"Сотрудничество\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:17 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Мотивация игроков\",\"Соревнование\",\"Сотрудничество\"]",
+                  "[\"Sun Jul 22 2018 15:47:17 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Персонаж как маска (bleed-in)\",\"Дистанцирование\",\"Игра в себя\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Персонаж как маска (bleed-in)\",\"Дистанцирование\",\"Игра в себя\"]",
+                  "[\"Sun Jul 22 2018 15:47:29 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:36 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Давление на игрока\",\"Реальное\",\"Изображаемое\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:36 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Давление на игрока\",\"Реальное\",\"Изображаемое\"]",
+                  "[\"Sun Jul 22 2018 15:47:36 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:45 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Соответствие сеттингу\",\"Играбельность\",\"Точность\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:45 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Соответствие сеттингу\",\"Играбельность\",\"Точность\"]",
+                  "[\"Sun Jul 22 2018 15:47:45 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:53 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Игровая механика\",\"Явная\",\"Скрытая\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:47:53 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Игровая механика\",\"Явная\",\"Скрытая\"]",
+                  "[\"Sun Jul 22 2018 15:47:53 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:48:05 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Представление темы\",\"Симуляция\",\"Абстракция\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:48:05 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Представление темы\",\"Симуляция\",\"Абстракция\"]",
+                  "[\"Sun Jul 22 2018 15:48:05 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:48:13 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Стиль управления игрой\",\"Активный\",\"Пассивный\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:48:13 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Стиль управления игрой\",\"Активный\",\"Пассивный\"]",
+                  "[\"Sun Jul 22 2018 15:48:13 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:48:23 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Ваш бегунок?\",\"Максимум\",\"Минимум\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 15:48:23 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Ваш бегунок?\",\"Максимум\",\"Минимум\"]",
+                  "[\"Sun Jul 22 2018 15:48:23 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
                 ]
               ],
               "Groups": {
@@ -2680,96 +3066,126 @@ See the License for the specific language governing permissions and
                   }
                 }
               },
-              "Relations": {
-                "Арагорн": {
-                  "Арвен": "Зайка моя.",
-                  "Гэндальф": "Уважаю старика."
+              "Relations": [
+                {
+                  "origin": "",
+                  "starterTextReady": false,
+                  "enderTextReady": false,
+                  "essence": [],
+                  "Арагорн": "Зайка моя.",
+                  "Арвен": "Мой лапушок.",
+                  "starter": "Арагорн",
+                  "ender": "Арвен"
                 },
-                "Арвен": {
-                  "Арагорн": "Мой лапушок."
+                {
+                  "origin": "",
+                  "starterTextReady": false,
+                  "enderTextReady": false,
+                  "essence": [],
+                  "Арагорн": "Уважаю старика.",
+                  "Гэндальф": "",
+                  "starter": "Арагорн",
+                  "ender": "Гэндальф"
                 },
-                "Саурон": {
-                  "Арагорн": "Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём."
-                },
-                "Гэндальф": {}
-              },
+                {
+                  "origin": "",
+                  "starterTextReady": false,
+                  "enderTextReady": false,
+                  "essence": [],
+                  "Саурон": "Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.Не быть тебе королём.",
+                  "Арагорн": "",
+                  "starter": "Саурон",
+                  "ender": "Арагорн"
+                }
+              ],
               "CharacterProfileStructure": [
                 {
                   "name": "Блок",
                   "type": "enum",
                   "value": "Тёмный,Светлый,Нейтрал",
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Статус",
                   "type": "enum",
                   "value": "Свободна,Занята,На обсуждении",
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Раса",
                   "type": "enum",
                   "value": "человек,эльф,гном,орк,хоббит,майар,другое",
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Пол",
                   "type": "enum",
                   "value": "не важно,М,Ж",
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Оружие",
                   "type": "multiEnum",
                   "value": "меч,лук,нож,каштаны,посох,магия,топор,эльфийские ножи",
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Снаряжение",
                   "type": "string",
                   "value": "",
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Вес, кг.",
                   "type": "number",
                   "value": 0,
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Умеет петь",
                   "type": "checkbox",
                   "value": false,
                   "doExport": false,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Биография",
                   "type": "text",
                   "value": "",
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Народ Гондора",
                   "type": "checkbox",
                   "value": false,
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Народ Рохана",
                   "type": "checkbox",
                   "value": false,
                   "doExport": true,
-                  "playerAccess": "hidden"
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
                 }
               ],
               "PlayerProfileStructure": [
@@ -2778,14 +3194,16 @@ See the License for the specific language governing permissions and
                   "type": "enum",
                   "value": "Мск,Спб,Че,Екат,НН,Нвсб,другое",
                   "doExport": false,
-                  "playerAccess": "write"
+                  "playerAccess": "write",
+                  "showInRoleGrid": false
                 },
                 {
                   "name": "Способ связи",
                   "type": "multiEnum",
                   "value": "Мессенджеры,телефон,телеграф,дымовые сигналы,почта,электронная почта",
                   "doExport": false,
-                  "playerAccess": "write"
+                  "playerAccess": "write",
+                  "showInRoleGrid": false
                 }
               ],
               "Players": {
@@ -2813,7 +3231,95 @@ See the License for the specific language governing permissions and
               "ProfileBindings": {
                 "Арагорн": "Аркадий",
                 "Арвен": "Белла"
-              }
+              },
+              "Gears": {
+                "nodes": [],
+                "edges": [],
+                "settings": {
+                  "physicsEnabled": false,
+                  "showNotes": false
+                }
+              },
+              "Sliders": [
+                {
+                  "name": "Тип коммуникации",
+                  "top": "Вербальный",
+                  "bottom": "Невербальный",
+                  "value": 0
+                },
+                {
+                  "name": "Открытость",
+                  "top": "Прозрачность",
+                  "bottom": "Тайна",
+                  "value": 0
+                },
+                {
+                  "name": "Сценография",
+                  "top": "Полная реалистичность (360 градусов)",
+                  "bottom": "Символизм",
+                  "value": 0
+                },
+                {
+                  "name": "Ответственность за создание персонажа",
+                  "top": "Игрок",
+                  "bottom": "Мастер",
+                  "value": 0
+                },
+                {
+                  "name": "Ответственность за создание культуры",
+                  "top": "Игрок",
+                  "bottom": "Мастер",
+                  "value": 0
+                },
+                {
+                  "name": "Мотивация игроков",
+                  "top": "Соревнование",
+                  "bottom": "Сотрудничество",
+                  "value": 0
+                },
+                {
+                  "name": "Персонаж как маска (bleed-in)",
+                  "top": "Дистанцирование",
+                  "bottom": "Игра в себя",
+                  "value": 0
+                },
+                {
+                  "name": "Давление на игрока",
+                  "top": "Реальное",
+                  "bottom": "Изображаемое",
+                  "value": 0
+                },
+                {
+                  "name": "Соответствие сеттингу",
+                  "top": "Играбельность",
+                  "bottom": "Точность",
+                  "value": 0
+                },
+                {
+                  "name": "Игровая механика",
+                  "top": "Явная",
+                  "bottom": "Скрытая",
+                  "value": 0
+                },
+                {
+                  "name": "Представление темы",
+                  "top": "Симуляция",
+                  "bottom": "Абстракция",
+                  "value": 0
+                },
+                {
+                  "name": "Стиль управления игрой",
+                  "top": "Активный",
+                  "bottom": "Пассивный",
+                  "value": 0
+                },
+                {
+                  "name": "Ваш бегунок?",
+                  "top": "Максимум",
+                  "bottom": "Минимум",
+                  "value": 0
+                }
+              ]
             };
 
-})(typeof exports === 'undefined'? this['BaseExample']={}: exports);
+})(typeof exports === 'undefined'? this['DemoBase']={}: exports);

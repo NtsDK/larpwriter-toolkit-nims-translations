@@ -22,7 +22,7 @@ See the License for the specific language governing permissions and
                 "date": "3019/02/27 00:00",
                 "preGameDate": "3018/01/01 00:00",
                 "description": "Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.fghfgh",
-                "saveTime": "Sun Jul 22 2018 03:15:06 GMT+0500 (Екатеринбург, стандартное время)"
+                "saveTime": "Sun Jul 22 2018 16:08:23 GMT+0500 (Екатеринбург, стандартное время)"
               },
               "Characters": {
                 "Aragorn": {
@@ -1303,7 +1303,7 @@ See the License for the specific language governing permissions and
                   "groupName": "People of Gondor"
                 }
               },
-              "Version": "0.7.0",
+              "Version": "0.7.2",
               "Log": [
                 [
                   "user",
@@ -2942,6 +2942,209 @@ See the License for the specific language governing permissions and
                   "saveFilterToGroup",
                   "[\"Swords and bows\",[{\"type\":\"multiEnum\",\"name\":\"profile-Weapon\",\"condition\":\"some\",\"selectedOptions\":{\"Bow\":true,\"Sword\":true}}]]",
                   "[\"Sun Jul 22 2018 03:12:25 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:04:47 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sun Jul 22 2018 16:04:47 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:05:45 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Openness\",\"Transparency\",\"Secrecy\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:05:45 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Openness\",\"Transparency\",\"Secrecy\"]",
+                  "[\"Sun Jul 22 2018 16:05:45 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:05:52 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Mechanics\",\"Intrusive\",\"Discreet\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:05:52 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Mechanics\",\"Intrusive\",\"Discreet\"]",
+                  "[\"Sun Jul 22 2018 16:05:52 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:04 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Environment\",\"360° Illusion\",\"Material Independence\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:04 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Environment\",\"360° Illusion\",\"Material Independence\"]",
+                  "[\"Sun Jul 22 2018 16:06:04 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:11 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Character Creation Responsibility\",\"Organizer\",\"Player\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:11 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Character Creation Responsibility\",\"Organizer\",\"Player\"]",
+                  "[\"Sun Jul 22 2018 16:06:11 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:21 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Culture Creation Responsiblity\",\"Organizer\",\"Player\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:21 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Culture Creation Responsiblity\",\"Organizer\",\"Player\"]",
+                  "[\"Sun Jul 22 2018 16:06:21 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Runtime Direction\",\"Active\",\"Passive\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Runtime Direction\",\"Active\",\"Passive\"]",
+                  "[\"Sun Jul 22 2018 16:06:29 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:37 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Loyalty to the World\",\"Plausibility\",\"Playability\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:37 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Loyalty to the World\",\"Plausibility\",\"Playability\"]",
+                  "[\"Sun Jul 22 2018 16:06:37 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:45 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Pressure on Players\",\"Hardcore\",\"Pretence\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:45 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Pressure on Players\",\"Hardcore\",\"Pretence\"]",
+                  "[\"Sun Jul 22 2018 16:06:45 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:54 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Player Motivation\",\"Victory\",\"Exploration\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:06:54 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Player Motivation\",\"Victory\",\"Exploration\"]",
+                  "[\"Sun Jul 22 2018 16:06:54 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:03 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Character as Mask\",\"Differentiation\",\"Thin Characters\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:03 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Character as Mask\",\"Differentiation\",\"Thin Characters\"]",
+                  "[\"Sun Jul 22 2018 16:07:03 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:11 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Communication Style\",\"Verbal\",\"Physical\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:11 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Communication Style\",\"Verbal\",\"Physical\"]",
+                  "[\"Sun Jul 22 2018 16:07:11 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:18 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Representation of Theme\",\"Stories\",\"Actions\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:18 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Representation of Theme\",\"Stories\",\"Actions\"]",
+                  "[\"Sun Jul 22 2018 16:07:18 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Your Fader Here\",\"Maximum\",\"Minimum\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:07:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createSlider",
+                  "[\"Your Fader Here\",\"Maximum\",\"Minimum\"]",
+                  "[\"Sun Jul 22 2018 16:07:29 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:08:20 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateSliderNaming",
+                  "[12,\"Your Slider Here\",\"Maximum\",\"Minimum\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 16:08:20 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateSliderNaming",
+                  "[12,\"Your Slider Here\",\"Maximum\",\"Minimum\"]",
+                  "[\"Sun Jul 22 2018 16:08:20 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
                 ]
               ],
               "Groups": {
@@ -3301,7 +3504,87 @@ See the License for the specific language governing permissions and
                   "physicsEnabled": false,
                   "showNotes": false
                 }
-              }
+              },
+              "Sliders": [
+                {
+                  "name": "Openness",
+                  "top": "Transparency",
+                  "bottom": "Secrecy",
+                  "value": 0
+                },
+                {
+                  "name": "Mechanics",
+                  "top": "Intrusive",
+                  "bottom": "Discreet",
+                  "value": 0
+                },
+                {
+                  "name": "Environment",
+                  "top": "360° Illusion",
+                  "bottom": "Material Independence",
+                  "value": 0
+                },
+                {
+                  "name": "Character Creation Responsibility",
+                  "top": "Organizer",
+                  "bottom": "Player",
+                  "value": 0
+                },
+                {
+                  "name": "Culture Creation Responsiblity",
+                  "top": "Organizer",
+                  "bottom": "Player",
+                  "value": 0
+                },
+                {
+                  "name": "Runtime Direction",
+                  "top": "Active",
+                  "bottom": "Passive",
+                  "value": 0
+                },
+                {
+                  "name": "Loyalty to the World",
+                  "top": "Plausibility",
+                  "bottom": "Playability",
+                  "value": 0
+                },
+                {
+                  "name": "Pressure on Players",
+                  "top": "Hardcore",
+                  "bottom": "Pretence",
+                  "value": 0
+                },
+                {
+                  "name": "Player Motivation",
+                  "top": "Victory",
+                  "bottom": "Exploration",
+                  "value": 0
+                },
+                {
+                  "name": "Character as Mask",
+                  "top": "Differentiation",
+                  "bottom": "Thin Characters",
+                  "value": 0
+                },
+                {
+                  "name": "Communication Style",
+                  "top": "Verbal",
+                  "bottom": "Physical",
+                  "value": 0
+                },
+                {
+                  "name": "Representation of Theme",
+                  "top": "Stories",
+                  "bottom": "Actions",
+                  "value": 0
+                },
+                {
+                  "name": "Your Slider Here",
+                  "top": "Maximum",
+                  "bottom": "Minimum",
+                  "value": 0
+                }
+              ]
             };
 
-})(typeof exports === 'undefined'? this['BaseExample']={}: exports);
+})(typeof exports === 'undefined'? this['DemoBase']={}: exports);
