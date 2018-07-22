@@ -1,4 +1,4 @@
-/*Copyright 2015, 2016 Timofey Rechkalov <ntsdk@yandex.ru>, Maria Sidekhmenova <matilda_@list.ru>
+/*Copyright 2015, 2016, 2018 Timofey Rechkalov <ntsdk@yandex.ru>, Maria Sidekhmenova <matilda_@list.ru>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -21,30 +21,26 @@ See the License for the specific language governing permissions and
                 "name": "The Lord of the Rings",
                 "date": "3019/02/27 00:00",
                 "preGameDate": "3018/01/01 00:00",
-                "description": "Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.",
-                "saveTime": "Thu Dec 08 2016 04:57:04 GMT+0500 (Pakistan Standard Time)"
+                "description": "Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.fghfgh",
+                "saveTime": "Sun Jul 22 2018 03:15:06 GMT+0500 (Екатеринбург, стандартное время)"
               },
               "Characters": {
                 "Aragorn": {
                   "name": "Aragorn",
-                  "Player": "Micheal",
                   "Status": "Reserved",
                   "Race": "Human",
-                  "Weapon": "sword, bow, knife",
+                  "Weapon": "Bow,Knife,Sword",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 80,
                   "Sing good": true,
                   "Biography": "The last strider's leader and the first king of joined kingdoms, direct descent of Elendil's royal blood (by Isildur line).\nAragorn became the greatest human of his age. He leaded the people of west against Sauron forces. He helped to destroy the One Ring (he was one of the ring fellowship). He joined Arnor and Gondor kingdoms.",
-                  "VKontakte image": "photo-17502880_426145599",
-                  "Site image": "Aragorn",
                   "Side": "Light",
-                  "People of Gondor": false,
+                  "People of Gondor": true,
                   "People of Rohan": false
                 },
                 "Arwen": {
                   "name": "Arwen",
-                  "Player": "Jade",
                   "Status": "Reserved",
                   "Race": "Elf",
                   "Weapon": "",
@@ -53,49 +49,40 @@ See the License for the specific language governing permissions and
                   "Weight, kilos.": 55,
                   "Sing good": true,
                   "Biography": "Elrond's daughter. Galadriel's granddaughter.\n",
-                  "VKontakte image": "photo-17502880_426145598",
-                  "Site image": "Arwen",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Bilbo": {
                   "name": "Bilbo",
-                  "Player": "Jack",
                   "Status": "In discussion",
                   "Race": "Hobbit",
-                  "Weapon": "sword, chestnuts",
+                  "Weapon": "Chestnuts,Sword",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 73,
                   "Sing good": false,
                   "Biography": "Frodo's uncle.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Boromir": {
                   "name": "Boromir",
-                  "Player": "Peter",
                   "Status": "In discussion",
                   "Race": "Human",
-                  "Weapon": "sword, bow",
+                  "Weapon": "Bow,Sword",
                   "Civility": "M",
                   "Outfit": "the Horn of Gondor",
                   "Weight, kilos.": 90,
                   "Sing good": false,
                   "Biography": "The eldest son and successor of Steward of Gondor - Denethor the second and his wife Finduilas. He is a Faramir's brother.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Neutral",
                   "People of Gondor": true,
                   "People of Rohan": false
                 },
                 "Galadriel": {
                   "name": "Galadriel",
-                  "Player": "Anna",
                   "Status": "Reserved",
                   "Race": "Elf",
                   "Weapon": "",
@@ -104,49 +91,40 @@ See the License for the specific language governing permissions and
                   "Weight, kilos.": 53,
                   "Sing good": false,
                   "Biography": "The mightiest elven ruler in the Middle-earth after the War of Wrath. She is the ruler of Lothlórien. ",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Gandalf": {
                   "name": "Gandalf",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Maiar",
-                  "Weapon": "staff, magic",
+                  "Weapon": "Magic,Staff",
                   "Civility": "M",
                   "Outfit": "the Narya ring",
                   "Weight, kilos.": 82,
                   "Sing good": false,
                   "Biography": "Mighty wizard.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Gimli": {
                   "name": "Gimli",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Dwarf",
-                  "Weapon": "axe",
+                  "Weapon": "Axe",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 80,
                   "Sing good": false,
                   "Biography": "He is dwarf joined to war against Sauron.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Gollum": {
                   "name": "Gollum",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Other",
                   "Weapon": "",
@@ -155,100 +133,82 @@ See the License for the specific language governing permissions and
                   "Weight, kilos.": 34,
                   "Sing good": false,
                   "Biography": "A small, slimy creature who lived on a small island in the centre of an underground lake at the roots of the Misty Mountains. He survived on cave fish, which he caught from his small boat, and small goblins who strayed too far from the stronghold of the Great Goblin. Over the years, his eyes adapted to the dark and became \"lamp-like\", shining with a sickly pale light.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Dark",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Legolas": {
                   "name": "Legolas",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Elf",
-                  "Weapon": "bow, elven knifes",
+                  "Weapon": "Bow,Elven knifes",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 57,
                   "Sing good": true,
                   "Biography": "Legolas was the son of Thranduil, King of the Woodland Realm of Northern Mirkwood.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Merry": {
                   "name": "Merry",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Hobbit",
-                  "Weapon": "chestnuts",
+                  "Weapon": "Chestnuts",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 57,
                   "Sing good": true,
                   "Biography": "Frodo's friend. The fellow of the ring.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Nazgul": {
                   "name": "Nazgul",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Other",
-                  "Weapon": "sword",
+                  "Weapon": "",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 0,
                   "Sing good": true,
                   "Biography": "They were nine men who succumbed to Sauron's power and attained near-immortality as wraiths, servants bound to the power of the One Ring and completely under the dominion of Sauron.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Dark",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Pippin": {
                   "name": "Pippin",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Hobbit",
-                  "Weapon": "chestnuts",
+                  "Weapon": "Chestnuts",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 53,
                   "Sing good": true,
                   "Biography": "Frodo's friend. The fellow of the ring.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Saruman": {
                   "name": "Saruman",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Maiar",
-                  "Weapon": "staff, magic",
+                  "Weapon": "Magic,Staff",
                   "Civility": "M",
                   "Outfit": "palantir",
                   "Weight, kilos.": 68,
                   "Sing good": false,
                   "Biography": "He is leader of the Istari, wizards sent to Middle-earth in human form by the godlike Valar to challenge Sauron.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Dark",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Sauron": {
                   "name": "Sauron",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Other",
                   "Weapon": "",
@@ -257,49 +217,40 @@ See the License for the specific language governing permissions and
                   "Weight, kilos.": 1,
                   "Sing good": false,
                   "Biography": "He is described as the chief lieutenant of the first Dark Lord, Morgoth.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Dark",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Sam": {
                   "name": "Sam",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Hobbit",
-                  "Weapon": "chestnuts",
+                  "Weapon": "Chestnuts",
                   "Civility": "M",
                   "Outfit": "Hollow-ware",
                   "Weight, kilos.": 57,
                   "Sing good": true,
                   "Biography": "Gardener, servant and friend of Frodo.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Frodo": {
                   "name": "Frodo",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Hobbit",
-                  "Weapon": "chestnuts",
+                  "Weapon": "Chestnuts",
                   "Civility": "M",
                   "Outfit": "",
                   "Weight, kilos.": 64,
                   "Sing good": true,
                   "Biography": "Hobbit which became the Ring-bearer by the twist of fate.",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
                 },
                 "Elrond": {
                   "name": "Elrond",
-                  "Player": "",
                   "Status": "Open",
                   "Race": "Elf",
                   "Weapon": "",
@@ -308,133 +259,11 @@ See the License for the specific language governing permissions and
                   "Weight, kilos.": 72,
                   "Sing good": false,
                   "Biography": "Elrond is a son of Eärendil and Elwing. Elrond was Lord of Rivendell, one of the mighty rulers of old that remained in Middle-earth in its Third Age. ",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "Question",
                   "Side": "Light",
                   "People of Gondor": false,
                   "People of Rohan": false
-                },
-                "People of Gondor": {
-                  "name": "People of Gondor",
-                  "Player": "",
-                  "Status": "Open",
-                  "Race": "Human",
-                  "Civility": "doesn't matter",
-                  "Weapon": "",
-                  "Outfit": "",
-                  "Weight, kilos.": 0,
-                  "Sing good": false,
-                  "Biography": "",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "",
-                  "Side": "Dark",
-                  "People of Gondor": true,
-                  "People of Rohan": false
-                },
-                "People of Rohan": {
-                  "name": "People of Rohan",
-                  "Player": "",
-                  "Status": "Open",
-                  "Race": "Human",
-                  "Civility": "doesn't matter",
-                  "Weapon": "",
-                  "Outfit": "",
-                  "Weight, kilos.": 0,
-                  "Sing good": false,
-                  "Biography": "",
-                  "VKontakte image": "photo-17502880_426145597",
-                  "Site image": "",
-                  "Side": "Dark",
-                  "People of Gondor": false,
-                  "People of Rohan": true
                 }
               },
-              "ProfileSettings": [
-                {
-                  "name": "Side",
-                  "type": "enum",
-                  "value": "Dark,Light,Neutral",
-                  "doExport": true
-                },
-                {
-                  "name": "Player",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Status",
-                  "type": "enum",
-                  "value": "Open,Reserved,In discussion",
-                  "doExport": true
-                },
-                {
-                  "name": "Race",
-                  "type": "enum",
-                  "value": "Human,Elf,Dwarf,Orc,Hobbit,Maiar,Other",
-                  "doExport": true
-                },
-                {
-                  "name": "Civility",
-                  "type": "enum",
-                  "value": "doesn't matter,M,F",
-                  "doExport": true
-                },
-                {
-                  "name": "Weapon",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Outfit",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "Weight, kilos.",
-                  "type": "number",
-                  "value": 0,
-                  "doExport": true
-                },
-                {
-                  "name": "Sing good",
-                  "type": "checkbox",
-                  "value": false,
-                  "doExport": false
-                },
-                {
-                  "name": "Biography",
-                  "type": "text",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "VKontakte image",
-                  "type": "string",
-                  "value": "photo-17502880_426145597",
-                  "doExport": true
-                },
-                {
-                  "name": "Site image",
-                  "type": "string",
-                  "value": "",
-                  "doExport": true
-                },
-                {
-                  "name": "People of Gondor",
-                  "type": "checkbox",
-                  "value": false,
-                  "doExport": true
-                },
-                {
-                  "name": "People of Rohan",
-                  "type": "checkbox",
-                  "value": false,
-                  "doExport": true
-                }
-              ],
               "Stories": {
                 "Arwen and Aragorn": {
                   "name": "Arwen and Aragorn",
@@ -1474,283 +1303,1645 @@ See the License for the specific language governing permissions and
                   "groupName": "People of Gondor"
                 }
               },
-              "Version": "0.5.2",
+              "Version": "0.7.0",
               "Log": [
                 [
                   "user",
                   "Mon Aug 01 2016 01:11:26 GMT+0500 (Pakistan Standard Time)",
                   "getDatabase",
-                  "[]"
+                  "[]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:35:38 GMT+0500 (Pakistan Standard Time)",
                   "createCharacter",
-                  "[\"People of Gondor\"]"
+                  "[\"People of Gondor\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:35:45 GMT+0500 (Pakistan Standard Time)",
                   "createCharacter",
-                  "[\"People of Rohan\"]"
+                  "[\"People of Rohan\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:36:48 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"Side\",\"enum\",\"_\",true,11]"
+                  "[\"Side\",\"enum\",\"_\",true,11]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:36:57 GMT+0500 (Pakistan Standard Time)",
                   "moveProfileItem",
-                  "[11,0]"
+                  "[11,0]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:37:17 GMT+0500 (Pakistan Standard Time)",
                   "updateDefaultValue",
-                  "[\"Side\",\"Dark,Light,Neutral\"]"
+                  "[\"Side\",\"Dark,Light,Neutral\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:37:34 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"People of Gondor\",\"checkbox\",false,true,12]"
+                  "[\"People of Gondor\",\"checkbox\",false,true,12]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:37:39 GMT+0500 (Pakistan Standard Time)",
                   "createProfileItem",
-                  "[\"People of Rohan\",\"checkbox\",false,true,13]"
+                  "[\"People of Rohan\",\"checkbox\",false,true,13]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:40:42 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"People of Gondor\"]"
+                  "[\"People of Gondor\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:40:52 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"People of Rohan\"]"
+                  "[\"People of Rohan\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:41:02 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Neutrals\"]"
+                  "[\"Neutrals\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:41:06 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Elves\"]"
+                  "[\"Elves\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:41:17 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Light side\"]"
+                  "[\"Light side\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:41:22 GMT+0500 (Pakistan Standard Time)",
                   "createGroup",
-                  "[\"Dark side\"]"
+                  "[\"Dark side\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:42:03 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"People of Gondor\",[{\"type\":\"checkbox\",\"name\":\"profile-People of Gondor\",\"selectedOptions\":{\"true\":true}}]]"
+                  "[\"People of Gondor\",[{\"type\":\"checkbox\",\"name\":\"profile-People of Gondor\",\"selectedOptions\":{\"true\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:42:33 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"People of Rohan\",[{\"type\":\"checkbox\",\"name\":\"profile-People of Rohan\",\"selectedOptions\":{\"true\":true}}]]"
+                  "[\"People of Rohan\",[{\"type\":\"checkbox\",\"name\":\"profile-People of Rohan\",\"selectedOptions\":{\"true\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:42:43 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Neutrals\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Neutral\":true}}]]"
+                  "[\"Neutrals\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Neutral\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:43:19 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Light side\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Light\":true}}]]"
+                  "[\"Light side\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Light\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:43:36 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Dark side\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Dark\":true}}]]"
+                  "[\"Dark side\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Dark\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:43:47 GMT+0500 (Pakistan Standard Time)",
                   "saveFilterToGroup",
-                  "[\"Elves\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Light\":true}},{\"type\":\"enum\",\"name\":\"profile-Race\",\"selectedOptions\":{\"Elf\":true}}]]"
+                  "[\"Elves\",[{\"type\":\"enum\",\"name\":\"profile-Side\",\"selectedOptions\":{\"Light\":true}},{\"type\":\"enum\",\"name\":\"profile-Race\",\"selectedOptions\":{\"Elf\":true}}]]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:47:35 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Dark side\"]"
+                  "[\"Dark side\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:47:38 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Elves\"]"
+                  "[\"Elves\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:47:41 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Light side\"]"
+                  "[\"Light side\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:47:46 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"Neutrals\"]"
+                  "[\"Neutrals\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:47:50 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"People of Gondor\"]"
+                  "[\"People of Gondor\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:47:54 GMT+0500 (Pakistan Standard Time)",
                   "addBoardGroup",
-                  "[\"People of Rohan\"]"
+                  "[\"People of Rohan\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:48:08 GMT+0500 (Pakistan Standard Time)",
                   "createResource",
-                  "[\"Mines of Moria\"]"
+                  "[\"Mines of Moria\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:48:20 GMT+0500 (Pakistan Standard Time)",
                   "createResource",
-                  "[\"The One Ring\"]"
+                  "[\"The One Ring\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:48:35 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Dark side\",\"resource-The One Ring\",\"Controls\"]"
+                  "[\"group-Dark side\",\"resource-The One Ring\",\"Controls\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:48:48 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-People of Gondor\",\"resource-The One Ring\",\"Want to use\"]"
+                  "[\"group-People of Gondor\",\"resource-The One Ring\",\"Want to use\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:49:03 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Dark side\",\"group-Light side\",\"Want destroy\"]"
+                  "[\"group-Dark side\",\"group-Light side\",\"Want destroy\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:49:08 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Light side\",\"group-Dark side\",\"Want destroy\"]"
+                  "[\"group-Light side\",\"group-Dark side\",\"Want destroy\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:49:25 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Dark side\",\"group-Neutrals\",\"Want to enslave\"]"
+                  "[\"group-Dark side\",\"group-Neutrals\",\"Want to enslave\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:49:36 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Light side\",\"group-Neutrals\",\"Want to join\"]"
+                  "[\"group-Light side\",\"group-Neutrals\",\"Want to join\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:49:49 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Elves\",\"group-Light side\",\"Directs\"]"
+                  "[\"group-Elves\",\"group-Light side\",\"Directs\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:50:19 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Light side\",\"resource-The One Ring\",\"Want to destroy\"]"
+                  "[\"group-Light side\",\"resource-The One Ring\",\"Want to destroy\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:50:46 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-People of Rohan\",\"group-People of Gondor\",\"ally\"]"
+                  "[\"group-People of Rohan\",\"group-People of Gondor\",\"ally\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:50:51 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-People of Gondor\",\"group-People of Rohan\",\"ally\"]"
+                  "[\"group-People of Gondor\",\"group-People of Rohan\",\"ally\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:51:49 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-People of Rohan\",\"group-Light side\",\"incline\"]"
+                  "[\"group-People of Rohan\",\"group-Light side\",\"incline\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:51:55 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-People of Gondor\",\"group-Light side\",\"incline\"]"
+                  "[\"group-People of Gondor\",\"group-Light side\",\"incline\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:52:16 GMT+0500 (Pakistan Standard Time)",
                   "setEdgeLabel",
-                  "[\"group-Dark side\",\"resource-The One Ring\",\"Want to get\"]"
+                  "[\"group-Dark side\",\"resource-The One Ring\",\"Want to get\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:52:24 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Dark side\",\"resource-Mines of Moria\",\"Controls\"]"
+                  "[\"group-Dark side\",\"resource-Mines of Moria\",\"Controls\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:52:54 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-People of Gondor\",\"resource-Mines of Moria\",\"Want to capture\"]"
+                  "[\"group-People of Gondor\",\"resource-Mines of Moria\",\"Want to capture\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:53:21 GMT+0500 (Pakistan Standard Time)",
                   "addEdge",
-                  "[\"group-Neutrals\",\"resource-The One Ring\",\"Want to use\"]"
+                  "[\"group-Neutrals\",\"resource-The One Ring\",\"Want to use\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:53:34 GMT+0500 (Pakistan Standard Time)",
                   "removeEdge",
-                  "[\"group-People of Gondor\",\"resource-The One Ring\"]"
+                  "[\"group-People of Gondor\",\"resource-The One Ring\"]",
+                  "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Thu Dec 08 2016 04:53:36 GMT+0500 (Pakistan Standard Time)",
                   "setEdgeLabel",
-                  "[\"group-People of Gondor\",\"resource-The One Ring\",\"Want to use\"]"
+                  "[\"group-People of Gondor\",\"resource-The One Ring\",\"Want to use\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:35:56 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:35:56 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:36:34 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:36:34 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:36:37 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:36:37 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:36:40 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:36:40 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:36:42 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setMetaInfoString",
+                  "[\"description\",\"Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.fghfgh\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:36:42 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setMetaInfoString",
+                  "[\"description\",\"Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.fghfgh\"]",
+                  "[\"Fri Jul 20 2018 03:36:42 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:37:41 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:37:41 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:38:03 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:38:03 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:39:08 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:39:08 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:53:55 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:53:55 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:55:57 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:55:57 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:57:12 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:57:12 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:57:20 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:57:20 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:58:08 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:58:08 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 03:59:56 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 03:59:56 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 04:03:51 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 04:03:51 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 04:08:03 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 04:08:03 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 04:08:15 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 04:08:15 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 04:09:07 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 04:09:07 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 04:09:51 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 04:09:51 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 04:15:52 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 04:15:52 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Fri Jul 20 2018 04:16:20 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Fri Jul 20 2018 04:16:20 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 04:42:34 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 04:42:34 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 04:43:26 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 04:43:26 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:04:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:04:39 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:14:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:14:39 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:15:23 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:15:23 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:18:02 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:18:02 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:19:42 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:19:42 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:20:04 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:20:04 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:20:57 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:20:57 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:23:05 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:23:05 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:23:38 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:23:38 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:24:32 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:24:32 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:27:20 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:27:20 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 05:27:31 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 05:27:31 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 13:25:54 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 13:25:54 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 13:26:25 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 13:26:25 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sat Jul 21 2018 17:58:38 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sat Jul 21 2018 17:58:38 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:57:58 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setDatabase",
+                  "[]",
+                  "[\"Sun Jul 22 2018 02:57:58 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:17 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfile",
+                  "[\"character\",\"People of Gondor\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:17 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfile",
+                  "[\"character\",\"People of Gondor\"]",
+                  "[\"Sun Jul 22 2018 02:58:17 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfile",
+                  "[\"character\",\"People of Rohan\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfile",
+                  "[\"character\",\"People of Rohan\"]",
+                  "[\"Sun Jul 22 2018 02:58:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:48 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"John\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:48 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"John\"]",
+                  "[\"Sun Jul 22 2018 02:58:48 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:53 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"Evan\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:58:53 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"Evan\"]",
+                  "[\"Sun Jul 22 2018 02:58:53 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:59:00 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"Marie\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:59:00 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"Marie\"]",
+                  "[\"Sun Jul 22 2018 02:59:00 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:59:08 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"Bella\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:59:08 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfile",
+                  "[\"player\",\"Bella\"]",
+                  "[\"Sun Jul 22 2018 02:59:08 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:59:48 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfileItem",
+                  "[\"player\",\"City\",\"enum\",0]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 02:59:48 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfileItem",
+                  "[\"player\",\"City\",\"enum\",0]",
+                  "[\"Sun Jul 22 2018 02:59:48 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:00:20 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateDefaultValue",
+                  "[\"player\",\"City\",\"unknown,Moscow,New York,London,Paris\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:00:20 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateDefaultValue",
+                  "[\"player\",\"City\",\"unknown,Moscow,New York,London,Paris\"]",
+                  "[\"Sun Jul 22 2018 03:00:20 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:01:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfileItem",
+                  "[\"player\",\"Communication channel\",\"multiEnum\",1]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:01:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createProfileItem",
+                  "[\"player\",\"Communication channel\",\"multiEnum\",1]",
+                  "[\"Sun Jul 22 2018 03:01:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:14 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateDefaultValue",
+                  "[\"player\",\"Communication channel\",\"Smoke signals,IM,post,telegraph,phone,email\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:14 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateDefaultValue",
+                  "[\"player\",\"Communication channel\",\"Smoke signals,IM,post,telegraph,phone,email\"]",
+                  "[\"Sun Jul 22 2018 03:02:14 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:18 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"Communication channel\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:18 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"Communication channel\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:02:18 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:26 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"City\",\"enum\",\"Moscow\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:26 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"City\",\"enum\",\"Moscow\"]",
+                  "[\"Sun Jul 22 2018 03:02:26 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:28 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"Communication channel\",\"multiEnum\",\"Smoke signals\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:28 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"Communication channel\",\"multiEnum\",\"Smoke signals\"]",
+                  "[\"Sun Jul 22 2018 03:02:28 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"Communication channel\",\"multiEnum\",\"phone,Smoke signals\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Bella\",\"Communication channel\",\"multiEnum\",\"phone,Smoke signals\"]",
+                  "[\"Sun Jul 22 2018 03:02:29 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:30 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"Communication channel\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:30 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"Communication channel\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:02:30 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:31 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"City\",\"enum\",\"New York\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:31 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"City\",\"enum\",\"New York\"]",
+                  "[\"Sun Jul 22 2018 03:02:31 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:33 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"Communication channel\",\"multiEnum\",\"phone\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:33 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"Communication channel\",\"multiEnum\",\"phone\"]",
+                  "[\"Sun Jul 22 2018 03:02:33 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:55 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createBinding",
+                  "[\"Arwen\",\"Bella\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:55 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createBinding",
+                  "[\"Arwen\",\"Bella\"]",
+                  "[\"Sun Jul 22 2018 03:02:55 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:57 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createBinding",
+                  "[\"Aragorn\",\"John\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:57 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createBinding",
+                  "[\"Aragorn\",\"John\"]",
+                  "[\"Sun Jul 22 2018 03:02:57 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:59 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"Communication channel\",\"multiEnum\",\"phone\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:02:59 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"player\",\"Evan\",\"Communication channel\",\"multiEnum\",\"phone\"]",
+                  "[\"Sun Jul 22 2018 03:02:59 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:03:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setCharacterRelationText",
+                  "[\"Aragorn\",\"Sauron\",\"Sauron\",\"You will not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king.\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:03:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setCharacterRelationText",
+                  "[\"Aragorn\",\"Sauron\",\"Sauron\",\"You will not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king.\"]",
+                  "[\"Sun Jul 22 2018 03:03:39 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:03:48 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setCharacterRelationText",
+                  "[\"Aragorn\",\"Sauron\",\"Sauron\",\"You will not be the king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king.\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:03:48 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setCharacterRelationText",
+                  "[\"Aragorn\",\"Sauron\",\"Sauron\",\"You will not be the king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king.\"]",
+                  "[\"Sun Jul 22 2018 03:03:48 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:08 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setCharacterRelationText",
+                  "[\"Aragorn\",\"Sauron\",\"Sauron\",\"You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king.\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:08 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setCharacterRelationText",
+                  "[\"Aragorn\",\"Sauron\",\"Sauron\",\"You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king.\"]",
+                  "[\"Sun Jul 22 2018 03:04:08 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:18 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Arwen\",\"Aragorn\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:18 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Arwen\",\"Aragorn\",true]",
+                  "[\"Sun Jul 22 2018 03:04:18 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Arwen\",\"Arwen\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Arwen\",\"Arwen\",true]",
+                  "[\"Sun Jul 22 2018 03:04:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Arwen\",\"allies\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Arwen\",\"allies\",true]",
+                  "[\"Sun Jul 22 2018 03:04:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:35 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"Gandalf\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:35 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"Gandalf\",true]",
+                  "[\"Sun Jul 22 2018 03:04:35 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:36 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"enderToStarter\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:36 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"enderToStarter\",true]",
+                  "[\"Sun Jul 22 2018 03:04:36 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:38 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"Gandalf\",false]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:38 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"Gandalf\",false]",
+                  "[\"Sun Jul 22 2018 03:04:38 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"Aragorn\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationReadyStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"Aragorn\",true]",
+                  "[\"Sun Jul 22 2018 03:04:39 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:40 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"starterToEnder\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:40 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"starterToEnder\",true]",
+                  "[\"Sun Jul 22 2018 03:04:40 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:41 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"enderToStarter\",false]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:04:41 GMT+0500 (Екатеринбург, стандартное время)",
+                  "setRelationEssenceStatus",
+                  "[\"Aragorn\",\"Gandalf\",\"enderToStarter\",false]",
+                  "[\"Sun Jul 22 2018 03:04:41 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:05:32 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createGroup",
+                  "[\"Swords and bows\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:05:32 GMT+0500 (Екатеринбург, стандартное время)",
+                  "createGroup",
+                  "[\"Swords and bows\"]",
+                  "[\"Sun Jul 22 2018 03:05:32 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:06:47 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"People of Gondor\",\"checkbox\",true]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:06:47 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"People of Gondor\",\"checkbox\",true]",
+                  "[\"Sun Jul 22 2018 03:06:47 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:07:46 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfileItem",
+                  "[\"character\",1,\"Player\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:07:46 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfileItem",
+                  "[\"character\",1,\"Player\"]",
+                  "[\"Sun Jul 22 2018 03:07:46 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:08:10 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfileItem",
+                  "[\"character\",10,\"Site image\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:08:10 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfileItem",
+                  "[\"character\",10,\"Site image\"]",
+                  "[\"Sun Jul 22 2018 03:08:10 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:08:13 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfileItem",
+                  "[\"character\",9,\"VKontakte image\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:08:13 GMT+0500 (Екатеринбург, стандартное время)",
+                  "removeProfileItem",
+                  "[\"character\",9,\"VKontakte image\"]",
+                  "[\"Sun Jul 22 2018 03:08:13 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:08:37 GMT+0500 (Екатеринбург, стандартное время)",
+                  "changeProfileItemType",
+                  "[\"character\",\"Weapon\",\"multiEnum\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:08:37 GMT+0500 (Екатеринбург, стандартное время)",
+                  "changeProfileItemType",
+                  "[\"character\",\"Weapon\",\"multiEnum\"]",
+                  "[\"Sun Jul 22 2018 03:08:37 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:23 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateDefaultValue",
+                  "[\"character\",\"Weapon\",\"Chestnuts,Bow,Magic,Sword,Knifw,Staff,Axe,Elven knifes\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:23 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateDefaultValue",
+                  "[\"character\",\"Weapon\",\"Chestnuts,Bow,Magic,Sword,Knifw,Staff,Axe,Elven knifes\"]",
+                  "[\"Sun Jul 22 2018 03:09:23 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:25 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:25 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:09:25 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:42 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Axe\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:42 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Axe\"]",
+                  "[\"Sun Jul 22 2018 03:09:42 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:44 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:44 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:09:44 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:46 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:46 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow\"]",
+                  "[\"Sun Jul 22 2018 03:09:46 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:52 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow,Sword\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:52 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow,Sword\"]",
+                  "[\"Sun Jul 22 2018 03:09:52 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:54 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow,Knifw,Sword\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:09:54 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow,Knifw,Sword\"]",
+                  "[\"Sun Jul 22 2018 03:09:54 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:02 GMT+0500 (Екатеринбург, стандартное время)",
+                  "renameEnumValue",
+                  "[\"character\",\"Weapon\",\"Knifw\",\"Knife\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:02 GMT+0500 (Екатеринбург, стандартное время)",
+                  "renameEnumValue",
+                  "[\"character\",\"Weapon\",\"Knifw\",\"Knife\"]",
+                  "[\"Sun Jul 22 2018 03:10:02 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:04 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow,Knife,Sword\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:04 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Aragorn\",\"Weapon\",\"multiEnum\",\"Bow,Knife,Sword\"]",
+                  "[\"Sun Jul 22 2018 03:10:04 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:12 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Bilbo\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:12 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Bilbo\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:10:12 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:14 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Bilbo\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:14 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Bilbo\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"Sun Jul 22 2018 03:10:14 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:15 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Bilbo\",\"Weapon\",\"multiEnum\",\"Chestnuts,Sword\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:15 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Bilbo\",\"Weapon\",\"multiEnum\",\"Chestnuts,Sword\"]",
+                  "[\"Sun Jul 22 2018 03:10:15 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Elrond\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Elrond\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:10:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Boromir\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Boromir\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:10:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:22 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Boromir\",\"Weapon\",\"multiEnum\",\"Bow\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:22 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Boromir\",\"Weapon\",\"multiEnum\",\"Bow\"]",
+                  "[\"Sun Jul 22 2018 03:10:22 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:23 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Boromir\",\"Weapon\",\"multiEnum\",\"Bow,Sword\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:23 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Boromir\",\"Weapon\",\"multiEnum\",\"Bow,Sword\"]",
+                  "[\"Sun Jul 22 2018 03:10:23 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gimli\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:29 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gimli\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:10:29 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:32 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gimli\",\"Weapon\",\"multiEnum\",\"Axe\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:32 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gimli\",\"Weapon\",\"multiEnum\",\"Axe\"]",
+                  "[\"Sun Jul 22 2018 03:10:32 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:37 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gandalf\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:37 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gandalf\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:10:37 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gandalf\",\"Weapon\",\"multiEnum\",\"Magic\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:39 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gandalf\",\"Weapon\",\"multiEnum\",\"Magic\"]",
+                  "[\"Sun Jul 22 2018 03:10:39 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:41 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gandalf\",\"Weapon\",\"multiEnum\",\"Magic,Staff\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:10:41 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Gandalf\",\"Weapon\",\"multiEnum\",\"Magic,Staff\"]",
+                  "[\"Sun Jul 22 2018 03:10:41 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:06 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Legolas\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:06 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Legolas\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:11:06 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:09 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Legolas\",\"Weapon\",\"multiEnum\",\"Bow\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:09 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Legolas\",\"Weapon\",\"multiEnum\",\"Bow\"]",
+                  "[\"Sun Jul 22 2018 03:11:09 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:10 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Legolas\",\"Weapon\",\"multiEnum\",\"Bow,Elven knifes\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:10 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Legolas\",\"Weapon\",\"multiEnum\",\"Bow,Elven knifes\"]",
+                  "[\"Sun Jul 22 2018 03:11:10 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:17 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Merry\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:17 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Merry\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:11:17 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Merry\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:19 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Merry\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"Sun Jul 22 2018 03:11:19 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:25 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Pippin\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:25 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Pippin\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:11:25 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:27 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Pippin\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:27 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Pippin\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"Sun Jul 22 2018 03:11:27 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:28 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Saruman\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:28 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Saruman\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:11:28 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:34 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Saruman\",\"Weapon\",\"multiEnum\",\"Magic\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:34 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Saruman\",\"Weapon\",\"multiEnum\",\"Magic\"]",
+                  "[\"Sun Jul 22 2018 03:11:34 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:36 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Saruman\",\"Weapon\",\"multiEnum\",\"Magic,Staff\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:36 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Saruman\",\"Weapon\",\"multiEnum\",\"Magic,Staff\"]",
+                  "[\"Sun Jul 22 2018 03:11:36 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:42 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Sam\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:42 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Sam\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:11:42 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:43 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Sam\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:43 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Sam\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"Sun Jul 22 2018 03:11:43 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:52 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Frodo\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:52 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Frodo\",\"Weapon\",\"multiEnum\",\"\"]",
+                  "[\"Sun Jul 22 2018 03:11:52 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:54 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Frodo\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:11:54 GMT+0500 (Екатеринбург, стандартное время)",
+                  "updateProfileField",
+                  "[\"character\",\"Frodo\",\"Weapon\",\"multiEnum\",\"Chestnuts\"]",
+                  "[\"Sun Jul 22 2018 03:11:54 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:12:25 GMT+0500 (Екатеринбург, стандартное время)",
+                  "saveFilterToGroup",
+                  "[\"Swords and bows\",[{\"type\":\"multiEnum\",\"name\":\"profile-Weapon\",\"condition\":\"some\",\"selectedOptions\":{\"Bow\":true,\"Sword\":true}}]]",
+                  "[\"begin\"]"
+                ],
+                [
+                  "user",
+                  "Sun Jul 22 2018 03:12:25 GMT+0500 (Екатеринбург, стандартное время)",
+                  "saveFilterToGroup",
+                  "[\"Swords and bows\",[{\"type\":\"multiEnum\",\"name\":\"profile-Weapon\",\"condition\":\"some\",\"selectedOptions\":{\"Bow\":true,\"Sword\":true}}]]",
+                  "[\"Sun Jul 22 2018 03:12:25 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
                 ]
               ],
               "Groups": {
@@ -1850,6 +3041,23 @@ See the License for the specific language governing permissions and
                     }
                   ],
                   "doExport": true
+                },
+                "Swords and bows": {
+                  "name": "Swords and bows",
+                  "masterDescription": "",
+                  "characterDescription": "",
+                  "filterModel": [
+                    {
+                      "type": "multiEnum",
+                      "name": "profile-Weapon",
+                      "condition": "some",
+                      "selectedOptions": {
+                        "Bow": true,
+                        "Sword": true
+                      }
+                    }
+                  ],
+                  "doExport": true
                 }
               },
               "InvestigationBoard": {
@@ -1916,16 +3124,182 @@ See the License for the specific language governing permissions and
                   }
                 }
               },
-              "Relations": {
-                "Aragorn": {
-                  "Gandalf": "My respect.",
-                  "Arwen": "My shiny."
+              "Relations": [
+                {
+                  "origin": "",
+                  "starterTextReady": true,
+                  "enderTextReady": false,
+                  "essence": [
+                    "starterToEnder"
+                  ],
+                  "Aragorn": "My respect.",
+                  "Gandalf": "",
+                  "starter": "Aragorn",
+                  "ender": "Gandalf"
                 },
-                "Arwen": {
-                  "Aragorn": "My tiger."
+                {
+                  "origin": "",
+                  "starterTextReady": true,
+                  "enderTextReady": true,
+                  "essence": [
+                    "allies"
+                  ],
+                  "Aragorn": "My shiny.",
+                  "Arwen": "My tiger.",
+                  "starter": "Aragorn",
+                  "ender": "Arwen"
                 },
-                "Sauron": {
-                  "Aragorn": "You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king. You wil not be a king."
+                {
+                  "origin": "",
+                  "starterTextReady": false,
+                  "enderTextReady": false,
+                  "essence": [],
+                  "Sauron": "You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king. You will not be the king.",
+                  "Aragorn": "",
+                  "starter": "Sauron",
+                  "ender": "Aragorn"
+                }
+              ],
+              "CharacterProfileStructure": [
+                {
+                  "name": "Side",
+                  "type": "enum",
+                  "value": "Dark,Light,Neutral",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Status",
+                  "type": "enum",
+                  "value": "Open,Reserved,In discussion",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Race",
+                  "type": "enum",
+                  "value": "Human,Elf,Dwarf,Orc,Hobbit,Maiar,Other",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Civility",
+                  "type": "enum",
+                  "value": "doesn't matter,M,F",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Weapon",
+                  "type": "multiEnum",
+                  "value": "Chestnuts,Bow,Magic,Sword,Knife,Staff,Axe,Elven knifes",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Outfit",
+                  "type": "string",
+                  "value": "",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Weight, kilos.",
+                  "type": "number",
+                  "value": 0,
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Sing good",
+                  "type": "checkbox",
+                  "value": false,
+                  "doExport": false,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Biography",
+                  "type": "text",
+                  "value": "",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "People of Gondor",
+                  "type": "checkbox",
+                  "value": false,
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "People of Rohan",
+                  "type": "checkbox",
+                  "value": false,
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                }
+              ],
+              "PlayerProfileStructure": [
+                {
+                  "name": "City",
+                  "type": "enum",
+                  "value": "unknown,Moscow,New York,London,Paris",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                },
+                {
+                  "name": "Communication channel",
+                  "type": "multiEnum",
+                  "value": "Smoke signals,IM,post,telegraph,phone,email",
+                  "doExport": true,
+                  "playerAccess": "hidden",
+                  "showInRoleGrid": false
+                }
+              ],
+              "Players": {
+                "John": {
+                  "name": "John",
+                  "City": "unknown",
+                  "Communication channel": ""
+                },
+                "Evan": {
+                  "name": "Evan",
+                  "City": "New York",
+                  "Communication channel": "phone"
+                },
+                "Marie": {
+                  "name": "Marie",
+                  "City": "unknown",
+                  "Communication channel": ""
+                },
+                "Bella": {
+                  "name": "Bella",
+                  "City": "Moscow",
+                  "Communication channel": "phone,Smoke signals"
+                }
+              },
+              "ProfileBindings": {
+                "Arwen": "Bella",
+                "Aragorn": "John"
+              },
+              "Gears": {
+                "nodes": [],
+                "edges": [],
+                "settings": {
+                  "physicsEnabled": false,
+                  "showNotes": false
                 }
               }
             };
