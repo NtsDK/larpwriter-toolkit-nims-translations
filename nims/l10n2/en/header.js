@@ -44,7 +44,7 @@
     "playerManagement" : "Players",
     "player" : "Player's",
     "roleGrid" : "Role grid",
-    "gears" : "Gear",
+    "gears" : "Design Cards",
     "sliders" : "Mixing Desk",
     "showDiff" : "Show changes history",
     "checkConsistency" : "Check base consistency",
