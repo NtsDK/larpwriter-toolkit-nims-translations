@@ -29,12 +29,12 @@
     'directional' : 'Directional',
     // number filter
     "ignore" : "Ignore",
-    "greater" : "Greater",
-    "equal" : "Equal",
-    "lesser" : "Lesser",
+    "greater" : "is greater than",
+    "equal" : "is equal to",
+    "lesser" : "is lesser than",
     // multi enum filter
-    "every" : "Every",
-    "some" : "Some",
+    "every" : "contains every values from list",
+    "some" : "contains some values from list",
     // adaptations labels
     "finishedText" : "Text finished",
     "adaptation-finished" : "Adaptaion finished",

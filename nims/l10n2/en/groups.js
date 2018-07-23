@@ -19,14 +19,16 @@
     "show-group-filter" : "Show group filter",
     "save-group-filter" : "Save filter to group",
     "manage-groups" : "Management",
+    "contains" : "contains",
     "text-contains" : "contains '{0}'",
-    "one-from" : "one from",
+    "one-from" : "is from list",
     "total" : 'Total: ',
     
     "profile-item" : 'Profile item/statistics',
     "profile-item-type" : 'Profile item type',
     "condition" : 'Condition',
     "value" : 'Value',
+    'add-filter-condition': 'Add filter condition',
     
     "theoretical-group-schema" : 'Group hierarchy by group conditions',
     "practical-group-schema" : 'Group hierarchy by group members',

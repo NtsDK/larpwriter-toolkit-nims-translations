@@ -27,6 +27,7 @@
     "profile-item-type" : 'Тип поля',
     "condition" : 'Условие',
     "value" : 'Значение',
+    'add-filter-condition': 'Добавить условие фильтра',
     
     "theoretical-group-schema" : 'Иерархия групп по теории множеств',
     "practical-group-schema" : 'Иерархия групп по участникам',
