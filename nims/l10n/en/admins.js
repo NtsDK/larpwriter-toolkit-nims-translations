@@ -24,7 +24,7 @@
     "admin": "Administrator",
     "current-admin": "Current administrator",
     "assign-admin": "Assign administrator",
-    "editor": "Current editor:",
+    "editor": "Current editor",
     "current-editor": "Current editor",
     "remove-editor": "Remove editor",
     "assign-editor": "Assign editor",

@@ -1,8 +1,8 @@
 {
-    "page-title": "Story Master Toolkit NIMS",
+    "page-title": "Larpwriter Toolkit NIMS",
     "overview":"Overview",
-    "enter":"Login",
-    "register":"Register",
+    "enter":"Log in",
+    "sign-up": "Sign up",
     "characters":"Characters",
     "profiles":"Profiles",
     "players":"Players",

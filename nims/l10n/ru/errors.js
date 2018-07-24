@@ -4,7 +4,7 @@
     'user-is-not-found' : 'Пользователь не найден',
     'password-is-not-specified' : "Пароль не указан",
     'passwords-not-match' : 'Пароли не совпадают',
-    'register-operation-is-forbidden':'Регистрация запрещена',
+    'sign-up-operation-is-forbidden':'Регистрация запрещена',
     'unexpected-switch-argument': 'Ошибка: не обрабатываемый аргумент - {0}. Пожалуйста свяжитесь с разработчиком.',
     
     'unsupported-types-in-list' : 'Не поддерживаемые типы: "{0}"',

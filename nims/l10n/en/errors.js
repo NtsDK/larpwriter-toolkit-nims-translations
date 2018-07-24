@@ -4,7 +4,7 @@
     'user-is-not-found' : 'User is not found',
     'password-is-not-specified' : "Password is not specified",
     'passwords-not-match' : 'Passwords not match',
-    'register-operation-is-forbidden':'Registration is forbidden',
+    'sign-up-operation-is-forbidden':'Sign up operation is forbidden',
     'unexpected-switch-argument': 'Error: unprocessed argument - {0}. Please contact maintainers.',
     
     'unsupported-types-in-list' : 'Unsupported types: "{0}"',

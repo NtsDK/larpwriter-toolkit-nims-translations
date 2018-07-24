@@ -1,8 +1,8 @@
 {
-    "about-authors" : "Program 'Story master toolkit NIMS' (SMTK NIMS) is written by Timofey Rechkalov (NtsDK) and Maria Sidekhmenova (Matilda).",
+    "about-authors" : "Program 'Larpwriter Toolkit NIMS' is written by Timofey Rechkalov (NtsDK) and Maria Sidekhmenova (Matilda).",
     "site-mention" : "Author\'s site: ",
     "site-description" : "You can find documentation, presentation, YouTube screencast playlist and social network links on author's site.",
-    "program-is-free-in-rep" : "SMTK NIMS is a freeware. Source code is open under Apache 2 license",
+    "program-is-free-in-rep" : "NIMS is a freeware. Source code is open under Apache 2 license",
     "by-link" : "by link",
     "icons-authors" : "The project uses Font Awesome icons.",
     "versions" : "Version history",
