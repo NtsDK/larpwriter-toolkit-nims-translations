@@ -5,7 +5,7 @@
     "playerProfiles"   :"Досье игроков"     ,
     "groups"           :"Группы"            ,
     "relations"        :"Отношения"         ,
-    "masterStory"      :"Мастерские истории",
+    "writerStory"      :"Мастерские истории",
     "eventOrigins"     :"Оригиналы событий" ,
     "eventAdaptations" :"Адаптации событий" ,
     "find"             :"Найти"             ,

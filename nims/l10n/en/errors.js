@@ -35,7 +35,7 @@
     'forbidden-for-non-admin':'Command "{0}" is for administrator role only',
     'forbidden-for-non-editor':'Command "{0}" is for editor role only',
     'other-user-is-editor':'User "{0}" is an editor. Base is closed for changes by other authors.',
-    'master-is-not-an-owner': 'You are not a holder of entity "{0}"',
+    'organizer-is-not-an-owner': 'You are not a holder of entity "{0}"',
     'forbidden-to-create-char':'Players can\'t create characters',
     'player-cant-write-to-other-player':'Player can\'t modify other player',
     'character-is-not-binded-to-player':'Character is not binded to player',

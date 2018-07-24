@@ -6,5 +6,5 @@
     'of-character' : 'персонажа',
     'of-player' : 'игрока',
     'of-story' : 'истории',
-    'of-master' : 'мастера',
+    'of-organizer' : 'мастера',
 }

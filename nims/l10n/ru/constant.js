@@ -54,7 +54,7 @@
     "readonly" : "Только чтение",
     "hidden" : "Скрыто",
     // symbol count
-    'masterStories' : 'Мастерские истории',
+    'writerStories' : 'Мастерские истории',
     'eventOrigins' : 'Оригиналы событий',
     'eventAdaptations' : 'Адаптации событий',
     'groups' : 'Группы',

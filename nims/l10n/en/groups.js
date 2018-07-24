@@ -10,7 +10,7 @@
 
     "filterModel" : "Filter",
     "characterList" : "Character list",
-    "masterDescription" : "Master description",
+    "masterDescription" : "Organizer description",
     "doExport" : "Print in handouts",
     "characterDescription" : "Text for character",
     "group-name" : "Group name",

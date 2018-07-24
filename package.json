@@ -11,7 +11,9 @@
     "yaspeller-measurelook": "./node_modules/.bin/yaspeller ./measurelook",
     "yaspeller-vtmcl": "./node_modules/.bin/yaspeller ./vtmcl",
     "yaspeller-presentations": "./node_modules/.bin/yaspeller ./presentation-builder",
-    "nims-lint": "eclint fix nims\\l10n\\en && eclint fix nims\\l10n\\ru"
+    "nims-eclint-fix": "eclint fix nims\\l10n\\en && eclint fix nims\\l10n\\ru",
+    "nims-eslint-check": "./node_modules/.bin/eslint nims\\l10n\\en && ./node_modules/.bin/eslint nims\\l10n\\ru",
+    "nims-eslint-fix": "./node_modules/.bin/eslint --fix nims\\l10n\\en && ./node_modules/.bin/eslint --fix nims\\l10n\\ru"
   },
   "repository": {
     "type": "git",

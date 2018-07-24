@@ -54,7 +54,7 @@
     "readonly" : "Read only",
     "hidden" : "Hidden",
     // symbol count
-    'masterStories' : 'Master stories',
+    'writerStories' : 'Writer stories',
     'eventOrigins' : 'Event origins',
     'eventAdaptations' : 'Event adaptations',
     'groups' : 'Groups',

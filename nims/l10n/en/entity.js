@@ -6,5 +6,5 @@
     'of-character' : 'of character',
     'of-player' : 'of player',
     'of-story' : 'of story',
-    'of-master' : 'of organizer',
+    'of-organizer' : 'of organizer',
 }

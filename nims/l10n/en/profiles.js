@@ -69,7 +69,7 @@
     'remove-player' : 'Remove player',
 
     'player-has-no-character-and-can-create-it' : 'You have no binding with character but you can create character yourself.',
-    'player-has-no-character-and-cant-create-it' : 'You have no binding with character and you can\'t create character yourself. Ask masters for details.',
+    'player-has-no-character-and-cant-create-it' : 'You have no binding with character and you can\'t create character yourself. Ask organizers for details.',
 
     // character management
     'enter-character-name': 'Enter character name',

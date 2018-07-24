@@ -5,7 +5,7 @@
     "playerProfiles"   :"Player profiles"   ,
     "groups"           :"Groups"            ,
     "relations"        :"Relations"         ,
-    "masterStory"      :"Master stories"    ,
+    "writerStory"      :"Writer stories"    ,
     "eventOrigins"     :"Event origins"     ,
     "eventAdaptations" :"Event adaptations" ,
     "find"             :"Find"              ,
