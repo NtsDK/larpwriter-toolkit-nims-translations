@@ -6,13 +6,13 @@
     "player-managing":"Player managing",
     "player-name":"Player name",
     "new-player-name":"New player name",
-    
+
     'create-profile-item' : 'Create profile item',
     'enter-new-profile-item-name' : 'Enter new profile item name',
     'rename-profile-item' : 'Rename profile item',
     'remove-profile-item' : 'Remove profile item',
     'move-profile-item' : 'Move profile item',
-    
+
     "profile":"Profile",
     "character-profile":"Character profile",
     "player-profile":"Player profile",
@@ -36,7 +36,7 @@
     "rename-enum-item" : "Rename value from choice",
     "renamed-value" : "Renamed value",
     "new-enum-value-name" : "New value name",
-    
+
     "current-enum-value" : "Current choice list",
     "enum-filling-instruction" : "Enter value list separated by commas",
     "new-enum-value" : "New value list",
@@ -44,7 +44,7 @@
     "removed-enum-values" : "Removed values",
     "enum-editor" : "Add/Remove single choice values",
     "multi-enum-editor" : "Add/Remove multichoice values",
-    
+
     "story": "Story",
     "activity": "Activity",
     "completness": "Completeness",
@@ -53,24 +53,24 @@
     'character' : 'Character',
     'direction' : 'Direction',
     'origin' : 'Origin',
-    
+
     "characters-profile-structure": "Characters profile structure",
     "players-profile-structure": "Players profile structure",
-    
+
     'find-character' : 'Find character',
     'find-player' : 'Find player',
     'show-in-role-grid' : "Show in role grid",
-    
+
     'create-character' : 'Create character',
     'create-player' : 'Create player',
     'rename-character' : 'Rename character',
     'rename-player' : 'Rename player',
     'remove-character' : 'Remove character',
     'remove-player' : 'Remove player',
-    
+
     'player-has-no-character-and-can-create-it' : 'You have no binding with character but you can create character yourself.',
     'player-has-no-character-and-cant-create-it' : 'You have no binding with character and you can\'t create character yourself. Ask masters for details.',
-    
+
     // character management
     'enter-character-name': 'Enter character name',
     'enter-new-character-name': 'Enter new character name',

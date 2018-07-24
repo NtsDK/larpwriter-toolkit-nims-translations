@@ -41,7 +41,7 @@
     "finishedSuffix" : "(finished)",
     "emptySuffix" : "(empty)",
     "filter": "Filter",
-    
+
     // profile item types
     "text":"Text",
     "string":"String",
@@ -65,9 +65,9 @@
     'bindingNum': 'Binded characters/players',
     // misc
     'notAvailable': 'N/A',
-    'finished' : 'Finished', 
+    'finished' : 'Finished',
     'unfinished' : 'Unfinished',
-    
+
     'saving' : 'Saving...',
     'saving-success' : 'Saving success',
     'saving-fail' : 'Saving failed',

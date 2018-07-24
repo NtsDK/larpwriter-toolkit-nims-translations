@@ -41,7 +41,7 @@
     "finishedSuffix" : "(завершено)",
     "emptySuffix" : "(пусто)",
     "filter": "Фильтр",
-    
+
     // profile item types
     "text":"Текст",
     "string":"Строка",
@@ -65,9 +65,9 @@
     'bindingNum': 'Связанные персонажи/игроки',
     // misc
     'notAvailable': 'Н/Д',
-    'finished' : 'Завершено', 
+    'finished' : 'Завершено',
     'unfinished' : 'Не завершено',
-    
+
     'saving' : 'Сохранение изменений...',
     'saving-success' : 'Сохранение успешно',
     'saving-fail' : 'Сохранение не выполнено',

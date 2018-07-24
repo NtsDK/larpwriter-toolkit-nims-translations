@@ -57,7 +57,7 @@
     'profile-item': 'Поле досье',
     'known-characters': 'Известные по историям персонажи',
     'unknown-characters': 'Неизвестные по историям персонажи',
-    
+
     // relation editor
     'character-name': 'Персонаж/Игрок',
     'direct-relation': 'Отношение',
@@ -80,6 +80,6 @@
     "save-archive": "Архив сформирован. Сохраняем?",
     "file-is-ready": "Файл выгружен.",
     "save-file": "Документ сформирован. Сохраняем?",
-    
+
     'to-page-top':'К началу страницы',
 }

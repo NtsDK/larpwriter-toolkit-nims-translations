@@ -6,13 +6,13 @@
     "player-managing":"Управление игроками",
     "player-name":"Имя игрока",
     "new-player-name":"Новое имя игрока",
-    
+
     'create-profile-item' : 'Создать поле досье',
     'enter-new-profile-item-name' : 'Введите новое имя поля досье',
     'rename-profile-item' : 'Переименовать поле досье',
     'remove-profile-item' : 'Удалить поле досье',
     'move-profile-item' : 'Переместить поле досье',
-    
+
     "profile":"Досье",
     "character-profile":"Досье персонажа",
     "player-profile":"Досье игрока",
@@ -36,7 +36,7 @@
     "rename-enum-item" : "Переименовать значение из выбора",
     "renamed-value" : "Значение для переименования",
     "new-enum-value-name" : "Новое название",
-    
+
     "current-enum-value" : "Текущий список значений",
     "enum-filling-instruction" : "Введите список значений через запятую",
     "new-enum-value" : "Новый список значений",
@@ -44,7 +44,7 @@
     "removed-enum-values" : "Удалённые значения",
     "enum-editor" : "Добавить/удалить значения единственного выбора",
     "multi-enum-editor" : "Добавить/удалить значения множественного выбора",
-    
+
     "story": "История",
     "activity": "Активность",
     "completness": "Завершённость",
@@ -53,24 +53,24 @@
     'character' : 'Персонаж',
     'direction' : 'Направление',
     'origin' : 'Суть отношений',
-    
+
     "characters-profile-structure": "Структура досье персонажа",
     "players-profile-structure": "Структура досье игрока",
-    
+
     'find-character' : 'Поиск персонажей',
     'find-player' : 'Поиск игроков',
     'show-in-role-grid' : "Показать в сетке ролей",
-    
+
     'create-character' : 'Создать персонажа',
     'create-player' : 'Создать игрока',
     'rename-character' : 'Переименовать персонажа',
     'rename-player' : 'Переименовать игрока',
     'remove-character' : 'Удалить персонажа',
     'remove-player' : 'Удалить игрока',
-    
+
     'player-has-no-character-and-can-create-it' : 'У вас нет привязки к персонажу, но вы можете создать персонажа самостоятельно.',
     'player-has-no-character-and-cant-create-it' : 'У вас нет привязки к персонажу и вы не можете создать персонажа самостоятельно. Обратитесь к мастерам.',
-    
+
     // character management
     'enter-character-name': 'Введите имя персонажа',
     'enter-new-character-name': 'Введите новое имя персонажа',

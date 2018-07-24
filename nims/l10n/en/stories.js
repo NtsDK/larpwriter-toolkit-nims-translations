@@ -27,13 +27,13 @@
     "activity": "Activity",
     "show-characters": "Show characters",
     "event":"Event",
-    
+
     "add-character":"Add character",
     "add-character-title":"Add character to story",
     "replace-character":"Replace character",
     "switch-character-title":"Replace character in story",
     "remove-character":"Remove character",
-    
+
     "remove-character-from-event-warning": "Are you sure about removing character {0} from event '{1}'? This character has event adaption which will be removed irretrievable.",
     //story management errors
     "are-you-sure-about-story-removing" : "Are you sure about removing story {0}? All data related to story will be removed irretrievable.",

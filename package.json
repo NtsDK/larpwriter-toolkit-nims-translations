@@ -10,7 +10,8 @@
     "yaspeller-nims-en": "./node_modules/.bin/yaspeller -c .yaspellerrc-en ./nims",
     "yaspeller-measurelook": "./node_modules/.bin/yaspeller ./measurelook",
     "yaspeller-vtmcl": "./node_modules/.bin/yaspeller ./vtmcl",
-    "yaspeller-presentations": "./node_modules/.bin/yaspeller ./presentation-builder"
+    "yaspeller-presentations": "./node_modules/.bin/yaspeller ./presentation-builder",
+    "nims-lint": "eclint fix nims\\l10n\\en && eclint fix nims\\l10n\\ru"
   },
   "repository": {
     "type": "git",

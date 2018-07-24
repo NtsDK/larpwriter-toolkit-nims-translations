@@ -8,8 +8,8 @@
     'confirmation'                  :'Confirmation'                                        ,
     'confirm-password'              :'Confirm password'                                    ,
     'sign-up'                       :'Sign up'                                            ,
-    
-    'disclaimer'                    :'In case of problem or difficulties please contact maintainers.' ,  
+
+    'disclaimer'                    :'In case of problem or difficulties please contact maintainers.' ,
     'developer-site'                :'Maintainer site.'                                                                        ,
-    
+
 }

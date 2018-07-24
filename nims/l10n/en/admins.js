@@ -44,14 +44,14 @@
     'confirm-admin-assigment' : "Are you sure about about assigning user {0} as admin? You can't undo this action.",
     'confirm-editor-assigment' : "Are you sure about about assigning user {0} as editor? While editor exists other users can't modify their objects.",
     'role-grid-access' : 'Role grid visibility',
-    
+
     // players management
     'create-player'             : 'Create player'               ,
     'create-login'              : 'Create player account'                ,
     'remove-login'              : 'Remove player account'                ,
     'settings'                  : 'Settings'                    ,
     'allow-player-creation'     : 'Allow player creation'       ,
-    'allow-character-creation'  : 'Allow character creation'    ,   
+    'allow-character-creation'  : 'Allow character creation'    ,
     'welcome-text'              : 'Welcome text'                ,
     'auto-export'               : 'Autoexport'                  ,
     // errors

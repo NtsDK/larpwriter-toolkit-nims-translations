@@ -7,7 +7,7 @@
     "enter-group-name": "Enter group name",
     "enter-new-group-name": "Enter new group name",
     "find-group": "Find group",
-    
+
     "filterModel" : "Filter",
     "characterList" : "Character list",
     "masterDescription" : "Master description",
@@ -23,16 +23,16 @@
     "text-contains" : "contains '{0}'",
     "one-from" : "is from list",
     "total" : 'Total: ',
-    
+
     "profile-item" : 'Profile item/statistics',
     "profile-item-type" : 'Profile item type',
     "condition" : 'Condition',
     "value" : 'Value',
     'add-filter-condition': 'Add filter condition',
-    
+
     "theoretical-group-schema" : 'Group hierarchy by group conditions',
     "practical-group-schema" : 'Group hierarchy by group members',
-    
+
     // group management errors
     "are-you-sure-about-group-removing" : "Are you sure about removing group {0}? All data related to group will be removed irretrievable.",
     "group-editing-forbidden" : "Not sufficient rights for editing {0}",

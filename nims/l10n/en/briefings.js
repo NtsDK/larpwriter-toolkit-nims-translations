@@ -57,7 +57,7 @@
     'profile-item': 'Profile item',
     'known-characters': 'Known by story characters',
     'unknown-characters': 'Unknown by story characters',
-    
+
     // relation editor
     'character-name': 'Character/Player',
     'direct-relation': 'Relation',
@@ -80,6 +80,6 @@
     "save-archive": "Archive is ready. Save?",
     "file-is-ready": "Document is ready.",
     "save-file": "Document is ready. Save?",
-        
+
     'to-page-top':'To page top',
 }
