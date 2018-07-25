@@ -21,7 +21,7 @@ See the License for the specific language governing permissions and
                 "name": "The Lord of the Rings",
                 "date": "3019/02/27 00:00",
                 "preGameDate": "3018/01/01 00:00",
-                "description": "Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.fghfgh",
+                "description": "Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.",
                 "saveTime": "Sun Jul 22 2018 16:08:23 GMT+0500 (Екатеринбург, стандартное время)"
               },
               "Characters": {
@@ -1659,14 +1659,14 @@ See the License for the specific language governing permissions and
                   "user",
                   "Fri Jul 20 2018 03:36:42 GMT+0500 (Екатеринбург, стандартное время)",
                   "setMetaInfoString",
-                  "[\"description\",\"Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.fghfgh\"]",
+                  "[\"description\",\"Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.\"]",
                   "[\"begin\"]"
                 ],
                 [
                   "user",
                   "Fri Jul 20 2018 03:36:42 GMT+0500 (Екатеринбург, стандартное время)",
                   "setMetaInfoString",
-                  "[\"description\",\"Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.fghfgh\"]",
+                  "[\"description\",\"Film based LARP game basis. This base describes the first film from trilogy The Lord of the Rings. Timeline is taken from books.\"]",
                   "[\"Fri Jul 20 2018 03:36:42 GMT+0500 (Екатеринбург, стандартное время)\",\"OK\"]"
                 ],
                 [

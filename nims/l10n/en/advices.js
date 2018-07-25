@@ -12,5 +12,5 @@
     'character-has-no-relations':'Character has no relations. Add character relations on tab Relations (Add button).',
     'no-events-in-story' : 'There are no events in the story. Create events on tab Stories (plus Event button).',
     'no-characters-in-story' : 'There are no characters in the story. Add character on tab Stories (plus Character button). If you have no characters you need to create them on the tab Character - Filling Profiles (plus button)',
-    'no-adaptations-in-story' : 'There are no adaptations in the story. Mark character presence in events on tab Stories - Presence.',
+    'no-adaptations-in-story' : 'There are no subjective visions in the story. Mark character presence in events on tab Stories - Presence.',
 }

@@ -6,8 +6,8 @@
     "groups"           :"Groups"            ,
     "relations"        :"Relations"         ,
     "writerStory"      :"Writer stories"    ,
-    "eventOrigins"     :"Event origins"     ,
-    "eventAdaptations" :"Event adaptations" ,
+    "eventOrigins"     :"Event writer visions"     ,
+    "eventAdaptations" :"Event subjective visions" ,
     "find"             :"Find"              ,
     "case-sensitive-search":"Case sensitive search",
 }

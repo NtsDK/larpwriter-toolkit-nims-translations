@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "yaspeller-nims": "./node_modules/.bin/yaspeller -c .yaspellerrc ./nims/test.js",
     "yaspeller-nims2": "./node_modules/.bin/yaspeller -c .yaspellerrc --ignore-text=\"\\\\n\" ./nims/test.js",
-    "yaspeller-nims-en": "./node_modules/.bin/yaspeller -c .yaspellerrc-en ./nims",
+    "yaspeller-nims-en": "./node_modules/.bin/yaspeller -c .yaspellerrc-en ./nims/l10n",
     "yaspeller-measurelook": "./node_modules/.bin/yaspeller ./measurelook",
     "yaspeller-vtmcl": "./node_modules/.bin/yaspeller ./vtmcl",
     "yaspeller-presentations": "./node_modules/.bin/yaspeller ./presentation-builder",

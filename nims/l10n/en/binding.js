@@ -1,7 +1,7 @@
 {
     'character-or-player-not-selected' : 'Character or player not selected',
     'binding-is-not-selected' : 'Binding is not selected',
-    'binded-characters-n-players' : 'Binded characters and players',
+    'bonded-characters-n-players' : 'Bonded characters and players',
     'binding-tip' : 'Drag character and drop it on player to bind them. Press unbind button to unbind pair.',
 
     'characters' : 'Characters',

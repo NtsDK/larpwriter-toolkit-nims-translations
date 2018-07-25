@@ -11,7 +11,7 @@
     "filterModel" : "Filter",
     "characterList" : "Character list",
     "masterDescription" : "Organizer description",
-    "doExport" : "Print in handouts",
+    "doExport" : "Print in character sheets",
     "characterDescription" : "Text for character",
     "group-name" : "Group name",
     "new-group-name" : "New group name",

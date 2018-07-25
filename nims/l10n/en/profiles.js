@@ -47,12 +47,12 @@
 
     "story": "Story",
     "activity": "Activity",
-    "completness": "Completeness",
+    "completeness": "Completeness",
     "meets": "Meets",
     "inventory": "Inventory",
     'character' : 'Character',
     'direction' : 'Direction',
-    'origin' : 'Origin',
+    'origin' : 'Writer vision',
 
     "characters-profile-structure": "Characters profile structure",
     "players-profile-structure": "Players profile structure",

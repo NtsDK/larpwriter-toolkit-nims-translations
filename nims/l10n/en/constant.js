@@ -37,7 +37,7 @@
     "some" : "contains some values from list",
     // adaptations labels
     "finishedText" : "Text finished",
-    "adaptation-finished" : "Adaptaion finished",
+    "adaptation-finished" : "Subjective vision finished",
     "finishedSuffix" : "(finished)",
     "emptySuffix" : "(empty)",
     "filter": "Filter",
@@ -55,14 +55,14 @@
     "hidden" : "Hidden",
     // symbol count
     'writerStories' : 'Writer stories',
-    'eventOrigins' : 'Event origins',
-    'eventAdaptations' : 'Event adaptations',
+    'eventOrigins' : 'Event writer visions',
+    'eventAdaptations' : 'Event subjective visions',
     'groups' : 'Groups',
     'relations' : 'Relations',
     // binding count
     'freeCharacters': 'Free characters',
     'freePlayers': 'Free players',
-    'bindingNum': 'Binded characters/players',
+    'bindingNum': 'Bonded characters/players',
     // misc
     'notAvailable': 'N/A',
     'finished' : 'Finished',

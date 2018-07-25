@@ -8,7 +8,7 @@
     "character-owner":"Character holder",
     "player-name" : "Player",
     "player-owner" : "Player holder",
-    "completeness": "Adaptation completness, %",
+    "completeness": "Subjective vision completeness, %",
     "totalStories": "Story number",
     "download-filter-table" : "Download table",
     'characterFilterItems' : 'Character profile',

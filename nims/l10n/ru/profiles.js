@@ -47,7 +47,7 @@
 
     "story": "История",
     "activity": "Активность",
-    "completness": "Завершённость",
+    "completeness": "Завершённость",
     "meets": "Встречает",
     "inventory": "Инвентарь",
     'character' : 'Персонаж',

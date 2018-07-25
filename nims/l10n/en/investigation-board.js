@@ -1,6 +1,6 @@
 {
-    'confirm-group-node-removing' : 'Are you sure about removing group {0} from board? Notes and links will be removed irretrivable.',
-    'confirm-resource-node-removing' : 'Are you sure about removing resource {0} from board? Links with other nodes will be removed irretrivable.',
+    'confirm-group-node-removing' : 'Are you sure about removing group {0} from board? Notes and links will be removed irretrievable.',
+    'confirm-resource-node-removing' : 'Are you sure about removing resource {0} from board? Links with other nodes will be removed irretrievable.',
     'enter-edge-label' :"Enter label",
 
     'add-group' : 'Add group',
