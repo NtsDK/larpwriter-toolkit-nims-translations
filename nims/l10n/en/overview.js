@@ -17,7 +17,7 @@
     "event-count":"Event count",
     "user-count":"User count",
     "group-count":"Group count",
-    "player-count":"Players count",
+    "player-count":"Player count",
     "first-event":"First event",
     "last-event":"Last event",
     "symbol-count":"Symbol count (excluding spaces)",
