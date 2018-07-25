@@ -8,6 +8,7 @@
     "yaspeller-nims": "./node_modules/.bin/yaspeller -c .yaspellerrc ./nims/test.js",
     "yaspeller-nims2": "./node_modules/.bin/yaspeller -c .yaspellerrc --ignore-text=\"\\\\n\" ./nims/test.js",
     "yaspeller-nims-en": "./node_modules/.bin/yaspeller -c .yaspellerrc-en ./nims/l10n",
+    "yaspeller-nims-en-bases": "./node_modules/.bin/yaspeller -c .yaspellerrc-en --ignore-text=\"\\\\n\" ./nims/en/demoBase.js ./nims/en/emptyBase.js",
     "yaspeller-measurelook": "./node_modules/.bin/yaspeller ./measurelook",
     "yaspeller-vtmcl": "./node_modules/.bin/yaspeller ./vtmcl",
     "yaspeller-presentations": "./node_modules/.bin/yaspeller ./presentation-builder",
