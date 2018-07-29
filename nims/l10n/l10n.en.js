@@ -13,7 +13,6 @@
     'gears' :               @@include('./en/gears.js'),
     "groups" :              @@include('./en/groups.js'),
     "header":               @@include('./en/header.js'),
-    "investigation-board" : @@include('./en/investigation-board.js'),
     "log-viewer" :          @@include('./en/log-viewer.js'),
     "overview":             @@include('./en/overview.js'),
     "profile-filter":       @@include('./en/profile-filter.js'),

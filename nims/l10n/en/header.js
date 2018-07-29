@@ -36,7 +36,6 @@
     "groups" : "Groups",
     "group-profile" : "Group profiles",
     "group-schema" : "Hierarchy",
-    "investigation-board" : "Story map",
     "relations" : "Relations",
     "about" : "About",
     "textSearch" : "Text Search",

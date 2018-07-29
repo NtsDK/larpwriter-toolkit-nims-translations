@@ -36,7 +36,6 @@
     "groups" : "Группы",
     "group-profile" : "Досье групп",
     "group-schema" : "Иерархия групп",
-    "investigation-board" : "Карта сюжета",
     "relations" : "Отношения",
     "about" : "О программе",
     "textSearch" : "Поиск по текстам",
