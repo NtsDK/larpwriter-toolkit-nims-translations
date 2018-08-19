@@ -19,7 +19,8 @@
     "show-group-filter" : "Показать фильтр группы",
     "save-group-filter" : "Сохранить фильтр в группу",
     "manage-groups" : "Управление",
-    "text-contains" : "содержит",
+    "contains" : "contains",
+    "text-contains" : "содержит '{0}'",
     "one-from" : "один из",
     "total" : 'Всего: ',
 
