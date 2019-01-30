@@ -53,4 +53,5 @@
     'filling-profile': 'Заполнение досье',
     'changing-profile-structure': 'Изменение структуры досье',
     'binding-characters-and-players': 'Сопоставление персонажей и игроков',
+	'joinRpg': 'JoinRpg'
 }
